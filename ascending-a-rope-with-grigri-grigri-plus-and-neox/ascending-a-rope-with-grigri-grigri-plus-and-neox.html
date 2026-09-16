@@ -1,0 +1,2010 @@
+
+<!DOCTYPE HTML>
+
+    
+    <html class="" lang="en-us" translate="yes">
+
+    <head>
+<script src="/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript?rel=1789167503000" type="text/javascript"></script><script src="/jslibrary/1637251311262/sfdc/VFRemote.js" type="text/javascript"></script><script src="/jslibrary/1752551382262/ui-sfdc-javascript-impl/SfdcCore.js" type="text/javascript"></script><script src="/jslibrary/1746634855262/sfdc/IframeThirdPartyContextLogging.js" type="text/javascript"></script><script src="/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/jslibrary/1686615502262/sfdc/VFState.js" type="text/javascript"></script><script src="/jslibrary/1647410351262/sfdc/NetworkTracking.js" type="text/javascript"></script><script>try{ NetworkTracking.init('/_ui/networks/tracking/NetworkTrackingServlet', 'network', '066w0000000IVNR'); }catch(x){}try{ NetworkTracking.logPageView();}catch(x){}</script><script>(function(UITheme) {
+    UITheme.getUITheme = function() { 
+        return UserContext.uiTheme;
+    };
+}(window.UITheme = window.UITheme || {}));</script><script type="text/javascript">
+Visualforce.remoting.Manager.add(new $VFRM.RemotingProviderImpl({"vf":{"vid":"066w0000000IVNR","xhr":false,"dev":false,"tst":false,"dbg":false,"tm":1789575979661,"ovrprm":false},"actions":{"B2C_Web_Login_Utils":{"ms":[{"name":"portalUserLogin","len":4,"ns":"","ver":34.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHhPVlF4TmpveU5qb3hPUzQyTmpGYSxFdnNrRkRNTFdqb2RDTHhfZk5wYV82a0ZPcXhJcjlvQlpLaWtoTE5wZzI0PSxaVEl4TVRjMw==","authorization":"eyJub25jZSI6IktmODB6bm1YQ0ZVaC1zTzRnY1lrRS15QVRUUWE3QlJtdk84UlUxTzdEU1lcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5NTc1OTc5NjY0LCJleHAiOjB9.Q2lOQ01rTmZWMlZpWDB4dloybHVYMVYwYVd4ekxuQnZjblJoYkZWelpYSk1iMmRwYmc9PQ==.IKlJoJx1mCulQuGxi55hGi0ZRokBorAeghNTpCFsPWA="},{"name":"portalUserLoginWithCountry","len":5,"ns":"","ver":34.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHhPVlF4TmpveU5qb3hPUzQyTmpWYSw4UGVHekZjSVlLangxT1I3Yk5OZDk3WmV1TU1CRzhoZ3Z4X0NxOTF2MXZJPSxZbVJoWVdVeQ==","authorization":"eyJub25jZSI6InBHaE1SeGt3U0lrOUFYYjNBY0piMVQyWHhlcThNMVlldVVaWEFjeUVJZkFcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5NTc1OTc5NjY3LCJleHAiOjB9.Q2k1Q01rTmZWMlZpWDB4dloybHVYMVYwYVd4ekxuQnZjblJoYkZWelpYSk1iMmRwYmxkcGRHaERiM1Z1ZEhKNQ==.0b90zXqBJNf-RBd-2PicAOfVcdtVXeepT1PbsfHxdK0="},{"name":"verifyCaptcha","len":1,"ns":"","ver":34.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHhPVlF4TmpveU5qb3hPUzQyTmpkYSxWMkF6VGxNblFBUXYzUG9sZEQ4R3dZUHpFQjQ4bmVBak1INmJLUENRNzRJPSxZV0poTm1aag==","authorization":"eyJub25jZSI6Inl4Nm4zczhTQnNXMW1hbm1ZM3FiVDFKa3pnMHhaMVBMMWJnTFRhcWNKSmdcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5NTc1OTc5NjY4LCJleHAiOjB9.Q2lGQ01rTmZWMlZpWDB4dloybHVYMVYwYVd4ekxuWmxjbWxtZVVOaGNIUmphR0U9.bPch5xAcLQ0f-FS0AQ9T8OGetyN-jnCARMjd4cZcuIY="}],"prm":1},"Web_PetzlGroupLinks_Ctrl":{"ms":[{"name":"getOtherSites","len":2,"ns":"","ver":46.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHhPVlF4TmpveU5qb3hPUzQyTmpsYSx0bkU0X0RHS3gtZDBORE9jMjI2QVEyclBiMm9lcl9Bb3pGenh1UWM5YkhzPSxaak0zWVdJeg==","authorization":"eyJub25jZSI6InBkZTNRdFY3ZEx0ZkdVWldvUUJVM1NhdHB4cjBCMGRMLW5tUzJTTXNzWmdcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5NTc1OTc5NjcwLCJleHAiOjB9.Q2laWFpXSmZVR1YwZW14SGNtOTFjRXhwYm10elgwTjBjbXd1WjJWMFQzUm9aWEpUYVhSbGN3PT0=.PT5cgeqvVSNM57yTWJIzZx-Am-opMggMu18-uFuE6p8="}],"prm":1},"Web_SlideIn_Ctrl":{"ms":[{"name":"getSlideInAnim","len":3,"ns":"","ver":58.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHhPVlF4TmpveU5qb3hPUzQyTnpCYSxMY0w3YUlPT2RaTnlHUFNPT3laRlhpZUlLYmxnajFsalVheDlwQ0FYTVhFPSxaR0pqTkdFeg==","authorization":"eyJub25jZSI6IlhhX21rVmFDOXlnSFBkbTNPX3hFRGNGXzBuZDFZRUhPUWthYlo3TTdJUEVcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5NTc1OTc5NjcxLCJleHAiOjB9.Q2g5WFpXSmZVMnhwWkdWSmJsOURkSEpzTG1kbGRGTnNhV1JsU1c1QmJtbHQ=.Q4OGwibABMjN4DMKDwtS8aLlLSOy_684skW6SvXTi68="}],"prm":1},"Web_SocialNetworksList_Ctrl":{"ms":[{"name":"getSocialNetworks","len":0,"ns":"","ver":46.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHhPVlF4TmpveU5qb3hPUzQyTnpKYSxZcTlQS1NnVTNvT3djM24wZG9DTHkxbjhPRzFaSXQyU3F2Vk5GbkJJSGcwPSxNMk0wTWpRMA==","authorization":"eyJub25jZSI6IkJPU2lidEMtQlE4QXkxSWhpUWs0dTNyWFZzaW5Ud3l4YnhmMURxQUlsdWNcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5NTc1OTc5NjczLCJleHAiOjB9.Q2kxWFpXSmZVMjlqYVdGc1RtVjBkMjl5YTNOTWFYTjBYME4wY213dVoyVjBVMjlqYVdGc1RtVjBkMjl5YTNNPQ==._lSf0qoVtNs2G41FuoyfYJaFKTVXyPdtqIXaKzmCS8Y="}],"prm":1},"Web_Template":{"ms":[{"name":"redirectToHome","len":0,"ns":"","ver":51.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHhPVlF4TmpveU5qb3hPUzQyTnpOYSxLWUJ3QnpqeGhlT0EzNWl4VHNkMWhiTjJfZUkzbzFzYVVSdDN2SGNYa0VRPSxORGRpT0dWaw==","authorization":"eyJub25jZSI6ImIyV1U2QUJlUEh2b1VDY200SGxQaWdaUDJkcHluNE5WRXQ4eDFlTkRxQXdcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5NTc1OTc5Njc0LCJleHAiOjB9.Q2h0WFpXSmZWR1Z0Y0d4aGRHVXVjbVZrYVhKbFkzUlViMGh2YldVPQ==.cZa8n55uQZmPSu4bOFeqiR3xXMLs1VR8b__aifkmV28="}],"prm":0}},"service":"apexremote"}));
+</script><meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+
+
+        <style>
+            input[type="button"], input[type="submit"],
+            input[type="text"] {
+                appearance: none;
+                -webkit-appearance: none; /* Safari and Chrome */
+                -moz-appearance: none; /* Firefox */
+            }
+
+            .Btn-diy:not(.inline-button){
+                margin-top: 30px;
+            }
+
+            .tabs--diy li.is-active a {
+                border-bottom: 2px solid #aed73c !important;
+            }
+
+            .tag--diy {
+                background-color: #aed73c !important;
+                color: #FFF !important;
+            }
+
+            .radioElementHeight {
+                height: auto !important;
+            }
+        </style>
+
+        
+        <link href="/resource/1756816274000/Petzl_Front/static/img/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+        <link href="/resource/1756816274000/Petzl_Front/static/img/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+        <link href="/resource/1756816274000/Petzl_Front/static/img/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+        <link href="/resource/1756816274000/Petzl_Front/static/img/favicon/site.webmanifest" rel="manifest" />
+        <link color="#5bbad5" href="/resource/1756816274000/Petzl_Front/static/img/favicon/safari-pinned-tab.svg?orgId=00D20000000HrHq" rel="mask-icon" />
+        <meta content="#ffffff" name="msapplication-TileColor" />
+        <meta content="#ffffff" name="theme-color" />    
+        
+
+        <meta charset="utf-8" />
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+
+        <meta name="author" />
+            <link href="https://m.petzl.com/INT/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX" media="only screen and (max-width: 640px)" rel="alternate" />
+
+        <meta content="width=device-width" name="viewport" />
+        <meta content="561283053,680261019,100000755603222,740898295" property="fb:admins" />
+        <meta content="26678879891" property="fb:pages" /><span id="j_id0:j_id1:j_id9">
+            <link href="/resource/1756816274000/Petzl_Front/css/common.css" rel="stylesheet" /></span>
+
+        <link href="/resource/1756816274000/Petzl_Front/css/header.css" rel="stylesheet" />
+
+        <style type="text/css">
+
+            .inlineblock, .ib {
+                display: -moz-inline-stack;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            a.Btn {
+                cursor: pointer;
+            }
+
+            .inlineblock, .ib {
+                display: -moz-inline-stack;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            /* .colorbox, #colorbox {
+                background: transparent !important;
+            } */
+
+            .newsOverview {
+                width: 22.4% !important;
+            }
+
+            .newsContainer {
+                padding-left: 10px;
+            }
+
+            .Btn.disabled {
+                opacity: 0.5;
+                background-color: #d0d0d0 !important;
+            }
+        </style>
+        <link href="/resource/1756816274000/Petzl_Front/css/footer.css" rel="stylesheet" />
+        <link href="/resource/1756816274000/Petzl_Front/fontface.css" rel="stylesheet" />
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.touchr.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.easing.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.sticky.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/modernizr.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/html5shiv.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js-custom/public/jquery.cookie.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js-custom/login.js" type="text/javascript"></script>
+
+        <link href="" id="mobileString" style="display:none;" />
+        <link href="https://m.petzl.com" id="mobileDomain" style="display:none;" />
+        <link href="https://www.petzl.com" id="siteDomain" style="display:none;" />
+        <link href="https://www.petzl.com" id="sitedomain_b2c" style="display:none;" />
+        <link href="" id="b2cServerDomainPrefix" style="display:none;" />
+        <link data-value="[FR-CA, EN-DK, EN-NO, EN-FI, EN-SE, ES-PT, EN-PT, FR-CH, DE-CH, IT-CH, DE-AT, EN-GB, FR-BE, EN-BE, EN-NL, EN-LU, FR-LU, DE, DE-DE, EN, EN-CA, EN-US, ES, ES-ES, FR, FR-FR, IT, IT-IT]" id="countryLanguageList" style="display:none;" />
+        <link data-value="[CA/en, DK/en, NO/en, FI/en, SE/en, PT/es, CH/fr, AT/de, GB/en, BE/fr, NL/en, LU/fr, INT/en, DE/de, US/en, ES/es, FR/fr, IT/it]" id="defaultCountryLanguageList" style="display:none;" />
+        <link data-value="[CA, DK, NO, FI, SE, PT, CH, AT, GB, BE, NL, LU, INT, DE, US, ES, FR, IT]" id="countryCodeSet" style="display:none;" />
+        <link href="false" id="isMobile" />
+
+        <script>
+
+            // OneTrust: avoid "initGmaps is not a function" error
+            // on the pages other than DealerLocatorAdv
+            window.initGmaps = window.initGmaps || function() { };
+
+            //Variables
+            var emailPattern = /^([a-zA-Z0-9_\-\.\+]+)@([a-zA-Z0-9_\-\.]+)\.[a-zA-Z0-9\-]{2,}$/;
+
+            //Labels
+            var b2c_login_label = "login";
+            var b2c_checkout_label = "checkout";
+
+            //Validation titles
+            //Emails
+            var v_message_email_required = "Email required";
+            var v_message_email = "Invalid email";
+
+            var v_message_email_confirm_required = "Confirm email required";
+            var v_message_email_equal = "Email doesn't match";
+
+            var v_message_email_unknown = "Unknown email";
+
+            //Passwords
+            var v_message_password_required = "Password required";
+            var v_message_password = "Password doesn't match security rules";
+            var v_message_password_invalid = "Invalid password";
+
+            var v_message_password_confirm_required = "Password confirm required";
+            var v_message_password_equal = "Passwords don't match";
+
+            //Sates
+            var v_message_state_required = "State required";
+
+            //Activites
+            var v_message_activities_required = "You must select at least one activity";
+
+            //Address
+            var v_message_first_name_required = "First name required";
+            var v_message_last_name_required = "Last name required";
+            var v_message_phone_required = "Phone required";
+            var v_message_address_required = "Address required";
+            var v_message_city_required = "City required";
+            var v_message_zip_required = "Zip required";
+            var v_message_zip_invalid = "zip code must be 5 numeric characters";
+
+            //Payment
+            var v_message_card_number_required = "Credit card number is mandatory";
+            var v_message_card_number_invalid = "Please enter a valid card number";
+            var v_message_card_security_code_invalid =  "Please enter a valid security code";
+            var v_message_card_expiration_invalid = "Please enter a valid expiration date";
+
+            //Company
+            var v_message_company_required = "Company required";
+
+            // Title
+            var v_message_title_required = "Title required";
+
+            function initValidationMessages(){
+
+                //State
+                $('.stateSelector .inputText_errorLabel').html(v_message_state_required);
+
+                //Activities
+                $('.ActivityWrapper_errorLabel').html(v_message_activities_required);
+
+                //Notify me popin
+                var $notifyme = $('.popin.popinNotifyMe');
+                if ($notifyme.length > 0){
+                    $notifyme.find('input#Firstname').parent().next('[class*=errorLabel]').html(v_message_first_name_required);
+                    $notifyme.find('input#LastName').parent().next('[class*=errorLabel]').html(v_message_last_name_required);
+                    $notifyme.find('input#Email').parent().next('[class*=errorLabel]').html(v_message_email_required);
+                }
+
+                //Header login / notifyme login
+                if (window.loginCTRL) {
+
+                    var sessionRedirectHandler = loginCTRL.sessionRedirectHandler;
+
+                    loginCTRL.sessionRedirectHandler = function(data, status){
+                        if (!data) {
+                            var form = document.getElementById('LogOrNot');
+                            form.querySelector('#panelErrorMessage > .InputText_errorLabel:first-child').style.display = 'block';
+
+                            var inputs = form.querySelectorAll('.InputContainer_input');
+                            var i = inputs.length;
+                            while (--i >= 0) {
+                                var inp = inputs[i];
+                                inp.classList.add('InputText-error');
+                                inp.nextElementSibling.innerText = '';
+                            }
+                            return;
+                        }
+
+                        sessionRedirectHandler(data, status);
+                    };
+
+                    // loginCTRL.errorHandler = function () {
+                    window.loginFormValidation = function () {
+                        var valid = true;
+
+                        var emailError = null;
+
+                        var $inputEmail = $('#loginEmail');
+                        var $labelEmail = $inputEmail.parent().next('.InputText_errorLabel');
+
+                        var $inputPwd = $('#loginPwd');
+                        var $labelPwd = $inputPwd.parent().next('.InputText_errorLabel');
+
+                        // Empty email
+                        if (!$inputEmail.val()) emailError = v_message_email; // You can replace to v_message_email_required
+
+                        // Invalid email
+                        if (!emailError && !emailPattern.test($inputEmail.val())) emailError = v_message_email;
+
+                        if (emailError != null) {
+                            $inputEmail.parent().addClass('InputText-error');
+                            $labelEmail.html(emailError).show();
+                        }
+                        else {
+                            $inputEmail.parent().removeClass('InputText-error');
+                            $labelEmail.hide();
+                        }
+
+                        //Empty password
+                        if (!$inputPwd.val()) {
+                            $inputPwd.parent().addClass('InputText-error');
+                            $labelPwd.html(v_message_password_invalid).show();
+                            valid = false;
+                        }
+                        else {
+                            $inputPwd.parent().removeClass('InputText-error');
+                            $labelPwd.hide();
+                        }
+
+                        valid = valid && !emailError;
+
+                        return valid;
+                    }
+                }
+
+                //All address forms / payment form
+                if (typeof $.validator != 'undefined'){
+
+                    // HK: 04/05/2017
+                    $.validator.addMethod('required', function (value, element) {
+                        return /[\w\d]+/gi.test(value);
+                    });
+
+                    setTimeout(function(){
+
+                        var performSpecialValidationsOld = window.performSpecialValidations;
+
+                        window.performSpecialValidations = function(validateWhat){
+                            var isValid = typeof performSpecialValidationsOld == 'function' ?  performSpecialValidationsOld(validateWhat) : true;
+                            setTimeout(function(){
+                                if(window.validator && window.validator.numberOfInvalids()){
+                                    $('.InputContainer_input.InputText-error:visible').first().find('input')
+                                            .add($('.PaymentWrapper .InputText_errorLabel:visible').first().prev().find('input'))
+                                            .first()
+                                            .focus();
+                                }
+                            }, 100);
+                            return isValid;
+                        };
+
+                        $.validator.messages.required = '\u2000';
+                        $.validator.messages.equal = '\u2001';
+                        $.validator.messages.password = '\u2002';
+                        $.validator.messages.email = '\u2003';
+                        $.validator.messages.email2 = '\u2003';
+                        $.validator.messages.minlength = '\u2004';
+                        $.validator.messages.zip = '\u2005';
+
+                        var $validator = window.validator;
+                        if (!$validator) return;
+
+                        var func = $validator.settings.highlight;
+                        if (!func) return;
+
+                        $validator.settings.highlight = function(element, errorClass, validClass){
+
+                            func(element, errorClass, validClass);
+
+                            $(element).parent()
+                                    .next('label')
+                                    .css('visibility', 'hidden');
+
+                            setTimeout(function(){
+
+                                var $errorLabel = $(element).parent().siblings('label.InputText_errorLabel').first();
+                                if ($errorLabel.length == 0)
+                                    $errorLabel = $(element).parent().parent().siblings('label.InputText_errorLabel:contains("\u2000")');
+
+                                var id = $(element).attr('id') || $(element).attr('class');
+                                id = !id ? '' : id.toLowerCase();
+
+                                //Email
+                                if (id.indexOf('email') >= 0 && id.indexOf('confirm') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_email_confirm_required);
+                                else if (id.indexOf('email') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_email_required);
+                                else if (id.indexOf('email') >= 0 && $errorLabel.html() == '\u2001')
+                                    $errorLabel.html(v_message_email_equal);
+                                else if (id.indexOf('email') >= 0 && $errorLabel.html() == '\u2003')
+                                    $errorLabel.html(v_message_email);
+
+                                //Password
+                                if (id.indexOf('password') >= 0 && id.indexOf('confirm') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_password_confirm_required);
+                                else if (id.indexOf('password') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_password_required);
+                                else if (id.indexOf('password') >= 0 && $errorLabel.html() == '\u2001')
+                                    $errorLabel.html(v_message_password_equal);
+                                else if (id.indexOf('password') >= 0 && $errorLabel.html() == '\u2004')
+                                    $errorLabel.html(v_message_password_invalid);
+                                else if (id.indexOf('password') >= 0 && $errorLabel.html() == '\u2002')
+                                    $errorLabel.html(v_message_password);
+
+
+                                //Address
+                                if (id.indexOf('firstname') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_first_name_required);
+                                else if (id.indexOf('lastname') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_last_name_required);
+                                else if (id.indexOf('phone') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_phone_required);
+                                else if (id.indexOf('address') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_address_required);
+                                else if (id.indexOf('address') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_address_required);
+                                else if (id.indexOf('city') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_city_required);
+                                else if (id.indexOf('zip') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_zip_required);
+                                else if (id.indexOf('zip') >= 0 && $errorLabel.html() == '\u2005')
+                                    $errorLabel.html(v_message_zip_invalid);
+
+                                //Company
+                                if (id.indexOf('company') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_company_required);
+
+                                //Title
+                                if (id.indexOf('persontitle') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_title_required);
+
+
+                                //Credit card
+                                if (id.indexOf('card-number') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_card_number_required);
+
+                                $errorLabel.css('visibility', 'visible');
+
+                            }, 150);
+                        }
+                    }, 50);
+                }
+            }
+
+            $(function(){
+
+                initValidationMessages();
+                // PCI
+                window.cartQnt = {};
+
+                $('.InputText input[type=text],input[data-input]').bind('keypress', function (event) {
+                    var regex = new RegExp(/^['\u00C0-\u017F\w\d\s_\-@\.,;\+&*#]+$/gi);
+                    var key = String.fromCharCode(event.keyCode ? event.keyCode : event.which);
+                    if (!regex.test(key) && event.charCode) {
+                        event.preventDefault();
+                        event.stopImmediatePropagation();
+                        return false;
+                    }
+                }).bind('paste', function(e){
+                    e.stopPropagation();
+                    e.preventDefault();
+                    var value = (e.originalEvent || e).clipboardData.getData('text/plain');
+                    var regex = new RegExp(/[^'\u00C0-\u017F\w\d\s_\-@\.,;\+&*#]/gi);
+                    $(this).val(value.replace(regex, ''));
+                    if ($(this).is('.searchInput'))
+                        searchEvent();
+                });
+
+                $('h1,h2,h3,h4,h5,h6,a').each(function(){
+                    $(this).html($(this).html().replace(/([^>])®/g,"$1<sup>®</sup>"));
+                });
+
+            });
+        </script>
+
+            <title>Ascending a rope with GRIGRI, GRIGRI + and NEOX - Petzl Other</title>
+
+            <link href="/resource/1756816274000/Petzl_Front/css/content-page.css" rel="stylesheet" />
+            <link href="/resource/1756816274000/Petzl_Front/css/technicalcontent.css" rel="stylesheet" />
+            <link href="/resource/1789047260000/Petzl_Front_Tech_content/Petzl_Front_Tech_Content.css" rel="stylesheet" />
+                <link href="https://www.petzl.com/IT/it/Sport/Risalita-su-corda-con-GRIGRI--GRIGRI-Plus-e-NEOX" hreflang="it-it" rel="alternate" />
+                <link href="https://www.petzl.com/CH/it/Sport/Risalita-su-corda-con-GRIGRI--GRIGRI-Plus-e-NEOX" hreflang="it-ch" rel="alternate" />
+                <link href="https://www.petzl.com/LU/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX" hreflang="fr-lu" rel="alternate" />
+                <link href="https://www.petzl.com/FR/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX" hreflang="fr-fr" rel="alternate" />
+                <link href="https://www.petzl.com/CH/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX" hreflang="fr-ch" rel="alternate" />
+                <link href="https://www.petzl.com/CA/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX" hreflang="fr-ca" rel="alternate" />
+                <link href="https://www.petzl.com/BE/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX" hreflang="fr-be" rel="alternate" />
+                <link href="https://www.petzl.com/PT/es/Sport/Ascenso-por-cuerda-con-GRIGRI--GRIGRI-Plus-y-NEOX" hreflang="es-pt" rel="alternate" />
+                <link href="https://www.petzl.com/ES/es/Sport/Ascenso-por-cuerda-con-GRIGRI--GRIGRI-Plus-y-NEOX" hreflang="es-es" rel="alternate" />
+                <link href="https://www.petzl.com/US/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-us" rel="alternate" />
+                <link href="https://www.petzl.com/SE/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-se" rel="alternate" />
+                <link href="https://www.petzl.com/PT/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-pt" rel="alternate" />
+                <link href="https://www.petzl.com/NO/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-no" rel="alternate" />
+                <link href="https://www.petzl.com/NL/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-nl" rel="alternate" />
+                <link href="https://www.petzl.com/LU/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-lu" rel="alternate" />
+                <link href="https://www.petzl.com/GB/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-gb" rel="alternate" />
+                <link href="https://www.petzl.com/FI/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-fi" rel="alternate" />
+                <link href="https://www.petzl.com/DK/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-dk" rel="alternate" />
+                <link href="https://www.petzl.com/CA/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-ca" rel="alternate" />
+                <link href="https://www.petzl.com/BE/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en-be" rel="alternate" />
+                <link href="https://www.petzl.com/DE/de/Sport/Aufstieg-am-Seil-mit-dem-GRIGRI--GRIGRI-Plus-und-NEOX" hreflang="de-de" rel="alternate" />
+                <link href="https://www.petzl.com/CH/de/Sport/Aufstieg-am-Seil-mit-dem-GRIGRI--GRIGRI-Plus-und-NEOX" hreflang="de-ch" rel="alternate" />
+                <link href="https://www.petzl.com/AT/de/Sport/Aufstieg-am-Seil-mit-dem-GRIGRI--GRIGRI-Plus-und-NEOX" hreflang="de-at" rel="alternate" />
+                <link href="https://www.petzl.com/INT/it/Sport/Risalita-su-corda-con-GRIGRI--GRIGRI-Plus-e-NEOX" hreflang="it" rel="alternate" />
+                <link href="https://www.petzl.com/INT/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX" hreflang="fr" rel="alternate" />
+                <link href="https://www.petzl.com/INT/es/Sport/Ascenso-por-cuerda-con-GRIGRI--GRIGRI-Plus-y-NEOX" hreflang="es" rel="alternate" />
+                <link href="https://www.petzl.com/INT/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="en" rel="alternate" />
+                <link href="https://www.petzl.com/INT/de/Sport/Aufstieg-am-Seil-mit-dem-GRIGRI--GRIGRI-Plus-und-NEOX" hreflang="de" rel="alternate" />
+
+            <link href="https://www.petzl.com/INT/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX" hreflang="x-default" rel="alternate" />
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({'PageType': 'TechnicalContent','Template': 'Desktop','Univers': 'Sport','Langue': 'en'});
+    </script><span id="j_id0:j_id1:j_id22">
+
+ <script>
+  
+  var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-2666151-17']);
+
+ </script></span>
+
+        
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MWKBJV');
+        </script>
+    </head>
+
+    <body>
+<form id="j_id0:j_id1:j_id32" name="j_id0:j_id1:j_id32" method="post" action="/Web_TechnicalContent" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id1:j_id32" value="j_id0:j_id1:j_id32" />
+<script id="j_id0:j_id1:j_id32:j_id33" type="text/javascript">refreshAccountPopin=function(){A4J.AJAX.Submit('j_id0:j_id1:j_id32',null,{'similarityGroupingId':'j_id0:j_id1:j_id32:j_id33','parameters':{'j_id0:j_id1:j_id32:j_id33':'j_id0:j_id1:j_id32:j_id33'} } )};
+</script><div id="j_id0:j_id1:j_id32:j_id233"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="202609112258230000" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNklsWTFRVFJRVjB4bWRGOUZMVVJ2U2xNeFJWOXJNMUpPWlZaMlFVaFdXRGhYYVRCbGJVVm5lbFp0WlZGY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkRJd01EQXdNREF3U0hKSWNWd2lMRndpZGx3aU9sd2lNREpITVhJd01EQXdNREJLYkVOYVhDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05YY3dNREF3TURBMGJIbHFiVndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVGM0T1RVM05UazNPVFkxTWl3aVpYaHdJam93ZlE9PS4uZXNDRTdsYVpoelE3cHZzZ3VxRTh0N3ljV29FWFpYcU1yQXczc3o0VWdFWT0=" /></span></span>
+        
+    <noscript>
+        <iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-MWKBJV" style="display:none;visibility:hidden" width="0"></iframe>
+    </noscript>
+
+    <script id="tmpl_CartHeader" type="text/dust-template">
+        {#hasCart}
+        <div class="arrowTop"></div>
+        <ul class="productContainer">
+        {#cart}
+            <li class="product">
+                <a rel="nofollow" href="https://www.petzl.com/INT/en/{prodUnivares}/{prodType}/{productURL}">
+                    <div class="productImage">
+                        <div class="productImageSizer">
+                            <img src="https://www.petzl.com{imgSrc}">
+                        </div>
+                    </div>
+                    <div class="productInfo">
+                        <span class="productName" style="overflow: hidden; word-wrap: break-word;">{productName}</span>
+                        <span> {skuName} </span>
+                        <span>Quantity : {quantity}</span>
+                        <span>{price}</span>
+                    </div>
+                </a>
+            </li>
+            {/cart}
+                {#moreThen3}
+            <li class="linkToCart">
+                <a rel="nofollow" href="https://www.petzl.com/INT/en/shop/cart" class="Link">View all products in cart ({numOfItems})</a>
+            </li>
+            {/moreThen3}
+        </ul>
+        <div class="popinInner">
+            <div class="subtotalContainer">
+                <span class="subtotalTitle">Subtotal</span>
+                <span class="subtotalPrice">{subTotal}</span>
+            </div>
+            <a rel="nofollow" href="https://www.petzl.com/INT/en/shop/cart" class="Btn Btn-orange">Proceed to checkout</a>
+        </div>
+        {/hasCart}
+        {^hasCart}
+        <div class="popinInner">
+            <div>
+                You have no items at your cart.
+            </div>
+        </div>
+        {/hasCart}
+
+
+    </script>
+
+    <div id="contryLang" style="display:none;">
+            <div id="AT">
+                <div class="CountryCode">AT</div>
+                <div class="LangugageCode">de</div>
+                <a href="https://www.petzl.com/AT/de"></a>
+            </div>
+            <div id="BE">
+                <div class="CountryCode">BE</div>
+                <div class="LangugageCode">fr</div>
+                <a href="https://www.petzl.com/BE/fr"></a>
+            </div>
+            <div id="CA">
+                <div class="CountryCode">CA</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/CA/en"></a>
+            </div>
+            <div id="CH">
+                <div class="CountryCode">CH</div>
+                <div class="LangugageCode">fr</div>
+                <a href="https://www.petzl.com/CH/fr"></a>
+            </div>
+            <div id="DE">
+                <div class="CountryCode">DE</div>
+                <div class="LangugageCode">de</div>
+                <a href="https://www.petzl.com/DE/de"></a>
+            </div>
+            <div id="DK">
+                <div class="CountryCode">DK</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/DK/en"></a>
+            </div>
+            <div id="ES">
+                <div class="CountryCode">ES</div>
+                <div class="LangugageCode">es</div>
+                <a href="https://www.petzl.com/ES/es"></a>
+            </div>
+            <div id="FI">
+                <div class="CountryCode">FI</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/FI/en"></a>
+            </div>
+            <div id="FR">
+                <div class="CountryCode">FR</div>
+                <div class="LangugageCode">fr</div>
+                <a href="https://www.petzl.com/FR/fr"></a>
+            </div>
+            <div id="GB">
+                <div class="CountryCode">GB</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/GB/en"></a>
+            </div>
+            <div id="INT">
+                <div class="CountryCode">INT</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/INT/en"></a>
+            </div>
+            <div id="IT">
+                <div class="CountryCode">IT</div>
+                <div class="LangugageCode">it</div>
+                <a href="https://www.petzl.com/IT/it"></a>
+            </div>
+            <div id="LU">
+                <div class="CountryCode">LU</div>
+                <div class="LangugageCode">fr</div>
+                <a href="https://www.petzl.com/LU/fr"></a>
+            </div>
+            <div id="NL">
+                <div class="CountryCode">NL</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/NL/en"></a>
+            </div>
+            <div id="NO">
+                <div class="CountryCode">NO</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/NO/en"></a>
+            </div>
+            <div id="PT">
+                <div class="CountryCode">PT</div>
+                <div class="LangugageCode">es</div>
+                <a href="https://www.petzl.com/PT/es"></a>
+            </div>
+            <div id="SE">
+                <div class="CountryCode">SE</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/SE/en"></a>
+            </div>
+            <div id="US">
+                <div class="CountryCode">US</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/US/en"></a>
+            </div>
+    </div>
+
+    <div id="global"><span id="j_id0:j_id1:j_id38"></span>
+
+        <span data-value="false" id="HasNoRobotIndex" style="display:none;"></span>
+        <div id="universId" style="display:none;">a3120000000HMf4AAG</div>
+        <div id="universName" style="display:none;">Sport</div>
+        <div id="universParentName" style="display:none;">Sport</div>
+        <div id="coutryNameCode" style="display:none;">INT</div>
+        <div id="languageNameCode" style="display:none;">en</div>
+        <div id="submenuBackgroundRepeat"></div>
+        <header>
+            <div id="headerTop">
+                <div class="container">
+                    <div class="left">
+                        <a href="https://www.petzl.com/INT/en" id="logo_v2">
+                            <img src="/resource/1756816274000/Petzl_Front/static/img/logo_v2.png" />
+                        </a>
+                        <div class="verticalSeparator inlineblock"></div>
+                        <ul id="universeSelector">
+                                    <li class="inlineblock">
+                                        <a class="is-active" href="https://www.petzl.com/INT/en/Sport" onclick="updateUniverseCookie('a3120000000HMf4AAG')">
+                                            Sport
+                                        </a>
+                                    </li>
+                                    <li class="inlineblock">
+                                        <a class="secondChoice" href="https://www.petzl.com/INT/en/Professional" onclick="updateUniverseCookie('a3120000000HMf9AAG')">
+                                            Professional
+                                        </a>
+                                    </li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul class="topMenu">
+                                <li><a class="Header_dealers" href="https://www.petzl.com/INT/en/Sport/Dealers">Dealers</a></li>
+                            <li class="headerSubmenuContainer">
+                                <a class="Header_customerService" href="#">Customer service</a>
+                                <ul class="headerSubmenu">
+                                    <div class="arrowTop"></div>
+                                    <li><a href="https://www.petzl.com/INT/en/Sport/FAQ">FAQ</a></li>
+                                    <li><a href="https://www.petzl.com/INT/en/Sport/Contact">Contact</a></li>
+                                        <li>
+                                            <a href="https://www.petzl.com/INT/en/Sport/Newsletter">Newsletter</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.petzl.com/INT/en/Sport/Downloads-eBooks">Downloads</a></li>
+                            <li class="langueSelectContainer">
+                                <div class="langueSelect">
+                                    <div class="selected">
+                                        <img class="flag inlineblock" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2x&amp;oid=00D20000000HrHq&amp;lastMod=1402387519000" />
+                                        <span class="arrowLang inlineblock sprite"></span>
+                                        <span class="hitArea"></span>
+                                    </div><span id="j_id0:j_id1:j_id91">
+
+    
+    <div class="langLists" style="display: none; opacity: 0;">
+        <div class="arrowTop"></div>
+            <ul class="langList inlineblock">
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:0:j_id109:0:j_id110">
+                                    <a href="https://www.petzl.com/FR/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="FR" data-country-lang="fr" data-lang-code="fr">
+                                            <img alt="FR" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2n&amp;oid=00D20000000HrHq&amp;lastMod=1402387470000" />
+                                            France
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:1:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/US/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="US" data-country-lang="en" data-lang-code="en">
+                                            <img alt="US" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm37&amp;oid=00D20000000HrHq&amp;lastMod=1431443321000" />
+                                            USA
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:2:j_id109:4:j_id110">
+                                    <a href="https://www.petzl.com/DE/de/Sport/Aufstieg-am-Seil-mit-dem-GRIGRI--GRIGRI-Plus-und-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="DE" data-country-lang="de" data-lang-code="de">
+                                            <img alt="DE" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2i&amp;oid=00D20000000HrHq&amp;lastMod=1402387433000" />
+                                            Deutschland
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:3:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/GB/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="GB" data-country-lang="en" data-lang-code="en">
+                                            <img alt="GB" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjmY&amp;oid=00D20000000HrHq&amp;lastMod=1431422054000" />
+                                            United Kingdom
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:4:j_id109:2:j_id110">
+                                    <a href="https://www.petzl.com/IT/it/Sport/Risalita-su-corda-con-GRIGRI--GRIGRI-Plus-e-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="IT" data-country-lang="it" data-lang-code="it">
+                                            <img alt="IT" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm32&amp;oid=00D20000000HrHq&amp;lastMod=1402387622000" />
+                                            Italia
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015680000002kyO&amp;oid=00D20000000HrHq&amp;lastMod=1685345469000" />
+                                Portugal
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:5:j_id102:0:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="PT" data-country-lang="es" data-lang-code="en">
+                                                <a href="https://www.petzl.com/PT/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                                    English
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:5:j_id102:1:j_id103:3:j_id104">
+                                            <li class="countryLang" data-country-code="PT" data-country-lang="es" data-lang-code="es">
+                                                <a href="https://www.petzl.com/PT/es/Sport/Ascenso-por-cuerda-con-GRIGRI--GRIGRI-Plus-y-NEOX?ProductName=NEOX">
+                                                    Spanish
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:6:j_id109:3:j_id110">
+                                    <a href="https://www.petzl.com/ES/es/Sport/Ascenso-por-cuerda-con-GRIGRI--GRIGRI-Plus-y-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="ES" data-country-lang="es" data-lang-code="es">
+                                            <img alt="ES" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2s&amp;oid=00D20000000HrHq&amp;lastMod=1402387495000" />
+                                            Espa&ntilde;a
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001luD1&amp;oid=00D20000000HrHq&amp;lastMod=1406011405000" />
+                                Schweiz
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:7:j_id102:0:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="CH" data-country-lang="fr" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/CH/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX?ProductName=NEOX">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:7:j_id102:1:j_id103:4:j_id104">
+                                            <li class="countryLang" data-country-code="CH" data-country-lang="fr" data-lang-code="de">
+                                                <a href="https://www.petzl.com/CH/de/Sport/Aufstieg-am-Seil-mit-dem-GRIGRI--GRIGRI-Plus-und-NEOX?ProductName=NEOX">
+                                                    Deutsch
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:7:j_id102:2:j_id103:2:j_id104">
+                                            <li class="countryLang" data-country-code="CH" data-country-lang="fr" data-lang-code="it">
+                                                <a href="https://www.petzl.com/CH/it/Sport/Risalita-su-corda-con-GRIGRI--GRIGRI-Plus-e-NEOX?ProductName=NEOX">
+                                                    Italiano
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2d&amp;oid=00D20000000HrHq&amp;lastMod=1431443566000" />
+                                Canada
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:8:j_id102:0:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="CA" data-country-lang="en" data-lang-code="en">
+                                                <a href="https://www.petzl.com/CA/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                                    English
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:8:j_id102:1:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="CA" data-country-lang="en" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/CA/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX?ProductName=NEOX">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+            </ul>
+            <ul class="langList inlineblock">
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:0:j_id109:4:j_id110">
+                                    <a href="https://www.petzl.com/AT/de/Sport/Aufstieg-am-Seil-mit-dem-GRIGRI--GRIGRI-Plus-und-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="AT" data-country-lang="de" data-lang-code="de">
+                                            <img alt="AT" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjm9&amp;oid=00D20000000HrHq&amp;lastMod=1431421836000" />
+                                            &Ouml;sterreich
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjmE&amp;oid=00D20000000HrHq&amp;lastMod=1431421896000" />
+                                Belgique
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:1:j_id102:0:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="BE" data-country-lang="fr" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/BE/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX?ProductName=NEOX">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:1:j_id102:1:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="BE" data-country-lang="fr" data-lang-code="en">
+                                                <a href="https://www.petzl.com/BE/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                                    English
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:2:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/NL/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="NL" data-country-lang="en" data-lang-code="en">
+                                            <img alt="NL" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjmO&amp;oid=00D20000000HrHq&amp;lastMod=1431422014000" />
+                                            Netherlands
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjmJ&amp;oid=00D20000000HrHq&amp;lastMod=1431421950000" />
+                                Luxembourg
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:3:j_id102:0:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="LU" data-country-lang="fr" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/LU/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX?ProductName=NEOX">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:3:j_id102:1:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="LU" data-country-lang="fr" data-lang-code="en">
+                                                <a href="https://www.petzl.com/LU/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                                    English
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:4:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/DK/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="DK" data-country-lang="en" data-lang-code="en">
+                                            <img alt="DK" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=0155I000000Y1nV&amp;oid=00D20000000HrHq&amp;lastMod=1586441900000" />
+                                            Denmark
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:5:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/FI/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="FI" data-country-lang="en" data-lang-code="en">
+                                            <img alt="FI" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=0155I000000YFzM&amp;oid=00D20000000HrHq&amp;lastMod=1588598265000" />
+                                            Finland
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:6:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/NO/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="NO" data-country-lang="en" data-lang-code="en">
+                                            <img alt="NO" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=0155I000000Y1nf&amp;oid=00D20000000HrHq&amp;lastMod=1586442002000" />
+                                            Norway
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:7:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/SE/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                        <span class="countryName countryLang" data-country-code="SE" data-country-lang="en" data-lang-code="en">
+                                            <img alt="SE" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=0155I000000Y1nk&amp;oid=00D20000000HrHq&amp;lastMod=1586442061000" />
+                                            Sweden
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2x&amp;oid=00D20000000HrHq&amp;lastMod=1402387519000" />
+                                Other
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:0:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/INT/fr/Sport/Remontee-sur-corde-avec-GRIGRI--GRIGRI-Plus-et-NEOX?ProductName=NEOX">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:1:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="en">
+                                                <a href="https://www.petzl.com/INT/en/Sport/Ascending-a-rope-with-GRIGRI--GRIGRI-Plus-and-NEOX?ProductName=NEOX">
+                                                    English
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:2:j_id103:4:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="de">
+                                                <a href="https://www.petzl.com/INT/de/Sport/Aufstieg-am-Seil-mit-dem-GRIGRI--GRIGRI-Plus-und-NEOX?ProductName=NEOX">
+                                                    Deutsch
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:3:j_id103:3:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="es">
+                                                <a href="https://www.petzl.com/INT/es/Sport/Ascenso-por-cuerda-con-GRIGRI--GRIGRI-Plus-y-NEOX?ProductName=NEOX">
+                                                    Espa&ntilde;ol
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:4:j_id103:2:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="it">
+                                                <a href="https://www.petzl.com/INT/it/Sport/Risalita-su-corda-con-GRIGRI--GRIGRI-Plus-e-NEOX?ProductName=NEOX">
+                                                    Italiano
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+            </ul>
+    </div></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="headerBottom">
+                <div class="container">
+                    <div class="left">
+                        <ul class="mainMenu">
+                                <li>
+                                    <a data-id="a2w200000011y7tAAA" href="javascript:void(0)">
+                                        <span class="sprite bullSeparator  ib"></span>
+                                            Verticality
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-id="a2w200000011y7uAAA" href="javascript:void(0)">
+                                        <span class="sprite bullSeparator  ib"></span>
+                                            Lighting
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-id="techniques" href="javascript:void(0)">
+                                        <span class="sprite bullSeparator selected ib"></span> Tech Tips
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-id="communaute" href="javascript:void(0)">
+                                        <span class="sprite bullSeparator  ib"></span> Community
+                                    </a>
+                                </li>
+
+                            <li>
+                                <a href="https://www.petzl.com/INT/en/Sport/safety-alerts">
+                                    <span class="sprite bullSeparator ib"></span>  Safety alerts
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <div class="search">
+                            <span class="searchText">Search</span>
+                            <span class="iconSearch sprite-v4"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="searchSubmenuContainer" style="top: -180px; display: block;position: fixed;">
+                <div class="searchSubmenuInnerContainer">
+                    <span class="searchSubmenuContainer_close sprite-v4"></span>
+                    <div class="searchInputContainer">
+
+                        <input class="searchInput inlineblock" data-input="true" id="searchInputGeneral" placeholder="Product, technical information" type="text" />
+
+                        
+                        <a class="bigButtonOrange submitButton inlineblock" href="javascript:void(0)" id="searchclick" onclick="document.location.href='https://www.petzl.com/INT/en/Sport/Search?q=' + $('#searchInputGeneral').val();">Search</a>
+
+                        <script type="text/javascript">
+
+                            $.fn.focusWithoutScrolling = function(){
+                                var x = window.scrollX, y = window.scrollY;
+                                this.focus();
+                                window.scrollTo(x, y);
+                            };
+
+                            $('.search').click(function(){
+                                if($('.search.opened').length > 0){
+                                    $('#searchInputGeneral').blur();
+                                }
+                                else{
+                                    $('#searchInputGeneral').focusWithoutScrolling();
+                                }
+                            });
+
+
+                            var last='';
+                            var sp = $(".submitButton").prop("href").split('?q=');
+                            var lang = '&l='+$("#coutryNameCode").text();
+
+                            function searchEvent(){
+
+                                last = document.getElementById('coutryNameCode').value;
+                                searchTerm = document.getElementById('searchInputGeneral').value;
+                                var ss = sp[0]+'?q='+searchTerm+lang;
+                                $(".submitButton").prop("href",ss);
+
+                            }
+
+                            $("#searchInputGeneral").keypress(function(e) {//if click enter
+                                if(e.which == 13) {
+                                    if($('.right .opened').size()=== 1){
+                                        searchEvent();
+                                        document.location.href='https://www.petzl.com/INT/en/Sport/Search?q=' + $('#searchInputGeneral').val();
+                                    }
+                                }
+                            });
+
+                            $("#LogOrNot").keypress(function(e) {
+                                if(e.which == 13) {
+                                    $(this).find(".Btn.loginAction").click();
+                                }
+                            });
+
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="submenuContainer" style="z-index: 0;">
+                <div class="submenu">
+                    <div class="container">
+                            <div class="submenuContent" id="submenu_a2w200000011y7tAAA">
+                                <ul>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Harnesses">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/0685I0000020GJFQA2" width="80px" />
+                                            <span>Harnesses</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Helmets">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001Dqf9AAC" width="80px" />
+                                            <span>Helmets</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Belay-Devices-And-Descenders">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DqmsAAC" width="80px" />
+                                            <span>Belay Devices And Descenders</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Ropes">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DqqMAAS" width="80px" />
+                                            <span>Ropes</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Carabiners-And-Quickdraws">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DqrPAAS" width="80px" />
+                                            <span>Carabiners And Quickdraws</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Ice-Axes">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068w0000001aGllAAE" width="80px" />
+                                            <span>Ice Axes</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Crampons">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068w0000001aGlRAAU" width="80px" />
+                                            <span>Crampons</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Ascenders">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DqtdAAC" width="80px" />
+                                            <span>Ascenders</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Pulleys">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001Dr3BAAS" width="80px" />
+                                            <span>Pulleys</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Lanyards">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001Dr4KAAS" width="80px" />
+                                            <span>Lanyards</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Kits">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DrA2AAK" width="80px" />
+                                            <span>Kits</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Anchors">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001Dr9EAAS" width="80px" />
+                                            <span>Anchors</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Crashpads">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068w0000001aGlbAAE" width="80px" />
+                                            <span>Crashpads</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Packs-And-Accessories">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001Dr9JAAS" width="80px" />
+                                            <span>Packs And Accessories</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Spare-Parts">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx00000E0I8BIAV" width="80px" />
+                                            <span>Spare Parts</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                    <div class="submenu__button-container">
+                                        <a class="Btn Btn-orange" href="https://www.petzl.com/INT/en/Sport/product-set-sport-en">Browse Products By Sport</a>
+                                    </div>
+                            </div>
+                            <div class="submenuContent" id="submenu_a2w200000011y7uAAA">
+                                <ul>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Headlamps">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000004GuwSAAS" width="80px" />
+                                            <span>Headlamps</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Spare-parts-Lighting">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx000007HF0EIAW" width="80px" />
+                                            <span>Spare parts Lighting</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/INT/en/Sport/Headlamps/How-to-choose">
+                                            <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignette-headlamp-selector.jpg" width="80px" />
+                                            <span>Headlamp Finder</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        
+                        <ul class="submenuContent" id="submenu_techniques">
+                                <li class="ib">
+                                    <a href="https://www.petzl.com/INT/en/Sport/Activities">
+                                        <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteTechniquesByActivitySport.jpg" width="80px" />
+                                        <span>By Activity</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://www.petzl.com/INT/en/Sport/technical-content-product">
+                                        <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteTechniquesByProductSport.jpg" width="80px" />
+                                        <span>By Product</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://www.petzl.com/INT/en/Sport/News?filter=technews">
+                                        <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteTechniquesNewsSport.jpg" width="80px" />
+                                        <span>Technical news</span>
+                                    </a>
+                                </li>
+                            <li class="ib">
+                                <a href="https://www.petzl.com/INT/en/Sport/Downloads-eBooks?filter=Access-Book">
+                                    <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteTechniquesAccessBookSport.jpg" width="80px" />
+                                    <span>eBooks</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="submenuContent" id="submenu_communaute">
+                                
+                                <li class="ib">
+                                    <a href="https://www.petzl.com/INT/en/Sport/News">
+                                        <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteNews-sport.jpg" width="80px" />
+                                        <span>News and videos</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://www.petzl.com/INT/en/Sport/Petzl-team">
+                                        <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteTeamSport.jpg" width="80px" />
+                                        <span>Petzl Friends</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://campaigns.petzl.com/experience-the-difference/en-us/">
+                                        <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/0686800000Y62OnAAJ" width="80px" />
+                                        <span>Experience The Difference</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://campaigns.petzl.com/iko/en-us">
+                                        <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000002FPluAAG" width="80px" />
+                                        <span>The IKO experience</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://campaigns.petzl.com/running/en-us">
+                                        <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/0686800000RkUamAAF" width="80px" />
+                                        <span>Running at night</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://campaigns.petzl.com/outdoor/en-us">
+                                        <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx0000046CPFIA2" width="80px" />
+                                        <span>Outdoor Adventures After Dark</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://campaigns.petzl.com/helmetup/en-us">
+                                        <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/0686800000RkUozAAF" width="80px" />
+                                        <span>Top and Side Protection</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://campaigns.petzl.com/climbing/en-us">
+                                        <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx0000046uNAIAY" width="80px" />
+                                        <span>Belaying: an art that anyone can learn!</span>
+                                    </a>
+                                </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+
+                $(document).ready(function(){
+
+                    if($("#HasNoRobotIndex").attr("data-value") == 'true')
+                    {
+                        $('head').append('<meta name="robots" content="noindex"></meta>');
+                    }
+                });
+
+            </script>
+
+        </header>
+
+        <div class="content MarketSport" id="content">
+            <div id="contentTechnicalContent">
+                <div class="familyHeader">
+                    <div class="familyHeaderBreadcrumb">
+                        <div class="container">
+                                    <a class="breadcrumbLink ib" data-level="1" href="https://www.petzl.com/INT/en/Sport/Techniques">
+                                        Tech Tips <span class="breadcrumbArrow sprite"></span>
+                                    </a><span id="j_id0:j_id1:j_id163" style="display: none;"></span>
+
+
+                                <a class="breadcrumbLink ib" data-level="2" href="https://www.petzl.com/INT/en/Sport/technical-content-product">
+                                    Tech Tips by Product <span class="breadcrumbArrow sprite last"></span>
+                                </a>
+                                <a class="breadcrumbLink ib" data-level="3" href="https://www.petzl.com/INT/en/Sport/Belay-Devices-And-Descenders/technical-content-product/NEOX">
+                                    NEOX <span class="breadcrumbArrow sprite"></span>
+                                </a>
+                                <a class="breadcrumbLink ib last" data-level="4">
+                                    Ascending a rope with GRIGRI, GRIGRI + and NEOX <span class="breadcrumbArrow sprite"></span>
+                                </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+
+                    <div class="contentPage technicalContentContainer ">
+                        <div class="technicalContentLeft inlineblock">
+                            <h1>
+                                <span class="sprite expertOnly inlineblock" style="display:none;"></span>Ascending a rope with GRIGRI, GRIGRI + and NEOX
+                            </h1>
+
+                            <h2 class="subtitle"></h2>
+                                <div class="warningContainer">
+                                    <p class="warningTitle"><span class="sprite inlineblock warningIcon"></span>Warnings</p>
+                                    <div class="sprite plusIcon"></div>
+                                    <div class="sprite lessIcon"></div>
+                                    <ul>
+                                            <li>Carefully read the Instructions for Use used in this technical advice before consulting the advice itself. You must have already read and understood the information in the Instructions for Use to be able to understand this supplementary information.</li>
+                                            <li>Mastering these techniques requires specific training. Work with a professional to confirm your ability to perform these techniques safely and independently before attempting them unsupervised.</li>
+                                            <li>We provide examples of techniques related to your activity. There may be others that we do not describe here.</li><span id="j_id0:j_id1:j_id183" style="display: none;"></span>
+                                        
+                                    </ul>
+                                </div>
+
+                            <div class="technicalContent"><span class="tech-content"><!-- //////////////////////////////// --><!-- /////////// PARTIE 1 /////////// --><!-- //////////////////////////////// -->
+<p class="CT-297-p">Ascending a rope is necessary in certain situations, for example if you descended too far on a rappel and need to go back up to reach the next rappel station. GRIGRI, GRIGRI + and NEOX can be used to ascend a rope, keeping the rope taut and taking up slack as you ascend.</p>
+
+<p>WARNING: from the moment you stop, start, ascend, descend or even pendulum on a fixed rope, you make it all the more vulnerable to abrasion. Locate possible rub points on the rock as you descend, as this will tell you how much movement you can allow yourself in the event of a problem.</p>
+
+<p>Note: the NEOX is less effective than the GRIGRI in this usage, due to the lag time in blocking (maximum one half rotation of the wheel) as described in the Instructions for Use. See also the technical tip: Normal sound of the NEOX.</p>
+
+<p class="CT-297-p"><strong>If the rock is not too steep and allows you to stand on your feet:</strong><br></br>
+Keep the brake side of the rope in your hand and take up slack as you ascend.</p>
+<!-- grid 1 -->
+
+<div class="CT-297-grid-1"><!-- Illustration 1 -->
+<div class="CT-297-illustration-1"><img alt="Remontée sur corde avec GRIGRI, GRIGRI + et NEOX : pente peu raide 1/2." src="/sfc/servlet.shepherd/version/download/068Tx000006iS3lIAE"></img></div>
+<!-- fleche -->
+
+<div class="CT-297-fleche"><img alt="flêche." src="/sfc/servlet.shepherd/version/download/068Tx000006iQRjIAM"></img></div>
+<!-- Illustration 2 -->
+
+<div class="CT-297-illustration-2"><img alt="Remontée sur corde avec GRIGRI, GRIGRI + et NEOX : pente peu raide 2/2." src="/sfc/servlet.shepherd/version/download/068Tx000006iTqwIAE"></img></div>
+</div>
+
+<p>If you need to let go of the rope for your tasks (e.g. untangling the rope, making a belay), tie a knot in the brake side of the rope (see technical tip: Hands-free position with GRIGRI and NEOX).</p>
+<!-- Illustration 3 -->
+
+<div class="CT-297-illustration-3"><img alt="Remontée sur corde avec GRIGRI, GRIGRI + et NEOX : noeud en bout de corde impératif côté freinage." src="/sfc/servlet.shepherd/version/download/068Tx000006iStFIAU"></img></div>
+<!-- Illustration 3-2 -->
+
+<div class="CT-297-illustration-3-2"><img alt="Remontée sur corde avec GRIGRI, GRIGRI + et NEOX : noeud en bout de corde impératif côté freinage." src="/sfc/servlet.shepherd/version/download/068Tx000006iavZIAQ"></img></div>
+
+<p><strong>Note: in any case, you must not let go of the brake side of the rope and climb. Self-belayed climbing is not allowed with the GRIGRI, GRIGRI + or NEOX.</strong></p>
+
+<p class="CT-297-p"><strong>Below an overhang or in any situation without support for the feet:</strong><br></br>
+Use an ascender (e.g. TIBLOC, BASIC or even a Prusik) on the rope, and a sling to stand up in.</p>
+<!-- grid 2 -->
+
+<div class="CT-297-grid-2"><!-- Illustration 4 -->
+<div class="CT-297-illustration-4 dessin-1"><img alt="Remontée sur corde avec GRIGRI, GRIGRI + et NEOX sans appui pour les pieds 1/4." src="/sfc/servlet.shepherd/version/download/068Tx000006iPdfIAE"></img></div>
+<!-- fleche -->
+
+<div class="CT-297-fleche-2 fleche-1"><img alt="flêche." src="/sfc/servlet.shepherd/version/download/068Tx000006iQRjIAM"></img></div>
+<!-- Illustration 5 -->
+
+<div class="CT-297-illustration-5 dessin-2"><img alt="Remontée sur corde avec GRIGRI, GRIGRI + et NEOX sans appui pour les pieds 2/4." src="/sfc/servlet.shepherd/version/download/068Tx000006iWLpIAM"></img></div>
+<!-- - - - - - - -->
+
+<p class="CT-297-p-2 texte-1">1. Tie a knot in the brake side of the rope to have your hands free to install the ascending system.</p>
+<!-- - - - - - - --><!-- fleche -->
+
+<div class="CT-297-fleche-2 fleche-2"><img alt="flêche." src="/sfc/servlet.shepherd/version/download/068Tx000006iQRjIAM"></img></div>
+<!-- Illustration 6 -->
+
+<div class="CT-297-illustration-6 dessin-3"><img alt="Remontée sur corde avec GRIGRI, GRIGRI + et NEOX sans appui pour les pieds 1/4." src="/sfc/servlet.shepherd/version/download/068Tx000006ib21IAA"></img></div>
+<!-- fleche -->
+
+<div class="CT-297-fleche-2 fleche-3"><img alt="flêche." src="/sfc/servlet.shepherd/version/download/068Tx000006iQRjIAM"></img></div>
+<!-- Illustration 7 -->
+
+<div class="CT-297-illustration-7 dessin-4"><img alt="Remontée sur corde avec GRIGRI, GRIGRI + et NEOX sans appui pour les pieds 2/4." src="/sfc/servlet.shepherd/version/download/068Tx000006iXJPIA2"></img></div>
+<!-- - - - - - - -->
+
+<p class="CT-297-p-2 texte-2">2. Install an ascender above your descender. Pass the brake side of the rope through the carabiner on this ascender to create a self-hauling effect. Install a sling as a footloop.<br></br>
+<br></br>
+Note: if your available equipment allows it, it may be worthwhile to tether yourself to the ascender. This helps prevent losing it during operations and placing it out of reach in the event of user error. (The diagram does not show this lanyard for the sake of clarity).</p>
+
+<p class="CT-297-p-2 texte-3">3. Pull on the brake side of the rope at the same time as you stand up in the footloop: tension on the descender is maintained at all times, with the rope taut between you and the top anchor. Hold the brake side of the rope throughout the maneuver.</p>
+<!-- - - - - - - --></div></span>
+                            </div>
+
+                            <div style="clear:both"></div>
+                            <br />
+                                <div class="linkedElementsContainer">
+                                    <h2>Included in this article</h2>
+            
+                                    <div class="linkedElements">
+                                            <a class="inlineblock verticalProduct" href="https://www.petzl.com/INT/en/Sport/Belay-Devices-And-Descenders/GRIGRI-PLUS">
+
+                                                        <span alt="GRIGRI&reg; +" class="imageContainer inlineblock" style="                                                         filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,src='/sfc/servlet.shepherd/version/download/068Tx00000ClPsFIAV',sizingMethod='scale');display:grid" title="GRIGRI&reg; +">
+            
+                                                            <span class="imagePlacer"></span>
+                                                            <img src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx00000ClPsFIAV" />
+                                                        </span>
+                                                
+                                                    <span class="titleElement">GRIGRI&reg; +</span>
+                                                    <span class="contentElement">Belay device with cam-assisted blocking and anti-panic handle, optimized for top rope climbing</span>
+                                                </a>
+                                            <a class="inlineblock verticalProduct" href="https://www.petzl.com/INT/en/Sport/Belay-Devices-And-Descenders/GRIGRI">
+
+                                                        <span alt="GRIGRI&reg;" class="imageContainer inlineblock" style="                                                         filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,src='/sfc/servlet.shepherd/version/download/068Tx00000I6N6UIAV',sizingMethod='scale');display:grid" title="GRIGRI&reg;">
+            
+                                                            <span class="imagePlacer"></span>
+                                                            <img src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx00000I6N6UIAV" />
+                                                        </span>
+                                                
+                                                    <span class="titleElement">GRIGRI&reg;</span>
+                                                    <span class="contentElement">Compact and versatile belay device with cam-assisted blocking for lead and top rope climbing</span>
+                                                </a>
+                                            <a class="inlineblock verticalProduct" href="https://www.petzl.com/INT/en/Sport/Belay-Devices-And-Descenders/NEOX">
+
+                                                        <span alt="NEOX&reg;" class="imageContainer inlineblock" style="                                                         filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,src='/sfc/servlet.shepherd/version/download/068Tx000009aXa2IAE',sizingMethod='scale');display:grid" title="NEOX&reg;">
+            
+                                                            <span class="imagePlacer"></span>
+                                                            <img src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx000009aXa2IAE" />
+                                                        </span>
+                                                
+                                                    <span class="titleElement">NEOX&reg;</span>
+                                                    <span class="contentElement">Belay device with cam-assisted blocking, optimized for lead climbing</span>
+                                                </a>
+                                    </div>
+                                
+                                </div>
+
+
+
+
+                            <div class="navigation">
+                                <div class="navigation__container">
+
+                                    <div class="navigation__left">
+                                            <div class="navigation__arrows navigation__back">
+                                                <img src="/resource/1756816274000/Petzl_Front/static/img/arrow-left.png" />
+                                                <p>Back</p>
+                                            </div>
+                                            <p class="navigation__title" data-id="a75bK0000004cMrQAI">Video - How to Clean and Maintain Your NEOX</p>
+                                            <img src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx00000NMGtkIAH" />
+                                            <a class="navigation__link" href="https://www.petzl.com/INT/en/Sport/Video---How-to-Clean-and-Maintain-Your-NEOX?ProductName=NEOX"></a>
+                                    </div>
+
+                                    <div class="navigation__right">
+                                            <div class="navigation__arrows navigation__forward">
+                                                <p>Next</p>
+                                                <img src="/resource/1756816274000/Petzl_Front/static/img/arrow-right.png" />
+                                            </div>
+                                            <p class="navigation__title" data-id="a75bK0000004cLFQAY">How to Belay Using the NEOX</p>
+                                            <img src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx000004S2z5IAC" />
+                                            <a class="navigation__link" href="https://www.petzl.com/INT/en/Sport/How-to-Belay-Using-the-NEOX?ProductName=NEOX"></a>
+                                    </div>
+
+                                </div>
+
+                                <div class="navigation__container-button">
+                                    <a class="Btn Btn-orange" href="https://www.petzl.com/INT/en/Sport/Belay-Devices-And-Descenders/technical-content-product/NEOX">See all tech tips</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+    <link href="/resource/1756816274000/Petzl_Front/css/components/mea-popin.css" rel="stylesheet" />
+    <script src="/resource/1756816274000/Petzl_Front/js/components/mea-popin.js" type="text/javascript"></script>
+    
+    <div class="mea-timer" style="display: none;">7</div>
+    <div class="slideid" style="display: none;"></div>
+    
+    <div class="mea-popin" style="display: none;">
+        <div class="mea-popin__dimmer" style="opacity: 1;display: none;"></div>
+        <div class="mea-popin__content" style="bottom: 16px;">
+            <div class="mea-popin__opened-content">
+                <img class="mea-popin__img" />
+                <div class="mea-popin__text-container">
+                    <h3 class="mea-popin__heading"></h3>
+                    <p class="mea-popin__text"></p>
+                    <form class="mea-popin__input">
+                        <input placeholder="Email" type="text" />
+                        <input type="submit" value="OK" />
+                    </form>
+                    <a class="mea-popin__btn" href="#"></a>
+                    <button class="mea-popin__close">Close</button>
+                </div>
+            </div>
+            <div class="mea-popin__closed-content">
+                
+            </div>
+            <button class="mea-popin__reduce"><svg class="mea-popin__arrow-full" height="24" viewBox="0 0 26 24" width="26" xmlns="http://www.w3.org/2000/svg"><path d="m0 6 12 12 12-12" fill="none" stroke="#fff" stroke-width="2" transform="translate(1)"></path></svg><svg class="mea-popin__arrow-small" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m0 4 8 8 8-8" fill="none" fill-rule="evenodd" stroke="#000" stroke-width="2"></path></svg></button>
+        </div>
+    </div>
+
+    <script>(function () {
+        Visualforce.remoting.Manager.invokeAction(
+            'Web_SlideIn_Ctrl.getSlideInAnim',
+            'a3120000000HMf4AAG', 'en', 'INT',
+            function (slide, /**Object*/event) {
+                console.log('slide == '+ slide);
+                
+                if (!slide || slide == null) {
+                    console.log(event.statusCode);
+                    $('.mea-popin').hide();
+                    return;
+                }
+
+                $('.slideid').text(slide.Id);
+                $('.mea-popin__heading').html(slide.Name);
+                $('.mea-popin__text').html(slide.Intro__c);
+                if(!!slide.Know_More__c  && !!slide.Url__c ){
+                    $('.mea-popin__btn').text(slide.Know_More__c);
+                    $('.mea-popin__btn').attr('href',slide.Url__c);
+                    $('.mea-popin__btn').show();
+                    $('.mea-popin__btn').click( function(e) {e.preventDefault(); 
+                        var date = new Date();
+                        date.setTime(date.getTime()+(90*24*60*60*1000));
+                        document.cookie = 'slidein_status=closed_3;path=/; expires=' +date.toGMTString() +';'; 
+                        window.open(slide.Url__c,'_self');
+                        return false; } );
+                }
+                else {
+                    $('.mea-popin__btn').hide();
+                }
+                if(slide.Animation__r.Email_field_available__c == true){
+                    $('.mea-popin__input').show();
+                    $('.mea-popin__input input[type=submit]').click(function(e){
+                        e.preventDefault();
+                        var iEmail = $('.mea-popin__input input[type=text]');
+                        setTimeout(function redirect2Newstellar() {
+                            var date = new Date();
+                            date.setTime(date.getTime()+(90*24*60*60*1000));
+                            document.cookie = 'slidein_status=closed_3;path=/; expires=' +date.toGMTString() +';'; 
+                            const url = new URL('https://www.petzl.com/INT/en/Sport/Newsletter' + location.search);
+                            url.searchParams.set('email', iEmail.val());
+                            location.href = url.href;
+                        });
+                    })
+                }
+                else {
+                    $('.mea-popin__input').hide();
+                }
+                if(slide.Animation__r.Thumbnail_Url__c != ''){
+                    $('.mea-popin__img').attr('src','https://www.petzl.com' + slide.Animation__r.Thumbnail_Url__c);
+                }
+                else{
+                    $('.mea-popin__img').hide();
+                }
+                $('.mea-popin__closed-content').text(slide.Preview_Label__c);
+                
+                
+
+                //Style
+                if(slide.Animation__r.Style__c == 'Dark'){
+                    $('.mea-popin').addClass('mea-popin--dark');
+                }
+                else if(slide.Animation__r.Style__c == 'Light'){
+                    $('.mea-popin').addClass('mea-popin--light');
+                }
+                if('Sport' == 'Professional'){
+                    $('.mea-popin').addClass('mea-popin--pro');
+                    $('.mea-popin__btn').addClass('mea-popin__btn--pro');
+                }
+                else {
+                    $('.mea-popin').addClass('mea-popin--sport');
+                    $('.mea-popin__btn').addClass('mea-popin__btn--sport');
+                }
+
+            },
+            { escape: false, buffer: false }
+        );
+    }());</script>
+            
+
+        </div>
+
+    <footer class="page-footer"><div id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id209" class="page-footer__header">
+            <div class="page-footer__container">
+                <div class="page-footer__sep"></div>
+            </div>
+
+            <div class="page-footer__header">
+
+    <div class="page-footer__container">
+        <div class="page-footer__row">
+            <div class="page-footer__col">
+                <div class="page-footer__newsletter">
+                    <div class="page-footer__title">Subscribe to the newsletter</div>
+                    <div class="page-footer__subtitle">and stay connected to our news</div>
+                </div>
+            </div>
+            <div class="page-footer__col">
+                <form class="page-footer__form">
+                    <label>Email*</label><div id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm" class="page-footer__form-group">
+                        <input id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm-iEmail" required="required" type="email" />
+                        <button class="page-footer__button page-footer__button--orange" id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm-btnSubscribe">OK</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>(function () {
+        var iEmail = document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm-iEmail');
+        document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm-btnSubscribe').addEventListener('click', function () {
+            if (!iEmail.form.checkValidity()) {
+                console.error(iEmail.id, 'invalid email input', iEmail.value, iEmail);
+                return;
+            }
+            setTimeout(function redirect2Newstellar() {
+                const url = new URL('https://www.petzl.com/INT/en/Sport/Newsletter' + location.search);
+                url.searchParams.set('email', iEmail.value);
+                location.href = url.href;
+            });
+        });
+    }())</script>
+            </div></div>
+
+        <div class="page-footer__container">
+            <div class="page-footer__sep"></div>
+        </div>
+
+        <div class="page-footer__main">
+            <div class="page-footer__container">
+                <div class="page-footer__row">
+                    <div class="page-footer__col">
+
+
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/public/dust-full.min.js"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/utils.js"></script><div id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id217:Web_SocialNetworksList_VF:socialNetworksPlaceholder" class="page-footer__col"></div>
+
+    <script id="tmplSocialNetworksList" type="text/dust-template">
+        <h5>Join the community!</h5>
+        <div class="page-footer__socials" data-sfdc-social-network-id="{Id}">
+        {#.}
+            <a href="{Link__c}" class="page-footer__social" target="_blank" data-sfdc-social-network-id="{Id}">
+                <img src="https://www.petzl.com{Thumbnail_URL__c}" alt="{Name}" data-social-network-icon="1"
+                    onload="this.width = this.naturalWidth >> 1; this.height = this.naturalHeight >> 1"
+                />
+            </a>
+        {/.}
+        </div>
+    </script>
+
+    <script>(function () {
+        var socialNetworksPlaceholder = document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id217:Web_SocialNetworksList_VF:socialNetworksPlaceholder');
+        Visualforce.remoting.Manager.invokeAction(
+            'Web_SocialNetworksList_Ctrl.getSocialNetworks',
+            function (/**{Social_Network__c[]}*/lstSocialNetworks, event) {
+                if (!lstSocialNetworks) {
+                    console.error(event);
+                    return;
+                }
+
+                UTILS.compileDustTemplates();
+
+                UTILS.dustRender(
+                    'tmplSocialNetworksList',
+                    lstSocialNetworks,
+                    $(socialNetworksPlaceholder),
+                    function () {
+                        Array.prototype.slice.call(socialNetworksPlaceholder.querySelectorAll('img[data-social-network-icon="1"]'))
+                            .forEach(function (/**HTMLImageElement*/img) {
+                                img.addEventListener('load', fixImageDimentions);
+                            });
+                    }
+                );
+
+                function fixImageDimentions(/**Event*/e) {
+                    var img = e.target;
+                    img.height = img.naturalHeight >> 1;
+                    img.width = img.naturalWidth >> 1;
+                }
+            },
+            { escape: false, buffer: false }
+        );
+
+        /**
+         * @typedef {{
+         *     Id: string,
+         *     Name: string,
+         *     Link__c: string,
+         *     Thumbnail_URL__c: string
+         * }} Social_Network__c
+         */
+    }());</script>
+                    </div>
+
+                    <div class="page-footer__col">
+                        <div class="page-footer__row">
+
+    <style>
+        #ot-sdk-btn{
+            font-size: 14px !important;
+            font-family: 'HelveticaNeueW01-45Ligh', Arial, sans-serif !important;
+            border: inherit !important;
+            color: #000 !important;
+            box-sizing: inherit;
+            padding: inherit !important;
+            font-style: inherit !important;
+            text-decoration: underline !important;
+        }
+        #ot-sdk-btn:hover{
+            text-decoration: inherit !important;
+            background-color: white !important;
+        }
+    </style>
+    <nav class="page-footer__col page-footer__links-container">
+        <div class="page-footer__col-block">
+            <h3 class="page-footer__col-header">
+                <span>Who We Are</span>
+            </h3>
+            <a class="page-footer__link" href="https://www.petzl.com/brand/s/?language=en_US">About Petzl</a>
+            <a class="page-footer__link" href="https://www.petzl.com/brand/s/Corporate-Social-Responsibility">Corporate Social Responsibility</a>
+            <a class="page-footer__link" href="http://www.fondation-petzl.org/en">Petzl Foundation</a>
+            <a class="page-footer__link" href="https://www.petzl.com/brand/s/Petzl-Solutions?language=en_US">Petzl Solutions</a>
+        </div>
+        <div class="page-footer__col-block">
+            <h3 class="page-footer__col-header">
+                <span>Other Petzl sites</span>
+            </h3><span id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:otherSitesPlaceholder" style="margin: 0; border: 0; padding: 0;"></span>
+        </div>
+    </nav>
+
+    <nav class="page-footer__col page-footer__links-container">
+        <div class="page-footer__col-block">
+            <h3 class="page-footer__col-header">
+                <span>Contact us</span>
+            </h3>
+            <p class="page-footer__address-text">
+                Name
+                <br />Email
+                <br />Phone
+                <br /><a href="https://www.petzl.com/INT/en/Sport/Contact" style="text-decoration: underline;">Contact Form</a>
+            </p>
+            <a class="page-footer__link" href="https://www.petzl.com/press">Press access</a>
+        </div>
+        <div class="page-footer__additional-links">
+            <a class="page-footer__light-link" href="https://www.petzl.com/INT/en/legal" id="legalNotice"><span id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:legalNoticeDetailsName"></span>
+            </a>
+            <a class="page-footer__light-link" href="https://www.petzl.com/INT/en/privacy" id="privPolicy"><span id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:privacyPolicyDetailsName"></span>
+            </a>
+            <a class="page-footer__light-link" href="https://www.petzl.com/INT/en/accessibility-declaration" id="accessDeclar"><span id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:acessibilityDeclarationName"></span>
+            </a>
+            <a class="page-footer__light-link ot-sdk-show-settings" id="ot-sdk-btn"></a>
+        </div>
+    </nav>
+
+    <script id="tmplOtherSitesList" type="text/dust-template">
+        {#.}
+            
+                <a class="page-footer__link" href="https://www.petzl.com/INT/{Url__c}" data-sfdc-id="{Id}">{Name}</a>
+            
+        {/.}
+    </script>
+
+    <script>(function () {
+        Visualforce.remoting.Manager.invokeAction(
+            'Web_PetzlGroupLinks_Ctrl.getOtherSites',
+            'en', 'INT',
+            function (/**{Web_PetzlGroupLinks_Ctrl_Result}*/links, /**Object*/event) {
+                if (!links) {
+                    console.error(event);
+                    return;
+                }
+
+                document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:privacyPolicyDetailsName').textContent = links.privacyPolicy.Name;
+                if (links.privacyPolicy.Name === undefined) {
+                    document.getElementById('privPolicy').style.display = 'none';
+                }
+                document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:legalNoticeDetailsName').textContent = links.legalNotice.Name;
+                if (links.legalNotice.Name === undefined) {
+                    document.getElementById('legalNotice').style.display = 'none';
+                }
+                document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:acessibilityDeclarationName').textContent = links.accessibilityDeclaration.Name;
+                if (links.accessibilityDeclaration.Name === undefined) {
+                    document.getElementById('accessDeclar').style.display = 'none';
+                }
+                
+
+                UTILS.compileDustTemplates();
+
+                UTILS.dustRender(
+                    'tmplOtherSitesList', links.otherSites, $(document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:otherSitesPlaceholder'))
+                );
+            },
+            { escape: false, buffer: false }
+        );
+
+        /**
+         * @typedef {Object} Web_PetzlGroupLinks_Ctrl_Result
+         * @property {{ Id: string, Name: string, Url__c: string }[]} otherSites
+         * @property {{ Id: string, Name: string }} privacyPolicy
+         */
+    }());</script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-footer__footer">
+            <div class="page-footer__container">
+                <div class="page-footer__footer-align">
+                    <p>
+                        The activities depicted are inherently dangerous. All users must be trained and competent in the use of the equipment for these activities. Petzl contact Other
+                    </p>
+                    <p class="page-footer__links-element page-footer__copyright">
+                        &copy; 1995-2026 Petzl
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/underscore.min.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.touchr.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.easing.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.placeholder.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.dotdotdot.min.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/petzl/context.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/petzl/layout.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/Select.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/jquery.tooltipster.min.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/public/dust-full.min.js"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/public/jquery.cookie.js"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/utils.js"></script>
+    <script src="//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js" type="text/javascript"></script>
+
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/langSelector.js"></script>
+
+
+    <script type="text/javascript">
+
+        function updateUniverseCookie(universeId, universeName)
+        {
+            $.cookie('apex__universId', universeId, {path:'/'});
+        }
+
+        $(function() {
+            new petzl.controllers.LangSelector();
+
+            $('#searchInput').keyup(function(event){
+                if(event.which == 13){
+                    document.location.href='https://www.petzl.com/INT/en/Sport/Search?q=' + $('#searchInput').val();
+                }
+            }).keydown(function(event){
+                if(event.which == 13){
+                    event.preventDefault();
+                }
+            });
+        });
+
+        function openCartForNsec (){
+
+            var sec =parseInt($('#CartDDSecondsAfterBuy').text());
+
+            sec*=1000;
+
+            $.colorbox.close();
+
+
+            $('.popinCart').css('display', 'block').stop().animate({
+                opacity : 1
+            }, 200);
+
+            $('.popinCart').addClass('opened');
+
+            setTimeout(function(){
+
+                $('.popinCart').stop().animate({
+                    opacity : 0
+                }, 200, function(){
+                    $('.popinCart').css('display', 'none');
+                });
+
+                $('.popinCart').removeClass('opened');
+
+            }, sec);
+        }
+
+        function makeRedirectUrl(){
+            var redirectUrl = window.location.href;
+            if ($.cookie('apex__authorized') != 'true' && window.location.href.indexOf('login') >= 0)
+                redirectUrl = unescape(getUrlParam('retUrl', window.location.href)) || "/INT/en/shop/accountInfo";
+            else if($.cookie('apex__authorized') == 'true')
+                redirectUrl = '/INT/en/shop/cart';
+            return redirectUrl;
+        }
+
+        function getUrlParam(name, url) {
+            if (!url) url = location.href;
+            name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+            var regexS = "[\\?&]"+name+"=([^&#]*)";
+            var regex = new RegExp( regexS );
+            var results = regex.exec(url);
+            return results == null ? null : results[1];
+        }
+
+        function logoutAction(){
+
+            var retUrl = '';
+
+            if ((window.location.href.indexOf('checkout') >= 0)
+                    || (window.location.href.indexOf('accountInfo') >= 0)
+                    || (window.location.href.indexOf('accountBilling') >= 0)
+                    || (window.location.href.indexOf('orders') >= 0 )
+                    || (window.location.href.indexOf('cart') >= 0 ))
+            {
+                retUrl = 'https://www.petzl.com/INT/en/';
+            }
+            else {
+                retUrl = window.location.href;
+            }
+            $.cookie('apex__authorized', 'false', { path: '/'});
+            $.cookie('apex__orderQuantities', '', { path: '/'});
+            $.cookie('apex__OrderId','', {path: '/'});
+
+            window.location.href = '/secur/logout.jsp?retUrl=' + retUrl;
+        }
+
+        function replacePrice(price, newPrice){
+            return price.replace(/[\d.,]+/i, newPrice);
+        }
+
+        function exstractDeciamlValue(str)
+        {
+            if (!str) return 0;
+            var result = str.replace(/[^0-9|.|-|,]/g, '');
+            result = result.replace(/[,]/g, '.');
+            return result;
+        }
+
+        function changeCartPopinQuantity(skuName, quantity, unitPrice){
+            unitPrice = parseFloat(exstractDeciamlValue(unitPrice));
+            quantity = parseInt(exstractDeciamlValue(quantity));
+            var $popinLi = $('.popinCart li.product:has(span:contains("' + skuName  + '"))');
+            var $popinQuantitySpan = $popinLi.find('.productInfo span:eq(2)');
+            var $popinTotalSpan = $popinLi.find('.productInfo span:eq(3)');
+            $popinQuantitySpan.text(replacePrice($popinQuantitySpan.text(), quantity));
+            var Total_Price = quantity * unitPrice;
+            $popinTotalSpan.text(replacePrice($popinTotalSpan.text(), Total_Price.toFixed(2)));
+            var subtotalPrice = 0;
+        }
+
+
+
+
+        function callHeaderCart()
+        {
+
+            UTILS.compileDustTemplates();
+
+            var accountId = "" || window.checkoutAccountId;
+
+            $.ajax({
+                url: "https://www.petzl.com/services/apexrest/Cart",
+                type : "POST",
+                contentType: "application/json",
+                data : JSON.stringify({ uniqueId:"b2c",
+                                        "cartId": $.cookie('apex__OrderId'),
+                                        "languageCode": "en",
+                                        "accountId": accountId,
+                                        "countryCode": "INT"}),
+                success: function( data)
+                {
+                    var d = data;
+                    UTILS.compileDustTemplates();
+                    $(document).ready(function()
+                    {
+                        UTILS.compileDustTemplates();
+                        var data = JSON.parse(d);
+                        $('.cartCount').html(data.numOfItems);
+                        $('.popinCart .subtotalPrice').html(data.subTotal); //Nurit 11-1-16
+                        dust.debugLevel = "INFO";
+                        $('.popinCart').html('');
+                        UTILS.dustRender('tmpl_CartHeader', data, $('.popinCart'), function(err, out) {
+                              // FIX OF CART COOKIE PROBLEM
+                              if(!err){
+                                    if (data.clearOrderIdCookie){
+                                        Cookies.remove('apex__OrderId');
+                                    } else if (data.orderId) {
+                                        Cookies.set('apex__OrderId', data.orderId, { path: '/'});
+                                    }
+                                    if($.cookie("apex__BuyNow") === "true"){
+                                        openCartForNsec();
+                                        Cookies.set('apex__BuyNow', 'false', { path: '/'});
+                                    }
+                                    for(var line in window.cartQnt){
+                                        changeCartPopinQuantity(cartQnt[line].skuName, cartQnt[line].quantity, cartQnt[line].unitPrice);
+                                    }
+                                }
+                        });
+                    });
+                },
+                error: function (xhr, textStatus, errorThrown) {
+                }
+            });
+        }
+
+        callHeaderCart();
+
+
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            var avm = document.createElement('script'); avm.type = 'text/javascript';
+            avm.async = true;
+            avm.src = ('https:' == document.location.protocol ? 'https://' : 'http://') +
+                    'cdn.avmws.com/1014423/';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(avm,
+                    s);
+        })();
+    </script>
+
+    </body>
+
+    </html>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.transit.js"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/petzl/views/AdviceTabs.js"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js-custom/techContent.js"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js-custom/findRefrenceActivity.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('a.breadcrumbLink.last').attr('href', window.location.href);
+            $(document).ready(function(){
+                new petzl.controllers.TechnicalContent;
+                SearchReference();
+                console.log('Web_TechnicalContent');
+                $('.tech-content img[src]').each(function(){
+                    var src = $(this).attr('src');
+                    if (src.indexOf('/') < 0 && ''){
+                        $(this).attr('src', '/' + src);
+                    }
+                });
+            });
+        </script><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["j_id0:j_id1:j_id32"]);
+
+});</script>
