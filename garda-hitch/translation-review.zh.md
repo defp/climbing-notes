@@ -4,21 +4,21 @@
 
 | 原文术语／表述 | 中文处理 |
 | --- | --- |
-| Garda hitch / Alpine clutch | 保留英文主名“Garda hitch”，首处注明别名 Alpine clutch；“加尔达绳结”“阿尔卑斯套结”仅作为中文资料中的偶见译法，不标为标准中文名 |
+| Garda hitch / Alpine clutch | 保留英文主名“Garda hitch”，首处注明别名 Alpine clutch；删除没有出处的中文别名 |
 | one-direction knot | 单向绳结；结合功能说明为“单向止回系统” |
 | loaded rope / non-loaded strand | 承重绳索／非承重侧绳股 |
 | improvised hauling device | 临时提拉装置 |
 | ratchet pulley | 按功能译为棘轮式止回装置；本系统没有滑轮轮片，不把它误写成实际止回滑轮 |
 | D-shaped carabiner | D 形锁扣；步骤 4 要求拧紧 screwgates，因此步骤器材明确为 D 形丝扣锁扣 |
 | screwgate | 丝扣锁套 |
-| girth hitch | 雀头结 |
+| girth hitch | 雀头结；结合步骤 1 图示，明确由扁带形成并同时固定两把锁扣 |
 | carabiner spine | 锁扣锁背 |
 | cannot be released under load | 承重时无法释放，不弱化为“较难释放” |
 | HMS / oval carabiner | HMS 锁扣／椭圆锁扣，保留原文明确排除的锁扣形状 |
 
 ## 安全信息核对
 
-- 原文的三条警告全部保留：承重时无法释放；必须使用 D 形锁扣；两把锁扣必须由雀头结直接连在一起。
+- 原文的三条警告全部保留：承重时无法释放；必须使用 D 形锁扣；两把锁扣必须由雀头结同时固定。步骤 1、图注与末尾警告结合图示明确由扁带形成雀头结，避免“直接连在一起”被误读为锁扣彼此连接。
 - “锁门位于同一侧”“绳环挂入图中左侧锁扣”“绳环环绕锁背”和最终单向拉绳方向均与对应图示逐项核对。
 - 原文称 HMS 或椭圆锁扣容易向下滑移并导致绳结失效；译文保留为 VDiff 的明确器材限制，没有泛化为任意带锁锁扣均可使用。
 - 原文只介绍轻负载提拉和提拉同伴两项用途，没有提供承重后的释放、下降、负载转移、独立备份、适用绳径、额定负载或效率数据。中文以独立译注说明这些缺口，没有改写英文原文。
