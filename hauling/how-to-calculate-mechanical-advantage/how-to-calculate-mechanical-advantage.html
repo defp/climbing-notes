@@ -1,0 +1,1982 @@
+
+<!DOCTYPE HTML>
+
+    
+    <html class="" lang="en-gb" translate="yes">
+
+    <head>
+<script src="/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript?rel=1789757250000" type="text/javascript"></script><script src="/jslibrary/1637251311262/sfdc/VFRemote.js" type="text/javascript"></script><script src="/jslibrary/1752551382262/ui-sfdc-javascript-impl/SfdcCore.js" type="text/javascript"></script><script src="/jslibrary/1746634855262/sfdc/IframeThirdPartyContextLogging.js" type="text/javascript"></script><script src="/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/jslibrary/1686615502262/sfdc/VFState.js" type="text/javascript"></script><script src="/jslibrary/1647410351262/sfdc/NetworkTracking.js" type="text/javascript"></script><script>try{ NetworkTracking.init('/_ui/networks/tracking/NetworkTrackingServlet', 'network', '066w0000000IVNR'); }catch(x){}try{ NetworkTracking.logPageView();}catch(x){}</script><script>(function(UITheme) {
+    UITheme.getUITheme = function() { 
+        return UserContext.uiTheme;
+    };
+}(window.UITheme = window.UITheme || {}));</script><script type="text/javascript">
+Visualforce.remoting.Manager.add(new $VFRM.RemotingProviderImpl({"vf":{"vid":"066w0000000IVNR","xhr":false,"dev":false,"tst":false,"dbg":false,"tm":1789916014198,"ovrprm":false},"actions":{"B2C_Web_Login_Utils":{"ms":[{"name":"portalUserLogin","len":4,"ns":"","ver":34.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHlNMVF4TkRvMU16b3pOQzR4T1RoYSxZRWpidDcwX0FjaG1mYVZWVDR4SEgwS2VKaktQOXpqSjBzVW5hLXRkUXFrPSxaVEl4TVRjMw==","authorization":"eyJub25jZSI6IlBkRS1JRzdMM19hbmdTT3J1Vm1qTk1ZdXhjRzNKcWRWaFlOb05zaUpfU2NcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5OTE2MDE0MjAxLCJleHAiOjB9.Q2lOQ01rTmZWMlZpWDB4dloybHVYMVYwYVd4ekxuQnZjblJoYkZWelpYSk1iMmRwYmc9PQ==.EjrOLY9WQiK0jgAreZt5beYlMBQ67pWDTH8QmwIsNB4="},{"name":"portalUserLoginWithCountry","len":5,"ns":"","ver":34.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHlNMVF4TkRvMU16b3pOQzR5TURKYSxCVU1fNkZRcnZZRElFd1hQYUtxZjVhaU8xT2JaQzdSaVpHWXBTLWE1eEZrPSxZbVJoWVdVeQ==","authorization":"eyJub25jZSI6Il8tNTVCeGo5NUZrMGt1cGtCc3hpMmdNa3d5RHRwbWRKajhYUnR1dWUyX01cdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5OTE2MDE0MjA0LCJleHAiOjB9.Q2k1Q01rTmZWMlZpWDB4dloybHVYMVYwYVd4ekxuQnZjblJoYkZWelpYSk1iMmRwYmxkcGRHaERiM1Z1ZEhKNQ==.HeKMYhvGtLkXCL0EuVCmfXl2WAevc3YR3SemEUrjvUQ="},{"name":"verifyCaptcha","len":1,"ns":"","ver":34.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHlNMVF4TkRvMU16b3pOQzR5TURWYSxxaWNLZzljNngzN2FmZ1lla2M0Nk9vbmNaYlNQR2VKYTNjcnE5MUpBc1Y0PSxZV0poTm1aag==","authorization":"eyJub25jZSI6IjV1WDVnc1FURWdqeDVxU2g5Z2ZaZHZ0OHg4U1M5dTI1T01xLTRsWXozZUVcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5OTE2MDE0MjA2LCJleHAiOjB9.Q2lGQ01rTmZWMlZpWDB4dloybHVYMVYwYVd4ekxuWmxjbWxtZVVOaGNIUmphR0U9.VPMfbMSvmzCmUF4nljDcvTjqO9ItBob597nG4eAYdIU="}],"prm":1},"Web_PetzlGroupLinks_Ctrl":{"ms":[{"name":"getOtherSites","len":2,"ns":"","ver":46.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHlNMVF4TkRvMU16b3pOQzR5TURkYSw3NzduZ3I4UGdjTXNzb3VHS1lhMkZ3Ul9oemlJVV9mZDBJMzdRVVQ5SWxFPSxaak0zWVdJeg==","authorization":"eyJub25jZSI6IkdwNGhwVklHcG14U0MzY0toWmFQWVo5S2c1QzFDMG1DMEc1c2JKM1JreUVcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5OTE2MDE0MjA4LCJleHAiOjB9.Q2laWFpXSmZVR1YwZW14SGNtOTFjRXhwYm10elgwTjBjbXd1WjJWMFQzUm9aWEpUYVhSbGN3PT0=.h3tXwiR5Nk1aS-FfEgpAl5oOHrbAuwgqIjJIJ7NeCB8="}],"prm":1},"Web_SlideIn_Ctrl":{"ms":[{"name":"getSlideInAnim","len":3,"ns":"","ver":58.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHlNMVF4TkRvMU16b3pOQzR5TURoYSw4MzdoQmhtRXJWektua2l2REIwejRNeUpGVTFOMjBDUTRuYU9oRUp6SFc4PSxaR0pqTkdFeg==","authorization":"eyJub25jZSI6ImR1c0hjVWE3QzBfaHoya2h6cEpOMm1YZkZ2OGhpNzNPOXc5Q1lXWDg2ZFlcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5OTE2MDE0MjEwLCJleHAiOjB9.Q2g5WFpXSmZVMnhwWkdWSmJsOURkSEpzTG1kbGRGTnNhV1JsU1c1QmJtbHQ=.N7Y8UPp9UADUoLuaRN9pswzuWDhrrpUGICRWr3fYS90="}],"prm":1},"Web_SocialNetworksList_Ctrl":{"ms":[{"name":"getSocialNetworks","len":0,"ns":"","ver":46.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHlNMVF4TkRvMU16b3pOQzR5TVRCYSwzM1hsUTlMX1FIRVdTNFIwdlNHQUhzQzVYTk5Bd1R6LWsxNWRBXy0zSFZnPSxNMk0wTWpRMA==","authorization":"eyJub25jZSI6ImQ4Q0ZsNVFYNUVYQ092TmZ5emh3OVlKckd6cUkxV29PQy1OYnlpTXlnTElcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5OTE2MDE0MjExLCJleHAiOjB9.Q2kxWFpXSmZVMjlqYVdGc1RtVjBkMjl5YTNOTWFYTjBYME4wY213dVoyVjBVMjlqYVdGc1RtVjBkMjl5YTNNPQ==.RzS9_OJvmILV60_z1BBH3P7wFg-8TdtHyoslPRmonUI="}],"prm":1},"Web_Template":{"ms":[{"name":"redirectToHome","len":0,"ns":"","ver":51.0,"csrf":"VmpFPSxNakF5Tmkwd09TMHlNMVF4TkRvMU16b3pOQzR5TVRKYSxtb3lNSzBjeUYxSktfYjl1NmNMN04tZ2w5Z2VaYkgzb0tfMk0yazJFeERRPSxORGRpT0dWaw==","authorization":"eyJub25jZSI6IjZmQjRCT29kM1gycTZ0MDBtZmpWOW1EU3pVaXRUYXJFOUpxVlJYSWNiRTRcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRDIwMDAwMDAwSHJIcVwiLFwidlwiOlwiMDJHMXIwMDAwMDBKbENaXCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1dzAwMDAwMDRseWptXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzg5OTE2MDE0MjEzLCJleHAiOjB9.Q2h0WFpXSmZWR1Z0Y0d4aGRHVXVjbVZrYVhKbFkzUlViMGh2YldVPQ==.jAA4VPVM8s0oSyZ-4yJ6UznPuF28-Q9fh4E18bfrtlY="}],"prm":0}},"service":"apexremote"}));
+</script><meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+
+
+        <style>
+            input[type="button"], input[type="submit"],
+            input[type="text"] {
+                appearance: none;
+                -webkit-appearance: none; /* Safari and Chrome */
+                -moz-appearance: none; /* Firefox */
+            }
+
+            .Btn-diy:not(.inline-button){
+                margin-top: 30px;
+            }
+
+            .tabs--diy li.is-active a {
+                border-bottom: 2px solid #aed73c !important;
+            }
+
+            .tag--diy {
+                background-color: #aed73c !important;
+                color: #FFF !important;
+            }
+
+            .radioElementHeight {
+                height: auto !important;
+            }
+        </style>
+
+        
+        <link href="/resource/1756816274000/Petzl_Front/static/img/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+        <link href="/resource/1756816274000/Petzl_Front/static/img/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+        <link href="/resource/1756816274000/Petzl_Front/static/img/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+        <link href="/resource/1756816274000/Petzl_Front/static/img/favicon/site.webmanifest" rel="manifest" />
+        <link color="#5bbad5" href="/resource/1756816274000/Petzl_Front/static/img/favicon/safari-pinned-tab.svg?orgId=00D20000000HrHq" rel="mask-icon" />
+        <meta content="#ffffff" name="msapplication-TileColor" />
+        <meta content="#ffffff" name="theme-color" />    
+        
+
+        <meta charset="utf-8" />
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+
+        <meta name="author" />
+            <link href="https://m.petzl.com/GB/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S" media="only screen and (max-width: 640px)" rel="alternate" />
+
+        <meta content="width=device-width" name="viewport" />
+        <meta content="561283053,680261019,100000755603222,740898295" property="fb:admins" />
+        <meta content="26678879891" property="fb:pages" /><span id="j_id0:j_id1:j_id9">
+            <link href="/resource/1756816274000/Petzl_Front/css/common.css" rel="stylesheet" /></span>
+
+        <link href="/resource/1756816274000/Petzl_Front/css/header.css" rel="stylesheet" />
+
+        <style type="text/css">
+
+            .inlineblock, .ib {
+                display: -moz-inline-stack;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            a.Btn {
+                cursor: pointer;
+            }
+
+            .inlineblock, .ib {
+                display: -moz-inline-stack;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            /* .colorbox, #colorbox {
+                background: transparent !important;
+            } */
+
+            .newsOverview {
+                width: 22.4% !important;
+            }
+
+            .newsContainer {
+                padding-left: 10px;
+            }
+
+            .Btn.disabled {
+                opacity: 0.5;
+                background-color: #d0d0d0 !important;
+            }
+        </style>
+        <link href="/resource/1756816274000/Petzl_Front/css/footer.css" rel="stylesheet" />
+        <link href="/resource/1756816274000/Petzl_Front/fontface.css" rel="stylesheet" />
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.touchr.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.easing.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.sticky.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/modernizr.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/html5shiv.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js-custom/public/jquery.cookie.js" type="text/javascript"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js-custom/login.js" type="text/javascript"></script>
+
+        <link href="" id="mobileString" style="display:none;" />
+        <link href="https://m.petzl.com" id="mobileDomain" style="display:none;" />
+        <link href="https://www.petzl.com" id="siteDomain" style="display:none;" />
+        <link href="https://www.petzl.com" id="sitedomain_b2c" style="display:none;" />
+        <link href="" id="b2cServerDomainPrefix" style="display:none;" />
+        <link data-value="[FR-CA, EN-DK, EN-NO, EN-FI, EN-SE, ES-PT, EN-PT, FR-CH, DE-CH, IT-CH, DE-AT, EN-GB, FR-BE, EN-BE, EN-NL, EN-LU, FR-LU, DE, DE-DE, EN, EN-CA, EN-US, ES, ES-ES, FR, FR-FR, IT, IT-IT]" id="countryLanguageList" style="display:none;" />
+        <link data-value="[CA/en, DK/en, NO/en, FI/en, SE/en, PT/es, CH/fr, AT/de, GB/en, BE/fr, NL/en, LU/fr, INT/en, DE/de, US/en, ES/es, FR/fr, IT/it]" id="defaultCountryLanguageList" style="display:none;" />
+        <link data-value="[CA, DK, NO, FI, SE, PT, CH, AT, GB, BE, NL, LU, INT, DE, US, ES, FR, IT]" id="countryCodeSet" style="display:none;" />
+        <link href="false" id="isMobile" />
+
+        <script>
+
+            // OneTrust: avoid "initGmaps is not a function" error
+            // on the pages other than DealerLocatorAdv
+            window.initGmaps = window.initGmaps || function() { };
+
+            //Variables
+            var emailPattern = /^([a-zA-Z0-9_\-\.\+]+)@([a-zA-Z0-9_\-\.]+)\.[a-zA-Z0-9\-]{2,}$/;
+
+            //Labels
+            var b2c_login_label = "login";
+            var b2c_checkout_label = "checkout";
+
+            //Validation titles
+            //Emails
+            var v_message_email_required = "Email required";
+            var v_message_email = "Invalid email";
+
+            var v_message_email_confirm_required = "Confirm email required";
+            var v_message_email_equal = "Email doesn't match";
+
+            var v_message_email_unknown = "Unknown email";
+
+            //Passwords
+            var v_message_password_required = "Password required";
+            var v_message_password = "Password doesn't match security rules";
+            var v_message_password_invalid = "Invalid password";
+
+            var v_message_password_confirm_required = "Password confirm required";
+            var v_message_password_equal = "Passwords don't match";
+
+            //Sates
+            var v_message_state_required = "State required";
+
+            //Activites
+            var v_message_activities_required = "You must select at least one activity";
+
+            //Address
+            var v_message_first_name_required = "First name required";
+            var v_message_last_name_required = "Last name required";
+            var v_message_phone_required = "Phone required";
+            var v_message_address_required = "Address required";
+            var v_message_city_required = "City required";
+            var v_message_zip_required = "Zip required";
+            var v_message_zip_invalid = "zip code must be 5 numeric characters";
+
+            //Payment
+            var v_message_card_number_required = "Credit card number is mandatory";
+            var v_message_card_number_invalid = "Please enter a valid card number";
+            var v_message_card_security_code_invalid =  "Please enter a valid security code";
+            var v_message_card_expiration_invalid = "Please enter a valid expiration date";
+
+            //Company
+            var v_message_company_required = "Company required";
+
+            // Title
+            var v_message_title_required = "Title required";
+
+            function initValidationMessages(){
+
+                //State
+                $('.stateSelector .inputText_errorLabel').html(v_message_state_required);
+
+                //Activities
+                $('.ActivityWrapper_errorLabel').html(v_message_activities_required);
+
+                //Notify me popin
+                var $notifyme = $('.popin.popinNotifyMe');
+                if ($notifyme.length > 0){
+                    $notifyme.find('input#Firstname').parent().next('[class*=errorLabel]').html(v_message_first_name_required);
+                    $notifyme.find('input#LastName').parent().next('[class*=errorLabel]').html(v_message_last_name_required);
+                    $notifyme.find('input#Email').parent().next('[class*=errorLabel]').html(v_message_email_required);
+                }
+
+                //Header login / notifyme login
+                if (window.loginCTRL) {
+
+                    var sessionRedirectHandler = loginCTRL.sessionRedirectHandler;
+
+                    loginCTRL.sessionRedirectHandler = function(data, status){
+                        if (!data) {
+                            var form = document.getElementById('LogOrNot');
+                            form.querySelector('#panelErrorMessage > .InputText_errorLabel:first-child').style.display = 'block';
+
+                            var inputs = form.querySelectorAll('.InputContainer_input');
+                            var i = inputs.length;
+                            while (--i >= 0) {
+                                var inp = inputs[i];
+                                inp.classList.add('InputText-error');
+                                inp.nextElementSibling.innerText = '';
+                            }
+                            return;
+                        }
+
+                        sessionRedirectHandler(data, status);
+                    };
+
+                    // loginCTRL.errorHandler = function () {
+                    window.loginFormValidation = function () {
+                        var valid = true;
+
+                        var emailError = null;
+
+                        var $inputEmail = $('#loginEmail');
+                        var $labelEmail = $inputEmail.parent().next('.InputText_errorLabel');
+
+                        var $inputPwd = $('#loginPwd');
+                        var $labelPwd = $inputPwd.parent().next('.InputText_errorLabel');
+
+                        // Empty email
+                        if (!$inputEmail.val()) emailError = v_message_email; // You can replace to v_message_email_required
+
+                        // Invalid email
+                        if (!emailError && !emailPattern.test($inputEmail.val())) emailError = v_message_email;
+
+                        if (emailError != null) {
+                            $inputEmail.parent().addClass('InputText-error');
+                            $labelEmail.html(emailError).show();
+                        }
+                        else {
+                            $inputEmail.parent().removeClass('InputText-error');
+                            $labelEmail.hide();
+                        }
+
+                        //Empty password
+                        if (!$inputPwd.val()) {
+                            $inputPwd.parent().addClass('InputText-error');
+                            $labelPwd.html(v_message_password_invalid).show();
+                            valid = false;
+                        }
+                        else {
+                            $inputPwd.parent().removeClass('InputText-error');
+                            $labelPwd.hide();
+                        }
+
+                        valid = valid && !emailError;
+
+                        return valid;
+                    }
+                }
+
+                //All address forms / payment form
+                if (typeof $.validator != 'undefined'){
+
+                    // HK: 04/05/2017
+                    $.validator.addMethod('required', function (value, element) {
+                        return /[\w\d]+/gi.test(value);
+                    });
+
+                    setTimeout(function(){
+
+                        var performSpecialValidationsOld = window.performSpecialValidations;
+
+                        window.performSpecialValidations = function(validateWhat){
+                            var isValid = typeof performSpecialValidationsOld == 'function' ?  performSpecialValidationsOld(validateWhat) : true;
+                            setTimeout(function(){
+                                if(window.validator && window.validator.numberOfInvalids()){
+                                    $('.InputContainer_input.InputText-error:visible').first().find('input')
+                                            .add($('.PaymentWrapper .InputText_errorLabel:visible').first().prev().find('input'))
+                                            .first()
+                                            .focus();
+                                }
+                            }, 100);
+                            return isValid;
+                        };
+
+                        $.validator.messages.required = '\u2000';
+                        $.validator.messages.equal = '\u2001';
+                        $.validator.messages.password = '\u2002';
+                        $.validator.messages.email = '\u2003';
+                        $.validator.messages.email2 = '\u2003';
+                        $.validator.messages.minlength = '\u2004';
+                        $.validator.messages.zip = '\u2005';
+
+                        var $validator = window.validator;
+                        if (!$validator) return;
+
+                        var func = $validator.settings.highlight;
+                        if (!func) return;
+
+                        $validator.settings.highlight = function(element, errorClass, validClass){
+
+                            func(element, errorClass, validClass);
+
+                            $(element).parent()
+                                    .next('label')
+                                    .css('visibility', 'hidden');
+
+                            setTimeout(function(){
+
+                                var $errorLabel = $(element).parent().siblings('label.InputText_errorLabel').first();
+                                if ($errorLabel.length == 0)
+                                    $errorLabel = $(element).parent().parent().siblings('label.InputText_errorLabel:contains("\u2000")');
+
+                                var id = $(element).attr('id') || $(element).attr('class');
+                                id = !id ? '' : id.toLowerCase();
+
+                                //Email
+                                if (id.indexOf('email') >= 0 && id.indexOf('confirm') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_email_confirm_required);
+                                else if (id.indexOf('email') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_email_required);
+                                else if (id.indexOf('email') >= 0 && $errorLabel.html() == '\u2001')
+                                    $errorLabel.html(v_message_email_equal);
+                                else if (id.indexOf('email') >= 0 && $errorLabel.html() == '\u2003')
+                                    $errorLabel.html(v_message_email);
+
+                                //Password
+                                if (id.indexOf('password') >= 0 && id.indexOf('confirm') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_password_confirm_required);
+                                else if (id.indexOf('password') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_password_required);
+                                else if (id.indexOf('password') >= 0 && $errorLabel.html() == '\u2001')
+                                    $errorLabel.html(v_message_password_equal);
+                                else if (id.indexOf('password') >= 0 && $errorLabel.html() == '\u2004')
+                                    $errorLabel.html(v_message_password_invalid);
+                                else if (id.indexOf('password') >= 0 && $errorLabel.html() == '\u2002')
+                                    $errorLabel.html(v_message_password);
+
+
+                                //Address
+                                if (id.indexOf('firstname') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_first_name_required);
+                                else if (id.indexOf('lastname') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_last_name_required);
+                                else if (id.indexOf('phone') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_phone_required);
+                                else if (id.indexOf('address') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_address_required);
+                                else if (id.indexOf('address') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_address_required);
+                                else if (id.indexOf('city') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_city_required);
+                                else if (id.indexOf('zip') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_zip_required);
+                                else if (id.indexOf('zip') >= 0 && $errorLabel.html() == '\u2005')
+                                    $errorLabel.html(v_message_zip_invalid);
+
+                                //Company
+                                if (id.indexOf('company') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_company_required);
+
+                                //Title
+                                if (id.indexOf('persontitle') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_title_required);
+
+
+                                //Credit card
+                                if (id.indexOf('card-number') >= 0 && $errorLabel.html() == '\u2000')
+                                    $errorLabel.html(v_message_card_number_required);
+
+                                $errorLabel.css('visibility', 'visible');
+
+                            }, 150);
+                        }
+                    }, 50);
+                }
+            }
+
+            $(function(){
+
+                initValidationMessages();
+                // PCI
+                window.cartQnt = {};
+
+                $('.InputText input[type=text],input[data-input]').bind('keypress', function (event) {
+                    var regex = new RegExp(/^['\u00C0-\u017F\w\d\s_\-@\.,;\+&*#]+$/gi);
+                    var key = String.fromCharCode(event.keyCode ? event.keyCode : event.which);
+                    if (!regex.test(key) && event.charCode) {
+                        event.preventDefault();
+                        event.stopImmediatePropagation();
+                        return false;
+                    }
+                }).bind('paste', function(e){
+                    e.stopPropagation();
+                    e.preventDefault();
+                    var value = (e.originalEvent || e).clipboardData.getData('text/plain');
+                    var regex = new RegExp(/[^'\u00C0-\u017F\w\d\s_\-@\.,;\+&*#]/gi);
+                    $(this).val(value.replace(regex, ''));
+                    if ($(this).is('.searchInput'))
+                        searchEvent();
+                });
+
+                $('h1,h2,h3,h4,h5,h6,a').each(function(){
+                    $(this).html($(this).html().replace(/([^>])®/g,"$1<sup>®</sup>"));
+                });
+
+            });
+        </script>
+
+            <title>How to calculate mechanical advantage - Petzl United Kingdom</title>
+
+            <link href="/resource/1756816274000/Petzl_Front/css/content-page.css" rel="stylesheet" />
+            <link href="/resource/1756816274000/Petzl_Front/css/technicalcontent.css" rel="stylesheet" />
+            <link href="/resource/1789047260000/Petzl_Front_Tech_content/Petzl_Front_Tech_Content.css" rel="stylesheet" />
+                <link href="https://www.petzl.com/IT/it/Operatori/Come-calcolare-il-rapporto-del-paranco" hreflang="it-it" rel="alternate" />
+                <link href="https://www.petzl.com/CH/it/Operatori/Come-calcolare-il-rapporto-del-paranco" hreflang="it-ch" rel="alternate" />
+                <link href="https://www.petzl.com/LU/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage" hreflang="fr-lu" rel="alternate" />
+                <link href="https://www.petzl.com/FR/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage" hreflang="fr-fr" rel="alternate" />
+                <link href="https://www.petzl.com/CH/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage" hreflang="fr-ch" rel="alternate" />
+                <link href="https://www.petzl.com/CA/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage" hreflang="fr-ca" rel="alternate" />
+                <link href="https://www.petzl.com/BE/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage" hreflang="fr-be" rel="alternate" />
+                <link href="https://www.petzl.com/PT/es/Operadores/Como-calcular-la-relacion-del-polipasto" hreflang="es-pt" rel="alternate" />
+                <link href="https://www.petzl.com/ES/es/Operadores/Como-calcular-la-relacion-del-polipasto" hreflang="es-es" rel="alternate" />
+                <link href="https://www.petzl.com/US/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-us" rel="alternate" />
+                <link href="https://www.petzl.com/SE/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-se" rel="alternate" />
+                <link href="https://www.petzl.com/PT/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-pt" rel="alternate" />
+                <link href="https://www.petzl.com/NO/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-no" rel="alternate" />
+                <link href="https://www.petzl.com/NL/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-nl" rel="alternate" />
+                <link href="https://www.petzl.com/LU/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-lu" rel="alternate" />
+                <link href="https://www.petzl.com/GB/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-gb" rel="alternate" />
+                <link href="https://www.petzl.com/FI/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-fi" rel="alternate" />
+                <link href="https://www.petzl.com/DK/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-dk" rel="alternate" />
+                <link href="https://www.petzl.com/CA/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-ca" rel="alternate" />
+                <link href="https://www.petzl.com/BE/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en-be" rel="alternate" />
+                <link href="https://www.petzl.com/DE/de/Betreiber/Das-&Uuml;bersetzungsverhaltnis-eines-Flaschenzugs-berechnen" hreflang="de-de" rel="alternate" />
+                <link href="https://www.petzl.com/CH/de/Betreiber/Das-&Uuml;bersetzungsverhaltnis-eines-Flaschenzugs-berechnen" hreflang="de-ch" rel="alternate" />
+                <link href="https://www.petzl.com/AT/de/Betreiber/Das-&Uuml;bersetzungsverhaltnis-eines-Flaschenzugs-berechnen" hreflang="de-at" rel="alternate" />
+                <link href="https://www.petzl.com/INT/it/Operatori/Come-calcolare-il-rapporto-del-paranco" hreflang="it" rel="alternate" />
+                <link href="https://www.petzl.com/INT/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage" hreflang="fr" rel="alternate" />
+                <link href="https://www.petzl.com/INT/es/Operadores/Como-calcular-la-relacion-del-polipasto" hreflang="es" rel="alternate" />
+                <link href="https://www.petzl.com/INT/en/Operators/How-to-calculate-mechanical-advantage" hreflang="en" rel="alternate" />
+                <link href="https://www.petzl.com/INT/de/Betreiber/Das-&Uuml;bersetzungsverhaltnis-eines-Flaschenzugs-berechnen" hreflang="de" rel="alternate" />
+
+            <link href="https://www.petzl.com/INT/en/Operators/How-to-calculate-mechanical-advantage" hreflang="x-default" rel="alternate" />
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({'PageType': 'TechnicalContent','Template': 'Desktop','Univers': 'Operators','Langue': 'en'});
+    </script><span id="j_id0:j_id1:j_id22">
+
+ <script>
+  
+  var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-2666151-17']);
+
+ </script></span>
+
+        
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MWKBJV');
+        </script>
+            <link href="/resource/1756816274000/Petzl_Front/" rel="stylesheet" />
+    </head>
+
+    <body>
+<form id="j_id0:j_id1:j_id32" name="j_id0:j_id1:j_id32" method="post" action="/Web_TechnicalContent" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id1:j_id32" value="j_id0:j_id1:j_id32" />
+<script id="j_id0:j_id1:j_id32:j_id33" type="text/javascript">refreshAccountPopin=function(){A4J.AJAX.Submit('j_id0:j_id1:j_id32',null,{'similarityGroupingId':'j_id0:j_id1:j_id32:j_id33','parameters':{'j_id0:j_id1:j_id32:j_id33':'j_id0:j_id1:j_id32:j_id33'} } )};
+</script><div id="j_id0:j_id1:j_id32:j_id233"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="202609181847300000" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNkltUnpSbkU1WjIxR2VrSkNkRE54UzFZd05FOXBRbTlmZDFveFZEZ3pOVEp0U1hSd2VVUk9SVkp5UlZsY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkRJd01EQXdNREF3U0hKSWNWd2lMRndpZGx3aU9sd2lNREpITVhJd01EQXdNREJLYkVOYVhDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05YY3dNREF3TURBMGJIbHFiVndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVGM0T1RreE5qQXhOREU0TVN3aVpYaHdJam93ZlE9PS4uaXRPZmhuUHJodHp4ZkF2Ql9jUmhvSENSTHZ6elJGWS0wbUMzR3ljUlMzZz0=" /></span></span>
+        
+    <noscript>
+        <iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-MWKBJV" style="display:none;visibility:hidden" width="0"></iframe>
+    </noscript>
+
+    <script id="tmpl_CartHeader" type="text/dust-template">
+        {#hasCart}
+        <div class="arrowTop"></div>
+        <ul class="productContainer">
+        {#cart}
+            <li class="product">
+                <a rel="nofollow" href="https://www.petzl.com/GB/en/{prodUnivares}/{prodType}/{productURL}">
+                    <div class="productImage">
+                        <div class="productImageSizer">
+                            <img src="https://www.petzl.com{imgSrc}">
+                        </div>
+                    </div>
+                    <div class="productInfo">
+                        <span class="productName" style="overflow: hidden; word-wrap: break-word;">{productName}</span>
+                        <span> {skuName} </span>
+                        <span>Quantity : {quantity}</span>
+                        <span>{price}</span>
+                    </div>
+                </a>
+            </li>
+            {/cart}
+                {#moreThen3}
+            <li class="linkToCart">
+                <a rel="nofollow" href="https://www.petzl.com/GB/en/shop/cart" class="Link">View all products in cart ({numOfItems})</a>
+            </li>
+            {/moreThen3}
+        </ul>
+        <div class="popinInner">
+            <div class="subtotalContainer">
+                <span class="subtotalTitle">Subtotal</span>
+                <span class="subtotalPrice">{subTotal}</span>
+            </div>
+            <a rel="nofollow" href="https://www.petzl.com/GB/en/shop/cart" class="Btn Btn-orange">Proceed to checkout</a>
+        </div>
+        {/hasCart}
+        {^hasCart}
+        <div class="popinInner">
+            <div>
+                You have no items at your cart.
+            </div>
+        </div>
+        {/hasCart}
+
+
+    </script>
+
+    <div id="contryLang" style="display:none;">
+            <div id="AT">
+                <div class="CountryCode">AT</div>
+                <div class="LangugageCode">de</div>
+                <a href="https://www.petzl.com/AT/de"></a>
+            </div>
+            <div id="BE">
+                <div class="CountryCode">BE</div>
+                <div class="LangugageCode">fr</div>
+                <a href="https://www.petzl.com/BE/fr"></a>
+            </div>
+            <div id="CA">
+                <div class="CountryCode">CA</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/CA/en"></a>
+            </div>
+            <div id="CH">
+                <div class="CountryCode">CH</div>
+                <div class="LangugageCode">fr</div>
+                <a href="https://www.petzl.com/CH/fr"></a>
+            </div>
+            <div id="DE">
+                <div class="CountryCode">DE</div>
+                <div class="LangugageCode">de</div>
+                <a href="https://www.petzl.com/DE/de"></a>
+            </div>
+            <div id="DK">
+                <div class="CountryCode">DK</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/DK/en"></a>
+            </div>
+            <div id="ES">
+                <div class="CountryCode">ES</div>
+                <div class="LangugageCode">es</div>
+                <a href="https://www.petzl.com/ES/es"></a>
+            </div>
+            <div id="FI">
+                <div class="CountryCode">FI</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/FI/en"></a>
+            </div>
+            <div id="FR">
+                <div class="CountryCode">FR</div>
+                <div class="LangugageCode">fr</div>
+                <a href="https://www.petzl.com/FR/fr"></a>
+            </div>
+            <div id="GB">
+                <div class="CountryCode">GB</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/GB/en"></a>
+            </div>
+            <div id="INT">
+                <div class="CountryCode">INT</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/INT/en"></a>
+            </div>
+            <div id="IT">
+                <div class="CountryCode">IT</div>
+                <div class="LangugageCode">it</div>
+                <a href="https://www.petzl.com/IT/it"></a>
+            </div>
+            <div id="LU">
+                <div class="CountryCode">LU</div>
+                <div class="LangugageCode">fr</div>
+                <a href="https://www.petzl.com/LU/fr"></a>
+            </div>
+            <div id="NL">
+                <div class="CountryCode">NL</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/NL/en"></a>
+            </div>
+            <div id="NO">
+                <div class="CountryCode">NO</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/NO/en"></a>
+            </div>
+            <div id="PT">
+                <div class="CountryCode">PT</div>
+                <div class="LangugageCode">es</div>
+                <a href="https://www.petzl.com/PT/es"></a>
+            </div>
+            <div id="SE">
+                <div class="CountryCode">SE</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/SE/en"></a>
+            </div>
+            <div id="US">
+                <div class="CountryCode">US</div>
+                <div class="LangugageCode">en</div>
+                <a href="https://www.petzl.com/US/en"></a>
+            </div>
+    </div>
+
+    <div id="global"><span id="j_id0:j_id1:j_id38"></span>
+
+        <span data-value="false" id="HasNoRobotIndex" style="display:none;"></span>
+        <div id="universId" style="display:none;">a311r000007rGeKAAU</div>
+        <div id="universName" style="display:none;">Operators</div>
+        <div id="universParentName" style="display:none;">Operators</div>
+        <div id="coutryNameCode" style="display:none;">GB</div>
+        <div id="languageNameCode" style="display:none;">en</div>
+        <div id="submenuBackgroundRepeat"></div>
+        <header>
+            <div id="headerTop">
+                <div class="container">
+                    <div class="left">
+                        <a href="https://www.petzl.com/GB/en" id="logo_v2">
+                            <img src="/resource/1756816274000/Petzl_Front/static/img/logo_v2.png" />
+                        </a>
+                        <div class="verticalSeparator inlineblock"></div>
+                        <ul id="universeSelector"><span id="j_id0:j_id1:j_id64">
+                                <li class="inlineblock">
+                                    <a href="https://www.petzl.com/GB/en/Operators">
+                                            Operators
+                                    </a>
+                                </li></span>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul class="topMenu">
+                            <li class="headerSubmenuContainer">
+                                <a class="Header_customerService" href="#">Customer service</a>
+                                <ul class="headerSubmenu">
+                                    <div class="arrowTop"></div>
+                                    <li><a href="https://www.petzl.com/GB/en/Operators/FAQ">FAQ</a></li>
+                                    <li><a href="https://www.petzl.com/GB/en/Operators/Contact">Contact</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.petzl.com/GB/en/Operators/Downloads-eBooks">Downloads</a></li>
+                            <li class="langueSelectContainer">
+                                <div class="langueSelect">
+                                    <div class="selected">
+                                        <img class="flag inlineblock" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjmY&amp;oid=00D20000000HrHq&amp;lastMod=1431422054000" />
+                                        <span class="arrowLang inlineblock sprite"></span>
+                                        <span class="hitArea"></span>
+                                    </div><span id="j_id0:j_id1:j_id91">
+
+    
+    <div class="langLists" style="display: none; opacity: 0;">
+        <div class="arrowTop"></div>
+            <ul class="langList inlineblock">
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:0:j_id109:0:j_id110">
+                                    <a href="https://www.petzl.com/FR/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="FR" data-country-lang="fr" data-lang-code="fr">
+                                            <img alt="FR" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2n&amp;oid=00D20000000HrHq&amp;lastMod=1402387470000" />
+                                            France
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:1:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/US/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="US" data-country-lang="en" data-lang-code="en">
+                                            <img alt="US" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm37&amp;oid=00D20000000HrHq&amp;lastMod=1431443321000" />
+                                            USA
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:2:j_id109:4:j_id110">
+                                    <a href="https://www.petzl.com/DE/de/Betreiber/Das-&Uuml;bersetzungsverhaltnis-eines-Flaschenzugs-berechnen?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="DE" data-country-lang="de" data-lang-code="de">
+                                            <img alt="DE" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2i&amp;oid=00D20000000HrHq&amp;lastMod=1402387433000" />
+                                            Deutschland
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:3:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/GB/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="GB" data-country-lang="en" data-lang-code="en">
+                                            <img alt="GB" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjmY&amp;oid=00D20000000HrHq&amp;lastMod=1431422054000" />
+                                            United Kingdom
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:4:j_id109:2:j_id110">
+                                    <a href="https://www.petzl.com/IT/it/Operatori/Come-calcolare-il-rapporto-del-paranco?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="IT" data-country-lang="it" data-lang-code="it">
+                                            <img alt="IT" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm32&amp;oid=00D20000000HrHq&amp;lastMod=1402387622000" />
+                                            Italia
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015680000002kyO&amp;oid=00D20000000HrHq&amp;lastMod=1685345469000" />
+                                Portugal
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:5:j_id102:0:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="PT" data-country-lang="es" data-lang-code="en">
+                                                <a href="https://www.petzl.com/PT/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                                    English
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:5:j_id102:1:j_id103:3:j_id104">
+                                            <li class="countryLang" data-country-code="PT" data-country-lang="es" data-lang-code="es">
+                                                <a href="https://www.petzl.com/PT/es/Operadores/Como-calcular-la-relacion-del-polipasto?ProductName=RESCUE-S">
+                                                    Spanish
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:6:j_id109:3:j_id110">
+                                    <a href="https://www.petzl.com/ES/es/Operadores/Como-calcular-la-relacion-del-polipasto?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="ES" data-country-lang="es" data-lang-code="es">
+                                            <img alt="ES" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2s&amp;oid=00D20000000HrHq&amp;lastMod=1402387495000" />
+                                            Espa&ntilde;a
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001luD1&amp;oid=00D20000000HrHq&amp;lastMod=1406011405000" />
+                                Schweiz
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:7:j_id102:0:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="CH" data-country-lang="fr" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/CH/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage?ProductName=RESCUE-S">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:7:j_id102:1:j_id103:4:j_id104">
+                                            <li class="countryLang" data-country-code="CH" data-country-lang="fr" data-lang-code="de">
+                                                <a href="https://www.petzl.com/CH/de/Betreiber/Das-&Uuml;bersetzungsverhaltnis-eines-Flaschenzugs-berechnen?ProductName=RESCUE-S">
+                                                    Deutsch
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:7:j_id102:2:j_id103:2:j_id104">
+                                            <li class="countryLang" data-country-code="CH" data-country-lang="fr" data-lang-code="it">
+                                                <a href="https://www.petzl.com/CH/it/Operatori/Come-calcolare-il-rapporto-del-paranco?ProductName=RESCUE-S">
+                                                    Italiano
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2d&amp;oid=00D20000000HrHq&amp;lastMod=1431443566000" />
+                                Canada
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:8:j_id102:0:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="CA" data-country-lang="en" data-lang-code="en">
+                                                <a href="https://www.petzl.com/CA/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                                    English
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:0:j_id97:8:j_id102:1:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="CA" data-country-lang="en" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/CA/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage?ProductName=RESCUE-S">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+            </ul>
+            <ul class="langList inlineblock">
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:0:j_id109:4:j_id110">
+                                    <a href="https://www.petzl.com/AT/de/Betreiber/Das-&Uuml;bersetzungsverhaltnis-eines-Flaschenzugs-berechnen?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="AT" data-country-lang="de" data-lang-code="de">
+                                            <img alt="AT" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjm9&amp;oid=00D20000000HrHq&amp;lastMod=1431421836000" />
+                                            &Ouml;sterreich
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjmE&amp;oid=00D20000000HrHq&amp;lastMod=1431421896000" />
+                                Belgique
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:1:j_id102:0:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="BE" data-country-lang="fr" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/BE/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage?ProductName=RESCUE-S">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:1:j_id102:1:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="BE" data-country-lang="fr" data-lang-code="en">
+                                                <a href="https://www.petzl.com/BE/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                                    English
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:2:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/NL/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="NL" data-country-lang="en" data-lang-code="en">
+                                            <img alt="NL" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjmO&amp;oid=00D20000000HrHq&amp;lastMod=1431422014000" />
+                                            Netherlands
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000002gjmJ&amp;oid=00D20000000HrHq&amp;lastMod=1431421950000" />
+                                Luxembourg
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:3:j_id102:0:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="LU" data-country-lang="fr" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/LU/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage?ProductName=RESCUE-S">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:3:j_id102:1:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="LU" data-country-lang="fr" data-lang-code="en">
+                                                <a href="https://www.petzl.com/LU/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                                    English
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:4:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/DK/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="DK" data-country-lang="en" data-lang-code="en">
+                                            <img alt="DK" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=0155I000000Y1nV&amp;oid=00D20000000HrHq&amp;lastMod=1586441900000" />
+                                            Denmark
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:5:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/FI/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="FI" data-country-lang="en" data-lang-code="en">
+                                            <img alt="FI" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=0155I000000YFzM&amp;oid=00D20000000HrHq&amp;lastMod=1588598265000" />
+                                            Finland
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:6:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/NO/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="NO" data-country-lang="en" data-lang-code="en">
+                                            <img alt="NO" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=0155I000000Y1nf&amp;oid=00D20000000HrHq&amp;lastMod=1586442002000" />
+                                            Norway
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:7:j_id109:1:j_id110">
+                                    <a href="https://www.petzl.com/SE/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                        <span class="countryName countryLang" data-country-code="SE" data-country-lang="en" data-lang-code="en">
+                                            <img alt="SE" class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=0155I000000Y1nk&amp;oid=00D20000000HrHq&amp;lastMod=1586442061000" />
+                                            Sweden
+                                        </span>
+                                    </a></span>
+                    </li>
+                    <li class="country">
+                            <span class="countryName">
+                                <img class="flag" src="https://petzl.file.force.com/servlet/servlet.ImageServer?id=015w0000001lm2x&amp;oid=00D20000000HrHq&amp;lastMod=1402387519000" />
+                                Other
+                                <span class="arrowLang inlineblock sprite"></span>
+                            </span>
+                            <ul class="languages" style="height: 0; margin-top: 0;"><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:0:j_id103:0:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="fr">
+                                                <a href="https://www.petzl.com/INT/fr/Operateurs/Comment-calculer-le-rapport-de-mouflage?ProductName=RESCUE-S">
+                                                    Fran&ccedil;ais
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:1:j_id103:1:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="en">
+                                                <a href="https://www.petzl.com/INT/en/Operators/How-to-calculate-mechanical-advantage?ProductName=RESCUE-S">
+                                                    English
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:2:j_id103:4:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="de">
+                                                <a href="https://www.petzl.com/INT/de/Betreiber/Das-&Uuml;bersetzungsverhaltnis-eines-Flaschenzugs-berechnen?ProductName=RESCUE-S">
+                                                    Deutsch
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:3:j_id103:3:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="es">
+                                                <a href="https://www.petzl.com/INT/es/Operadores/Como-calcular-la-relacion-del-polipasto?ProductName=RESCUE-S">
+                                                    Espa&ntilde;ol
+                                                </a>
+                                            </li></span><span id="j_id0:j_id1:j_id91:j_id92:j_id95:1:j_id97:8:j_id102:4:j_id103:2:j_id104">
+                                            <li class="countryLang" data-country-code="INT" data-country-lang="en" data-lang-code="it">
+                                                <a href="https://www.petzl.com/INT/it/Operatori/Come-calcolare-il-rapporto-del-paranco?ProductName=RESCUE-S">
+                                                    Italiano
+                                                </a>
+                                            </li></span>
+                            </ul>
+                    </li>
+            </ul>
+    </div></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="headerBottom">
+                <div class="container">
+                    <div class="left">
+                        <ul class="mainMenu">
+                                <li>
+                                    <a data-id="a2w1r000001rFwAAAU" href="javascript:void(0)">
+                                        <span class="sprite bullSeparator  ib"></span>
+                                            Verticality
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-id="a2w1r000001rFwFAAU" href="javascript:void(0)">
+                                        <span class="sprite bullSeparator  ib"></span>
+                                            Lighting
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.petzl.com/GB/en/Operators/technical-content-product">
+                                        <span class="sprite bullSeparator selectedPro ib"></span> Tech Tips
+                                    </a>
+                                </li>
+
+                            <li>
+                                <a href="https://www.petzl.com/GB/en/Operators/safety-alerts">
+                                    <span class="sprite bullSeparator ib"></span>  Safety alerts
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <div class="search">
+                            <span class="searchText">Search</span>
+                            <span class="iconSearch sprite-v4"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="searchSubmenuContainer" style="top: -180px; display: block;position: fixed;">
+                <div class="searchSubmenuInnerContainer">
+                    <span class="searchSubmenuContainer_close sprite-v4"></span>
+                    <div class="searchInputContainer">
+
+                        <input class="searchInput inlineblock" data-input="true" id="searchInputGeneral" placeholder="Product, technical information" type="text" />
+
+                        
+                        <a class="bigButtonOrange submitButton inlineblock" href="javascript:void(0)" id="searchclick" onclick="document.location.href='https://www.petzl.com/GB/en/Operators/Search?q=' + $('#searchInputGeneral').val();">Search</a>
+
+                        <script type="text/javascript">
+
+                            $.fn.focusWithoutScrolling = function(){
+                                var x = window.scrollX, y = window.scrollY;
+                                this.focus();
+                                window.scrollTo(x, y);
+                            };
+
+                            $('.search').click(function(){
+                                if($('.search.opened').length > 0){
+                                    $('#searchInputGeneral').blur();
+                                }
+                                else{
+                                    $('#searchInputGeneral').focusWithoutScrolling();
+                                }
+                            });
+
+
+                            var last='';
+                            var sp = $(".submitButton").prop("href").split('?q=');
+                            var lang = '&l='+$("#coutryNameCode").text();
+
+                            function searchEvent(){
+
+                                last = document.getElementById('coutryNameCode').value;
+                                searchTerm = document.getElementById('searchInputGeneral').value;
+                                var ss = sp[0]+'?q='+searchTerm+lang;
+                                $(".submitButton").prop("href",ss);
+
+                            }
+
+                            $("#searchInputGeneral").keypress(function(e) {//if click enter
+                                if(e.which == 13) {
+                                    if($('.right .opened').size()=== 1){
+                                        searchEvent();
+                                        document.location.href='https://www.petzl.com/GB/en/Operators/Search?q=' + $('#searchInputGeneral').val();
+                                    }
+                                }
+                            });
+
+                            $("#LogOrNot").keypress(function(e) {
+                                if(e.which == 13) {
+                                    $(this).find(".Btn.loginAction").click();
+                                }
+                            });
+
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="submenuContainer" style="z-index: 0;">
+                <div class="submenu">
+                    <div class="container">
+                            <div class="submenuContent" id="submenu_a2w1r000001rFwAAAU">
+                                <ul>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Harnesses">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/0685I0000020GJFQA2" width="80px" />
+                                            <span>Harnesses</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Helmets">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000007kCT4AAM" width="80px" />
+                                            <span>Helmets</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Belay-Devices-And-Descenders">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DqmsAAC" width="80px" />
+                                            <span>Belay Devices And Descenders</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Ropes">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DqqMAAS" width="80px" />
+                                            <span>Ropes</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Carabiners-And-Quickdraws">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DqrPAAS" width="80px" />
+                                            <span>Carabiners And Quickdraws</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Rope-Clamps">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DqtdAAC" width="80px" />
+                                            <span>Rope Clamps</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Pulleys">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000007kCSVAA2" width="80px" />
+                                            <span>Pulleys</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Lanyards">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001Dr4KAAS" width="80px" />
+                                            <span>Lanyards</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Mobile-Fall-Arresters">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001Dr1aAAC" width="80px" />
+                                            <span>Mobile Fall Arresters</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Anchors">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000007kCTYAA2" width="80px" />
+                                            <span>Anchors</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Packs-And-Accessories">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001Dr9JAAS" width="80px" />
+                                            <span>Packs And Accessories</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Kits">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DrA2AAK" width="80px" />
+                                            <span>Kits</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Customizable-Products">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001hUyMAAU" width="80px" />
+                                            <span>Customizable Products</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Spare-Parts">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx000007HF0EIAW" width="80px" />
+                                            <span>Spare Parts</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/brand/s/eppecentre?language=en_US">
+                                            <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/ePPE-centre-short-bw.jpg" width="80px" />
+                                            <span>Petzl ePPEcentre</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="submenuContent" id="submenu_a2w1r000001rFwFAAU">
+                                <ul>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Headlamps">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/06868000001DrC8AAK" width="80px" />
+                                            <span>Headlamps</span>
+                                        </a>
+                                    </li>
+                                    <li class="ib">
+                                        <a href="https://www.petzl.com/GB/en/Operators/Spare-parts-Lighting">
+                                            <img height="80px" src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx000007HF0EIAW" width="80px" />
+                                            <span>Spare parts Lighting</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        
+                        <ul class="submenuContent" id="submenu_techniques">
+                                <li class="ib">
+                                    <a href="https://www.petzl.com/GB/en/Operators/Activities">
+                                        <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteTechniquesByActivitySport.jpg" width="80px" />
+                                        <span>By Activity</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://www.petzl.com/GB/en/Operators/technical-content-product">
+                                        <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteTechniquesByProductSport.jpg" width="80px" />
+                                        <span>By Product</span>
+                                    </a>
+                                </li>
+                                <li class="ib">
+                                    <a href="https://www.petzl.com/GB/en/Operators/News?filter=technews">
+                                        <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteTechniquesNewsSport.jpg" width="80px" />
+                                        <span>Technical news</span>
+                                    </a>
+                                </li>
+                            <li class="ib">
+                                <a href="https://www.petzl.com/GB/en/Operators/Downloads-eBooks?filter=Access-Book">
+                                    <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteTechniquesAccessBookSport.jpg" width="80px" />
+                                    <span>eBooks</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="submenuContent" id="submenu_communaute">
+                                <li class="ib">
+                                    <a href="https://www.petzl.com/GB/en/Operators/new-products">
+                                        <img height="80px" src="/resource/1717485007000/Petzl_CommunityStatic/communaute/vignetteSneak-operators.jpg" width="80px" />
+                                        <span>Sneak preview 2026</span>
+                                    </a>
+                                </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+
+                $(document).ready(function(){
+
+                    if($("#HasNoRobotIndex").attr("data-value") == 'true')
+                    {
+                        $('head').append('<meta name="robots" content="noindex"></meta>');
+                    }
+                });
+
+            </script>
+
+        </header>
+
+        <div class="content MarketSport" id="content">
+            <div id="contentTechnicalContent">
+                <div class="familyHeader">
+                    <div class="familyHeaderBreadcrumb">
+                        <div class="container">
+                                    <a class="breadcrumbLink ib" data-level="1" href="https://www.petzl.com/GB/en/Operators/Techniques">
+                                        Tech Tips <span class="breadcrumbArrow sprite"></span>
+                                    </a><span id="j_id0:j_id1:j_id163" style="display: none;"></span>
+
+
+                                <a class="breadcrumbLink ib" data-level="2" href="https://www.petzl.com/GB/en/Operators/technical-content-product">
+                                    Tech Tips by Product <span class="breadcrumbArrow sprite last"></span>
+                                </a>
+                                <a class="breadcrumbLink ib" data-level="3" href="https://www.petzl.com/GB/en/Operators/Pulleys/technical-content-product/RESCUE-S">
+                                    RESCUE-S <span class="breadcrumbArrow sprite"></span>
+                                </a>
+                                <a class="breadcrumbLink ib last" data-level="4">
+                                    How to calculate mechanical advantage <span class="breadcrumbArrow sprite"></span>
+                                </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+
+                    <div class="contentPage technicalContentContainer ">
+                        <div class="technicalContentLeft inlineblock">
+                            <h1>
+                                <span class="sprite expertOnly inlineblock" style="display:none;"></span>How to calculate mechanical advantage
+                            </h1>
+
+                            <h2 class="subtitle">A mechanical advantage haul system reduces the effort required to raise a load. The mechanical advantage obtained is based on the pulley effect.</h2>
+                                <div class="warningContainer">
+                                    <p class="warningTitle"><span class="sprite inlineblock warningIcon"></span>Warnings</p>
+                                    <div class="sprite plusIcon"></div>
+                                    <div class="sprite lessIcon"></div>
+                                    <ul>
+                                            <li>Carefully read the Instructions for Use used in this technical advice before consulting the advice itself. You must have already read and understood the information in the Instructions for Use to be able to understand this supplementary information.</li>
+                                            <li>Mastering these techniques requires specific training. Work with a professional to confirm your ability to perform these techniques safely and independently before attempting them unsupervised.</li>
+                                            <li>We provide examples of techniques related to your activity. There may be others that we do not describe here.</li><span id="j_id0:j_id1:j_id183" style="display: none;"></span>
+                                        
+                                    </ul>
+                                </div>
+
+                            <div class="technicalContent"><span class="tech-content"><!-- //////////////////////////////// --><!-- /////////// PARTIE 1 /////////// --><!-- //////////////////////////////// -->
+<h3 class="CT-235-h3">1. The pulley effect</h3>
+
+<p>If we consider a load suspended on a rope, the rope passing through a pulley above the user, with the user's hand holding the rope on the other side of the pulley; any force applied to one end of the rope is transmitted to the other end of the rope, or, in this case, to the end of the rope on the other side of the pulley.<br></br>
+If the load weighs 100 kg, it is clear that the user must hold 100 kg on their side to hold the load. The two rope strands each exert a pull of 100 kg, so the pulley supports 200 kg.</p>
+<!-- Illustration 1 -->
+
+<div class="CT-235-illustration-1"><img alt="The pulley effect." src="/sfc/servlet.shepherd/version/download/0681r00000GFuc5AAD"></img></div>
+
+<p><strong>Note: this theory is valid for an ideal pulley of 100% efficiency, which does not exist in the real world.In reality, pulley efficiencies range from about 50 % to 98 %.To simplify calculations, this discussion is limited to ideal pulleys.</strong></p>
+<!-- //////////////////////////////// --><!-- /////////// PARTIE 2 /////////// --><!-- //////////////////////////////// -->
+
+<h3 class="CT-235-h3">2. Calculating mechanical advantage in practice</h3>
+
+<p><strong>The efficiency (E) of a haul system indicates the force multiplier factor that you can exert on the rope.For example, if you are able to pull 20 kg maximum on a rope with your bare hands, a 3:1 haul system will enable you to raise a 60 kg mass.This reduction is obtained by increasing the amount of rope to be pulled: to raise a mass 1 meter with a 3:1 system, 3 m of rope must be pulled.</strong></p>
+
+<p>The efficiency (E) of a haul system may be calculated by adding the effects of each pulley.<br></br>
+Start by drawing a simple diagram of the system, then show the pulling force F that the hand applies to the rope.<br></br>
+Transmit the force F along the rope by adding the effects of each pulley.<br></br>
+When multiple rope strands are attached to the load (double pulley, rope clamp...), add the forces exerted by each strand.</p>
+
+<h4 class="CT-235-h4">1:1 haul system</h4>
+<!-- Bloc illustration 1 -->
+
+<div class="CT-235-bloc-illustration-1"><!-- Illustration 2 -->
+<div class="CT-235-illustration-2"><img alt="1:1 haul system - 1/3" src="/sfc/servlet.shepherd/version/download/0681r00000GFucPAAT"></img></div>
+<!-- Illustration 3 -->
+
+<div class="CT-235-illustration-3"><img alt="1:1 haul system - 2/3" src="/sfc/servlet.shepherd/version/download/0681r00000GFucjAAD"></img></div>
+<!-- Illustration 4 -->
+
+<div class="CT-235-illustration-4"><img alt="1:1 haul system - 3/3" src="/sfc/servlet.shepherd/version/download/0681r00000GFucoAAD"></img></div>
+</div>
+
+<h4 class="CT-235-h4">2:1 haul system</h4>
+<!-- Bloc illustration 2 -->
+
+<div class="CT-235-bloc-illustration-2"><!-- Illustration 5 -->
+<div class="CT-235-illustration-5"><img alt="2:1 haul system - 1/3" src="/sfc/servlet.shepherd/version/download/0681r00000GFucyAAD"></img></div>
+<!-- Illustration 6 -->
+
+<div class="CT-235-illustration-6"><img alt="2:1 haul system - 2/3" src="/sfc/servlet.shepherd/version/download/0681r00000GFudNAAT"></img></div>
+<!-- Illustration 7 -->
+
+<div class="CT-235-illustration-7"><img alt="2:1 haul system - 3/3" src="/sfc/servlet.shepherd/version/download/0681r00000GFudXAAT"></img></div>
+</div>
+
+<h4 class="CT-235-h4">3:1 haul system</h4>
+<!-- Bloc illustration 3 -->
+
+<div class="CT-235-bloc-illustration-3"><!-- Illustration 8 -->
+<div class="CT-235-illustration-8"><img alt="3:1 haul system - 1/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFudcAAD"></img></div>
+<!-- Illustration 9 -->
+
+<div class="CT-235-illustration-9"><img alt="3:1 haul system - 2/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFudhAAD"></img></div>
+<!-- Illustration 10 -->
+
+<div class="CT-235-illustration-10"><img alt="3:1 haul system - 3/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFudmAAD"></img></div>
+<!-- Illustration 11 -->
+
+<div class="CT-235-illustration-11"><img alt="3:1 haul system - 4/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFudrAAD"></img></div>
+</div>
+
+<p><strong>Note: the advantage of a 3:1 system is its ease of setup and that it can easily be converted to a complex system (7:1) with one additional pulley and some cord.</strong></p>
+<!-- Bloc illustration 4 -->
+
+<div class="CT-235-bloc-illustration-4">
+<div class="CT-235-bloc-vide-1"> </div>
+<!-- Illustration 12 -->
+
+<div class="CT-235-illustration-12"><img alt="7:1 haul system - 1/3" src="/sfc/servlet.shepherd/version/download/0681r00000GFue1AAD"></img></div>
+<!-- Illustration 13 -->
+
+<div class="CT-235-illustration-13"><img alt="7:1 haul system - 2/3" src="/sfc/servlet.shepherd/version/download/0681r00000GFueGAAT"></img></div>
+<!-- Illustration 14 -->
+
+<div class="CT-235-illustration-14"><img alt="7:1 haul system - 3/3" src="/sfc/servlet.shepherd/version/download/0681r00000GFueVAAT"></img></div>
+</div>
+
+<h4 class="CT-235-h4">4:1 haul system</h4>
+<!-- Bloc illustration 5 -->
+
+<div class="CT-235-bloc-illustration-5"><!-- Illustration 15 -->
+<div class="CT-235-illustration-15"><img alt="4:1 haul system - 1/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFuepAAD"></img></div>
+<!-- Illustration 16 -->
+
+<div class="CT-235-illustration-16"><img alt="4:1 haul system - 2/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFuezAAD"></img></div>
+<!-- Illustration 17 -->
+
+<div class="CT-235-illustration-17"><img alt="4:1 haul system - 3/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFufJAAT"></img></div>
+<!-- Illustration 18 -->
+
+<div class="CT-235-illustration-18"><img alt="4:1 haul system - 4/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFufnAAD"></img></div>
+</div>
+
+<h4 class="CT-235-h4">5:1 haul system</h4>
+<!-- Bloc illustration 6 -->
+
+<div class="CT-235-bloc-illustration-6"><!-- Illustration 19 -->
+<div class="CT-235-illustration-19"><img alt="5:1 haul system - 1/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFug2AAD"></img></div>
+<!-- Illustration 20 -->
+
+<div class="CT-235-illustration-20"><img alt="5:1 haul system - 2/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFugCAAT"></img></div>
+<!-- Illustration 21 -->
+
+<div class="CT-235-illustration-21"><img alt="5:1 haul system - 3/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFugMAAT"></img></div>
+<!-- Illustration 22 -->
+
+<div class="CT-235-illustration-22"><img alt="5:1 haul system - 4/4" src="/sfc/servlet.shepherd/version/download/0681r00000GFugbAAD"></img></div>
+</div></span>
+                            </div>
+
+                            <div style="clear:both"></div>
+                            <br />
+                                <div class="linkedElementsContainer">
+                                    <h2>Included in this article</h2>
+            
+                                    <div class="linkedElements">
+                                            <a class="inlineblock verticalProduct" href="https://www.petzl.com/GB/en/Operators/Pulleys/FIXE">
+
+                                                        <span alt="FIXE" class="imageContainer inlineblock" style="                                                         filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,src='/sfc/servlet.shepherd/version/download/068Tx00000K4S3tIAF',sizingMethod='scale');display:grid" title="FIXE">
+            
+                                                            <span class="imagePlacer"></span>
+                                                            <img src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068Tx00000K4S3tIAF" />
+                                                        </span>
+                                                
+                                                    <span class="titleElement">FIXE</span>
+                                                    <span class="contentElement">Compact and versatile pulley with fixed side plates</span>
+                                                </a>
+                                            <a class="inlineblock verticalProduct" href="https://www.petzl.com/GB/en/Operators/Pulleys/RESCUE-S">
+
+                                                        <span alt="RESCUE S" class="imageContainer inlineblock" style="                                                         filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,src='/sfc/servlet.shepherd/version/download/068bK00000qyvohQAA',sizingMethod='scale');display:grid" title="RESCUE S">
+            
+                                                            <span class="imagePlacer"></span>
+                                                            <img src="https://www.petzl.com/sfc/servlet.shepherd/version/download/068bK00000qyvohQAA" />
+                                                        </span>
+                                                
+                                                    <span class="titleElement">RESCUE S</span>
+                                                    <span class="contentElement">Lightweight and ultra-compact, high efficiency pulley</span>
+                                                </a>
+                                            <a class="inlineblock verticalProduct" href="https://www.petzl.com/GB/en/Operators/Pulleys/NANO-TRAXION">
+
+                                                        <span alt="NANO TRAXION" class="imageContainer inlineblock" style="                                                         filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,src='/sfc/servlet.shepherd/version/download/0686800000YtYBTAA3',sizingMethod='scale');display:grid" title="NANO TRAXION">
+            
+                                                            <span class="imagePlacer"></span>
+                                                            <img src="https://www.petzl.com/sfc/servlet.shepherd/version/download/0686800000YtYBTAA3" />
+                                                        </span>
+                                                
+                                                    <span class="titleElement">NANO TRAXION</span>
+                                                    <span class="contentElement">High-efficiency, ultra-compact progress-capture pulley</span>
+                                                </a>
+                                    </div>
+                                
+                                </div>
+
+
+
+
+                            <div class="navigation">
+                                <div class="navigation__container">
+
+                                    <div class="navigation__left">
+                                    </div>
+
+                                    <div class="navigation__right">
+                                            <div class="navigation__arrows navigation__forward">
+                                                <p>Next</p>
+                                                <img src="/resource/1756816274000/Petzl_Front/static/img/arrow-right.png" />
+                                            </div>
+                                            <p class="navigation__title" data-id="a75Tx0000000OojIAE">Pulley system efficiency tests with MAESTRO, I&#8217;D S, PRO TRAXION, ROLLCLIP...</p>
+                                            <img src="https://www.petzl.com/sfc/servlet.shepherd/version/download/0681r00000GGbMCAA1" />
+                                            <a class="navigation__link" href="https://www.petzl.com/GB/en/Operators/Pulley-system-efficiency-tests-with-MAESTRO--I-D-S--PRO-TRAXION--ROLLCLIP---?ProductName=RESCUE-S"></a>
+                                    </div>
+
+                                </div>
+
+                                <div class="navigation__container-button">
+                                    <a class="Btn Btn-orange" href="https://www.petzl.com/GB/en/Operators/Pulleys/technical-content-product/RESCUE-S">See all tech tips</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+    <link href="/resource/1756816274000/Petzl_Front/css/components/mea-popin.css" rel="stylesheet" />
+    <script src="/resource/1756816274000/Petzl_Front/js/components/mea-popin.js" type="text/javascript"></script>
+    
+    <div class="mea-timer" style="display: none;">7</div>
+    <div class="slideid" style="display: none;"></div>
+    
+    <div class="mea-popin" style="display: none;">
+        <div class="mea-popin__dimmer" style="opacity: 1;display: none;"></div>
+        <div class="mea-popin__content" style="bottom: 16px;">
+            <div class="mea-popin__opened-content">
+                <img class="mea-popin__img" />
+                <div class="mea-popin__text-container">
+                    <h3 class="mea-popin__heading"></h3>
+                    <p class="mea-popin__text"></p>
+                    <form class="mea-popin__input">
+                        <input placeholder="Email" type="text" />
+                        <input type="submit" value="OK" />
+                    </form>
+                    <a class="mea-popin__btn" href="#"></a>
+                    <button class="mea-popin__close">Close</button>
+                </div>
+            </div>
+            <div class="mea-popin__closed-content">
+                
+            </div>
+            <button class="mea-popin__reduce"><svg class="mea-popin__arrow-full" height="24" viewBox="0 0 26 24" width="26" xmlns="http://www.w3.org/2000/svg"><path d="m0 6 12 12 12-12" fill="none" stroke="#fff" stroke-width="2" transform="translate(1)"></path></svg><svg class="mea-popin__arrow-small" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m0 4 8 8 8-8" fill="none" fill-rule="evenodd" stroke="#000" stroke-width="2"></path></svg></button>
+        </div>
+    </div>
+
+    <script>(function () {
+        Visualforce.remoting.Manager.invokeAction(
+            'Web_SlideIn_Ctrl.getSlideInAnim',
+            'a311r000007rGeKAAU', 'en', 'GB',
+            function (slide, /**Object*/event) {
+                console.log('slide == '+ slide);
+                
+                if (!slide || slide == null) {
+                    console.log(event.statusCode);
+                    $('.mea-popin').hide();
+                    return;
+                }
+
+                $('.slideid').text(slide.Id);
+                $('.mea-popin__heading').html(slide.Name);
+                $('.mea-popin__text').html(slide.Intro__c);
+                if(!!slide.Know_More__c  && !!slide.Url__c ){
+                    $('.mea-popin__btn').text(slide.Know_More__c);
+                    $('.mea-popin__btn').attr('href',slide.Url__c);
+                    $('.mea-popin__btn').show();
+                    $('.mea-popin__btn').click( function(e) {e.preventDefault(); 
+                        var date = new Date();
+                        date.setTime(date.getTime()+(90*24*60*60*1000));
+                        document.cookie = 'slidein_status=closed_3;path=/; expires=' +date.toGMTString() +';'; 
+                        window.open(slide.Url__c,'_self');
+                        return false; } );
+                }
+                else {
+                    $('.mea-popin__btn').hide();
+                }
+                if(slide.Animation__r.Email_field_available__c == true){
+                    $('.mea-popin__input').show();
+                    $('.mea-popin__input input[type=submit]').click(function(e){
+                        e.preventDefault();
+                        var iEmail = $('.mea-popin__input input[type=text]');
+                        setTimeout(function redirect2Newstellar() {
+                            var date = new Date();
+                            date.setTime(date.getTime()+(90*24*60*60*1000));
+                            document.cookie = 'slidein_status=closed_3;path=/; expires=' +date.toGMTString() +';'; 
+                            const url = new URL('https://www.petzl.com/GB/en/Operators/Newsletter' + location.search);
+                            url.searchParams.set('email', iEmail.val());
+                            location.href = url.href;
+                        });
+                    })
+                }
+                else {
+                    $('.mea-popin__input').hide();
+                }
+                if(slide.Animation__r.Thumbnail_Url__c != ''){
+                    $('.mea-popin__img').attr('src','https://www.petzl.com' + slide.Animation__r.Thumbnail_Url__c);
+                }
+                else{
+                    $('.mea-popin__img').hide();
+                }
+                $('.mea-popin__closed-content').text(slide.Preview_Label__c);
+                
+                
+
+                //Style
+                if(slide.Animation__r.Style__c == 'Dark'){
+                    $('.mea-popin').addClass('mea-popin--dark');
+                }
+                else if(slide.Animation__r.Style__c == 'Light'){
+                    $('.mea-popin').addClass('mea-popin--light');
+                }
+                if('Operators' == 'Professional'){
+                    $('.mea-popin').addClass('mea-popin--pro');
+                    $('.mea-popin__btn').addClass('mea-popin__btn--pro');
+                }
+                else {
+                    $('.mea-popin').addClass('mea-popin--sport');
+                    $('.mea-popin__btn').addClass('mea-popin__btn--sport');
+                }
+
+            },
+            { escape: false, buffer: false }
+        );
+    }());</script>
+            
+
+        </div>
+
+    <footer class="page-footer"><div id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id209" class="page-footer__header">
+            <div class="page-footer__container">
+                <div class="page-footer__sep"></div>
+            </div>
+
+            <div class="page-footer__header">
+
+    <div class="page-footer__container">
+        <div class="page-footer__row">
+            <div class="page-footer__col">
+                <div class="page-footer__newsletter">
+                    <div class="page-footer__title">Subscribe to the newsletter</div>
+                    <div class="page-footer__subtitle">and stay connected to our news</div>
+                </div>
+            </div>
+            <div class="page-footer__col">
+                <form class="page-footer__form">
+                    <label>Email*</label><div id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm" class="page-footer__form-group">
+                        <input id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm-iEmail" required="required" type="email" />
+                        <button class="page-footer__button page-footer__button--orange" id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm-btnSubscribe">OK</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>(function () {
+        var iEmail = document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm-iEmail');
+        document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id211:Web_NewsletterEmailForm_VF:newsletterForm-btnSubscribe').addEventListener('click', function () {
+            if (!iEmail.form.checkValidity()) {
+                console.error(iEmail.id, 'invalid email input', iEmail.value, iEmail);
+                return;
+            }
+            setTimeout(function redirect2Newstellar() {
+                const url = new URL('https://www.petzl.com/GB/en/Operators/Newsletter' + location.search);
+                url.searchParams.set('email', iEmail.value);
+                location.href = url.href;
+            });
+        });
+    }())</script>
+            </div></div>
+
+        <div class="page-footer__container">
+            <div class="page-footer__sep"></div>
+        </div>
+
+        <div class="page-footer__main">
+            <div class="page-footer__container">
+                <div class="page-footer__row">
+                    <div class="page-footer__col">
+
+
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/public/dust-full.min.js"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/utils.js"></script><div id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id217:Web_SocialNetworksList_VF:socialNetworksPlaceholder" class="page-footer__col"></div>
+
+    <script id="tmplSocialNetworksList" type="text/dust-template">
+        <h5>Join the community!</h5>
+        <div class="page-footer__socials" data-sfdc-social-network-id="{Id}">
+        {#.}
+            <a href="{Link__c}" class="page-footer__social" target="_blank" data-sfdc-social-network-id="{Id}">
+                <img src="https://www.petzl.com{Thumbnail_URL__c}" alt="{Name}" data-social-network-icon="1"
+                    onload="this.width = this.naturalWidth >> 1; this.height = this.naturalHeight >> 1"
+                />
+            </a>
+        {/.}
+        </div>
+    </script>
+
+    <script>(function () {
+        var socialNetworksPlaceholder = document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id217:Web_SocialNetworksList_VF:socialNetworksPlaceholder');
+        Visualforce.remoting.Manager.invokeAction(
+            'Web_SocialNetworksList_Ctrl.getSocialNetworks',
+            function (/**{Social_Network__c[]}*/lstSocialNetworks, event) {
+                if (!lstSocialNetworks) {
+                    console.error(event);
+                    return;
+                }
+
+                UTILS.compileDustTemplates();
+
+                UTILS.dustRender(
+                    'tmplSocialNetworksList',
+                    lstSocialNetworks,
+                    $(socialNetworksPlaceholder),
+                    function () {
+                        Array.prototype.slice.call(socialNetworksPlaceholder.querySelectorAll('img[data-social-network-icon="1"]'))
+                            .forEach(function (/**HTMLImageElement*/img) {
+                                img.addEventListener('load', fixImageDimentions);
+                            });
+                    }
+                );
+
+                function fixImageDimentions(/**Event*/e) {
+                    var img = e.target;
+                    img.height = img.naturalHeight >> 1;
+                    img.width = img.naturalWidth >> 1;
+                }
+            },
+            { escape: false, buffer: false }
+        );
+
+        /**
+         * @typedef {{
+         *     Id: string,
+         *     Name: string,
+         *     Link__c: string,
+         *     Thumbnail_URL__c: string
+         * }} Social_Network__c
+         */
+    }());</script>
+                    </div>
+
+                    <div class="page-footer__col">
+                        <div class="page-footer__row">
+
+    <style>
+        #ot-sdk-btn{
+            font-size: 14px !important;
+            font-family: 'HelveticaNeueW01-45Ligh', Arial, sans-serif !important;
+            border: inherit !important;
+            color: #000 !important;
+            box-sizing: inherit;
+            padding: inherit !important;
+            font-style: inherit !important;
+            text-decoration: underline !important;
+        }
+        #ot-sdk-btn:hover{
+            text-decoration: inherit !important;
+            background-color: white !important;
+        }
+    </style>
+    <nav class="page-footer__col page-footer__links-container">
+        <div class="page-footer__col-block">
+            <h3 class="page-footer__col-header">
+                <span>Who We Are</span>
+            </h3>
+            <a class="page-footer__link" href="https://www.petzl.com/brand/s/?language=en_US">About Petzl</a>
+            <a class="page-footer__link" href="https://www.petzl.com/brand/s/Corporate-Social-Responsibility">Corporate Social Responsibility</a>
+            <a class="page-footer__link" href="http://www.fondation-petzl.org/en">Petzl Foundation</a>
+            <a class="page-footer__link" href="https://www.petzl.com/brand/s/Petzl-Solutions?language=en_US">Petzl Solutions</a>
+        </div>
+        <div class="page-footer__col-block">
+            <h3 class="page-footer__col-header">
+                <span>Other Petzl sites</span>
+            </h3><span id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:otherSitesPlaceholder" style="margin: 0; border: 0; padding: 0;"></span>
+        </div>
+    </nav>
+
+    <nav class="page-footer__col page-footer__links-container">
+        <div class="page-footer__col-block">
+            <h3 class="page-footer__col-header">
+                <span>Contact us</span>
+            </h3>
+            <p class="page-footer__address-text">
+                Petzl United Kingdom
+                <br />info@petzl.co.uk
+                <br />+44 (0) 15396 26400
+                <br /><a href="https://www.petzl.com/GB/en/Operators/Contact" style="text-decoration: underline;">Contact Form</a>
+            </p>
+            <a class="page-footer__link" href="https://www.petzl.com/press">Press access</a>
+        </div>
+        <div class="page-footer__additional-links">
+            <a class="page-footer__light-link" href="https://www.petzl.com/GB/en/legal" id="legalNotice"><span id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:legalNoticeDetailsName"></span>
+            </a>
+            <a class="page-footer__light-link" href="https://www.petzl.com/GB/en/privacy" id="privPolicy"><span id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:privacyPolicyDetailsName"></span>
+            </a>
+            <a class="page-footer__light-link" href="https://www.petzl.com/GB/en/accessibility-declaration" id="accessDeclar"><span id="j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:acessibilityDeclarationName"></span>
+            </a>
+            <a class="page-footer__light-link ot-sdk-show-settings" id="ot-sdk-btn"></a>
+        </div>
+    </nav>
+
+    <script id="tmplOtherSitesList" type="text/dust-template">
+        {#.}
+            
+                <a class="page-footer__link" href="https://www.petzl.com/GB/{Url__c}" data-sfdc-id="{Id}">{Name}</a>
+            
+        {/.}
+    </script>
+
+    <script>(function () {
+        Visualforce.remoting.Manager.invokeAction(
+            'Web_PetzlGroupLinks_Ctrl.getOtherSites',
+            'en', 'GB',
+            function (/**{Web_PetzlGroupLinks_Ctrl_Result}*/links, /**Object*/event) {
+                if (!links) {
+                    console.error(event);
+                    return;
+                }
+
+                document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:privacyPolicyDetailsName').textContent = links.privacyPolicy.Name;
+                if (links.privacyPolicy.Name === undefined) {
+                    document.getElementById('privPolicy').style.display = 'none';
+                }
+                document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:legalNoticeDetailsName').textContent = links.legalNotice.Name;
+                if (links.legalNotice.Name === undefined) {
+                    document.getElementById('legalNotice').style.display = 'none';
+                }
+                document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:acessibilityDeclarationName').textContent = links.accessibilityDeclaration.Name;
+                if (links.accessibilityDeclaration.Name === undefined) {
+                    document.getElementById('accessDeclar').style.display = 'none';
+                }
+                
+
+                UTILS.compileDustTemplates();
+
+                UTILS.dustRender(
+                    'tmplOtherSitesList', links.otherSites, $(document.getElementById('j_id0:j_id1:j_id207:Web_Footer_VF:j_id221:Web_PetzlGroupLinks_VF:otherSitesPlaceholder'))
+                );
+            },
+            { escape: false, buffer: false }
+        );
+
+        /**
+         * @typedef {Object} Web_PetzlGroupLinks_Ctrl_Result
+         * @property {{ Id: string, Name: string, Url__c: string }[]} otherSites
+         * @property {{ Id: string, Name: string }} privacyPolicy
+         */
+    }());</script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-footer__footer">
+            <div class="page-footer__container">
+                <div class="page-footer__footer-align">
+                    <p>
+                        The activities depicted are inherently dangerous. All users must be trained and competent in the use of the equipment for these activities. Petzl contact United Kingdom
+                    </p>
+                    <p class="page-footer__links-element page-footer__copyright">
+                        &copy; 1995-2026 Petzl
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/underscore.min.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.touchr.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.easing.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.placeholder.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.dotdotdot.min.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/petzl/context.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js/petzl/layout.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/Select.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/jquery.tooltipster.min.js" type="text/javascript"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/public/dust-full.min.js"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/public/jquery.cookie.js"></script>
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/utils.js"></script>
+    <script src="//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js" type="text/javascript"></script>
+
+    <script src="/resource/1756816274000/Petzl_Front/js-custom/langSelector.js"></script>
+
+
+    <script type="text/javascript">
+
+        function updateUniverseCookie(universeId, universeName)
+        {
+            $.cookie('apex__universId', universeId, {path:'/'});
+        }
+
+        $(function() {
+            new petzl.controllers.LangSelector();
+
+            $('#searchInput').keyup(function(event){
+                if(event.which == 13){
+                    document.location.href='https://www.petzl.com/GB/en/Operators/Search?q=' + $('#searchInput').val();
+                }
+            }).keydown(function(event){
+                if(event.which == 13){
+                    event.preventDefault();
+                }
+            });
+        });
+
+        function openCartForNsec (){
+
+            var sec =parseInt($('#CartDDSecondsAfterBuy').text());
+
+            sec*=1000;
+
+            $.colorbox.close();
+
+
+            $('.popinCart').css('display', 'block').stop().animate({
+                opacity : 1
+            }, 200);
+
+            $('.popinCart').addClass('opened');
+
+            setTimeout(function(){
+
+                $('.popinCart').stop().animate({
+                    opacity : 0
+                }, 200, function(){
+                    $('.popinCart').css('display', 'none');
+                });
+
+                $('.popinCart').removeClass('opened');
+
+            }, sec);
+        }
+
+        function makeRedirectUrl(){
+            var redirectUrl = window.location.href;
+            if ($.cookie('apex__authorized') != 'true' && window.location.href.indexOf('login') >= 0)
+                redirectUrl = unescape(getUrlParam('retUrl', window.location.href)) || "/GB/en/shop/accountInfo";
+            else if($.cookie('apex__authorized') == 'true')
+                redirectUrl = '/GB/en/shop/cart';
+            return redirectUrl;
+        }
+
+        function getUrlParam(name, url) {
+            if (!url) url = location.href;
+            name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+            var regexS = "[\\?&]"+name+"=([^&#]*)";
+            var regex = new RegExp( regexS );
+            var results = regex.exec(url);
+            return results == null ? null : results[1];
+        }
+
+        function logoutAction(){
+
+            var retUrl = '';
+
+            if ((window.location.href.indexOf('checkout') >= 0)
+                    || (window.location.href.indexOf('accountInfo') >= 0)
+                    || (window.location.href.indexOf('accountBilling') >= 0)
+                    || (window.location.href.indexOf('orders') >= 0 )
+                    || (window.location.href.indexOf('cart') >= 0 ))
+            {
+                retUrl = 'https://www.petzl.com/GB/en/';
+            }
+            else {
+                retUrl = window.location.href;
+            }
+            $.cookie('apex__authorized', 'false', { path: '/'});
+            $.cookie('apex__orderQuantities', '', { path: '/'});
+            $.cookie('apex__OrderId','', {path: '/'});
+
+            window.location.href = '/secur/logout.jsp?retUrl=' + retUrl;
+        }
+
+        function replacePrice(price, newPrice){
+            return price.replace(/[\d.,]+/i, newPrice);
+        }
+
+        function exstractDeciamlValue(str)
+        {
+            if (!str) return 0;
+            var result = str.replace(/[^0-9|.|-|,]/g, '');
+            result = result.replace(/[,]/g, '.');
+            return result;
+        }
+
+        function changeCartPopinQuantity(skuName, quantity, unitPrice){
+            unitPrice = parseFloat(exstractDeciamlValue(unitPrice));
+            quantity = parseInt(exstractDeciamlValue(quantity));
+            var $popinLi = $('.popinCart li.product:has(span:contains("' + skuName  + '"))');
+            var $popinQuantitySpan = $popinLi.find('.productInfo span:eq(2)');
+            var $popinTotalSpan = $popinLi.find('.productInfo span:eq(3)');
+            $popinQuantitySpan.text(replacePrice($popinQuantitySpan.text(), quantity));
+            var Total_Price = quantity * unitPrice;
+            $popinTotalSpan.text(replacePrice($popinTotalSpan.text(), Total_Price.toFixed(2)));
+            var subtotalPrice = 0;
+        }
+
+
+
+
+        function callHeaderCart()
+        {
+
+            UTILS.compileDustTemplates();
+
+            var accountId = "" || window.checkoutAccountId;
+
+            $.ajax({
+                url: "https://www.petzl.com/services/apexrest/Cart",
+                type : "POST",
+                contentType: "application/json",
+                data : JSON.stringify({ uniqueId:"b2c",
+                                        "cartId": $.cookie('apex__OrderId'),
+                                        "languageCode": "en",
+                                        "accountId": accountId,
+                                        "countryCode": "GB"}),
+                success: function( data)
+                {
+                    var d = data;
+                    UTILS.compileDustTemplates();
+                    $(document).ready(function()
+                    {
+                        UTILS.compileDustTemplates();
+                        var data = JSON.parse(d);
+                        $('.cartCount').html(data.numOfItems);
+                        $('.popinCart .subtotalPrice').html(data.subTotal); //Nurit 11-1-16
+                        dust.debugLevel = "INFO";
+                        $('.popinCart').html('');
+                        UTILS.dustRender('tmpl_CartHeader', data, $('.popinCart'), function(err, out) {
+                              // FIX OF CART COOKIE PROBLEM
+                              if(!err){
+                                    if (data.clearOrderIdCookie){
+                                        Cookies.remove('apex__OrderId');
+                                    } else if (data.orderId) {
+                                        Cookies.set('apex__OrderId', data.orderId, { path: '/'});
+                                    }
+                                    if($.cookie("apex__BuyNow") === "true"){
+                                        openCartForNsec();
+                                        Cookies.set('apex__BuyNow', 'false', { path: '/'});
+                                    }
+                                    for(var line in window.cartQnt){
+                                        changeCartPopinQuantity(cartQnt[line].skuName, cartQnt[line].quantity, cartQnt[line].unitPrice);
+                                    }
+                                }
+                        });
+                    });
+                },
+                error: function (xhr, textStatus, errorThrown) {
+                }
+            });
+        }
+
+        callHeaderCart();
+
+
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            var avm = document.createElement('script'); avm.type = 'text/javascript';
+            avm.async = true;
+            avm.src = ('https:' == document.location.protocol ? 'https://' : 'http://') +
+                    'cdn.avmws.com/1014423/';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(avm,
+                    s);
+        })();
+    </script>
+
+    </body>
+
+    </html>
+        <script src="/resource/1756816274000/Petzl_Front/js/libs/jquery.transit.js"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js/petzl/views/AdviceTabs.js"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js-custom/techContent.js"></script>
+        <script src="/resource/1756816274000/Petzl_Front/js-custom/findRefrenceActivity.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('a.breadcrumbLink.last').attr('href', window.location.href);
+            $(document).ready(function(){
+                new petzl.controllers.TechnicalContent;
+                SearchReference();
+                console.log('Web_TechnicalContent');
+                $('.tech-content img[src]').each(function(){
+                    var src = $(this).attr('src');
+                    if (src.indexOf('/') < 0 && ''){
+                        $(this).attr('src', '/' + src);
+                    }
+                });
+            });
+        </script><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["j_id0:j_id1:j_id32"]);
+
+});</script>
