@@ -24,6 +24,7 @@
 ## hauling · 提拉与机械增益
 
 - [机械增益系统入门](hauling/introduction-to-ma-systems/introduction-to-ma-systems.zh.md)（[英文](hauling/introduction-to-ma-systems/introduction-to-ma-systems.en.md)）— AlpineSavvy
+- [自救：拖拽你的搭档](hauling/hauling-your-partner/hauling-your-partner.zh.md)（[英文](hauling/hauling-your-partner/hauling-your-partner.en.md)）— VDiff
 - [简单滑轮系统概述](hauling/overview-of-a-simple-pulley-system/overview-of-a-simple-pulley-system.zh.md)（[英文](hauling/overview-of-a-simple-pulley-system/overview-of-a-simple-pulley-system.en.md)）— AlpineSavvy
 - [阿尔卑斯式攀登与大岩壁攀登：机械增益系统的不同需求](hauling/alpine-vs-big-wall-different-needs-in-ma-systems/alpine-vs-big-wall-different-needs-in-ma-systems.zh.md)（[英文](hauling/alpine-vs-big-wall-different-needs-in-ma-systems/alpine-vs-big-wall-different-needs-in-ma-systems.en.md)）— AlpineSavvy
 
