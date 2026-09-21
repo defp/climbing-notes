@@ -29,6 +29,7 @@
 - [阿尔卑斯式攀登与大岩壁攀登：机械增益系统的不同需求](hauling/alpine-vs-big-wall-different-needs-in-ma-systems/alpine-vs-big-wall-different-needs-in-ma-systems.zh.md)（[英文](hauling/alpine-vs-big-wall-different-needs-in-ma-systems/alpine-vs-big-wall-different-needs-in-ma-systems.en.md)）— AlpineSavvy
 - [滑轮该放在哪里？](hauling/where-to-put-the-pulley/where-to-put-the-pulley.zh.md)（[英文](hauling/where-to-put-the-pulley/where-to-put-the-pulley.en.md)）— AlpineSavvy
 - [滑轮系统分析](hauling/pulley-system-analysis/pulley-system-analysis.zh.md)（[英文](hauling/pulley-system-analysis/pulley-system-analysis.en.md)）— RopeLab
+- [关于机械增益系统的几个基本问答](hauling/a-few-basic-questions-and-answers-about-ma-systems/a-few-basic-questions-and-answers-about-ma-systems.zh.md)（[英文](hauling/a-few-basic-questions-and-answers-about-ma-systems/a-few-basic-questions-and-answers-about-ma-systems.en.md)）— AlpineSavvy
 
 - [攀岩绳结：Garda hitch（Alpine clutch）](hauling/garda-hitch/garda-hitch.zh.md)（[英文](hauling/garda-hitch/garda-hitch.en.md)）— VDiff
 - [3:1“Z”形拖拉系统：分步详解](hauling/a-3-1-z-drag-step-by-step/a-3-1-z-drag-step-by-step.zh.md)（[英文](hauling/a-3-1-z-drag-step-by-step/a-3-1-z-drag-step-by-step.en.md)）— AlpineSavvy
