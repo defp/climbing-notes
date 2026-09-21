@@ -33,6 +33,7 @@
 - [关于机械增益系统的几个基本问答](hauling/a-few-basic-questions-and-answers-about-ma-systems/a-few-basic-questions-and-answers-about-ma-systems.zh.md)（[英文](hauling/a-few-basic-questions-and-answers-about-ma-systems/a-few-basic-questions-and-answers-about-ma-systems.en.md)）— AlpineSavvy
 - [进度抓持的几种选择](hauling/progress-capture-options/progress-capture-options.zh.md)（[英文](hauling/progress-capture-options/progress-capture-options.en.md)）— AlpineSavvy
 - [现实世界中的机械增益](hauling/ma-in-the-real-world/ma-in-the-real-world.zh.md)（[英文](hauling/ma-in-the-real-world/ma-in-the-real-world.en.md)）— AlpineSavvy
+- [进度抓持——各种器材的效率](hauling/progress-capture-efficiencies-of-various-devices/progress-capture-efficiencies-of-various-devices.zh.md)（[英文](hauling/progress-capture-efficiencies-of-various-devices/progress-capture-efficiencies-of-various-devices.en.md)）— AlpineSavvy
 
 - [攀岩绳结：Garda hitch（Alpine clutch）](hauling/garda-hitch/garda-hitch.zh.md)（[英文](hauling/garda-hitch/garda-hitch.en.md)）— VDiff
 - [3:1“Z”形拖拉系统：分步详解](hauling/a-3-1-z-drag-step-by-step/a-3-1-z-drag-step-by-step.zh.md)（[英文](hauling/a-3-1-z-drag-step-by-step/a-3-1-z-drag-step-by-step.en.md)）— AlpineSavvy
