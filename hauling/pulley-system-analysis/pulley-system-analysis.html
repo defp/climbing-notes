@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-AU">
+<head>
+	<meta charset="UTF-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<!--[if IE ]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<![endif]-->
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<title>Pulley system analysis | RopeLab Online</title>
+	<!--iOS/android/handheld specific -->
+<link rel="apple-touch-icon" href="https://www.ropelab.com.au/wp-content/themes/frontpage/apple-touch-icon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="prefetch" href="https://www.ropelab.com.au">
+	<link rel="prerender" href="https://www.ropelab.com.au">
+	<link rel="pingback" href="https://www.ropelab.com.au/xmlrpc.php" />
+		<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="RopeLab Online &raquo; Feed" href="https://www.ropelab.com.au/feed/" />
+<link rel="alternate" type="application/rss+xml" title="RopeLab Online &raquo; Comments Feed" href="https://www.ropelab.com.au/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="RopeLab Online &raquo; Pulley system analysis Comments Feed" href="https://www.ropelab.com.au/pulley-system-analysis/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.ropelab.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ropelab.com.au%2Fpulley-system-analysis%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.ropelab.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ropelab.com.au%2Fpulley-system-analysis%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://www.ropelab.com.au/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-image-inline-css">
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .wp-lightbox-close-button{align-items:center;cursor:pointer;display:flex;font-family:inherit;gap:8px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 4px;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .wp-lightbox-close-button:focus,.wp-lightbox-overlay .wp-lightbox-close-button:hover,.wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .wp-lightbox-close-button:has(.wp-lightbox-close-text:not([hidden])) .wp-lightbox-close-icon svg{height:1em;width:1em}.wp-lightbox-overlay .wp-lightbox-close-icon svg{display:block}.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{align-items:center;bottom:16px;cursor:pointer;display:flex;font-family:inherit;gap:4px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 8px;position:absolute;z-index:2000002}.wp-lightbox-overlay .wp-lightbox-navigation-button-next[hidden],.wp-lightbox-overlay .wp-lightbox-navigation-button-prev[hidden]{display:none}@media (min-width:960px){.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{bottom:50%;transform:translateY(-50%)}}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background),.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background){background:none;border:none;padding:0 8px}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg{display:block;height:1.5em;width:1.5em}.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{left:calc(env(safe-area-inset-left) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-button-next{right:calc(env(safe-area-inset-right) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-icon svg{vertical-align:middle}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:2000001}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://www.ropelab.com.au/wp-includes/blocks/image/style.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://www.ropelab.com.au/wp-includes/blocks/list/style.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://www.ropelab.com.au/wp-includes/blocks/paragraph/style.min.css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='swpm.common-css' href='https://www.ropelab.com.au/wp-content/plugins/simple-membership/css/swpm.common.css?ver=4.7.8' media='all' />
+<link rel='stylesheet' id='vscf-styles-css' href='https://www.ropelab.com.au/wp-content/plugins/very-simple-contact-form/css/vscf-style.min.css?ver=3d6f2b359a4e0fc05341f511c360f33e' media='all' />
+<link rel='stylesheet' id='katex-css' href='https://www.ropelab.com.au/wp-content/plugins/katex/assets/katex-0.16.22/katex.min.css?ver=2.2.5' media='all' />
+<link rel='stylesheet' id='flexslider-css' href='https://www.ropelab.com.au/wp-content/themes/frontpage/css/flexslider.css?ver=3d6f2b359a4e0fc05341f511c360f33e' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css' href='https://www.ropelab.com.au/wp-content/themes/frontpage/css/prettyPhoto.css?ver=3d6f2b359a4e0fc05341f511c360f33e' media='all' />
+<link rel='stylesheet' id='old-fontawesome-css' href='https://www.ropelab.com.au/wp-content/themes/frontpage/css/font-awesome.min.css?ver=3d6f2b359a4e0fc05341f511c360f33e' media='all' />
+<link rel='stylesheet' id='stylesheet-css' href='https://www.ropelab.com.au/wp-content/themes/frontpage/style.css?ver=3d6f2b359a4e0fc05341f511c360f33e' media='all' />
+<style id="stylesheet-inline-css">
+
+		body {background-color:#2869a1; }
+		body {background-image: url(https://www.ropelab.com.au/wp-content/themes/frontpage/images/pattern12.png);}
+		input#author:focus, input#email:focus, input#url:focus,#contactForm textarea:focus,#commentform textarea:focus { border-color:#2869a1;}
+		.menu .current-menu-item > a, .menu .current-menu-item, .current-menu-ancestor > a.sf-with-ul, .current-menu-ancestor, footer .textwidget a, .single_post a, #commentform a, .copyrights a:hover, a, footer .widget li a:hover, .menu > li:hover > a, #navigation [class^='icon-']:hover, #navigation [class*=' icon-']:hover, .title a, .single_post .post-info a, .post-info a, .readMore a, .sidebar.c-4-12 a, .copyrights a, .related-posts a, .postauthor h5, .reply a, .fn a, .woocommerce .woocommerce-breadcrumb a, .woocommerce-page .woocommerce-breadcrumb a { color:#2869a1; }	
+		.contact-submit, .nav-previous a, .nav-next a, .header-button, .sub-menu, #commentform input#submit, .tagcloud a, .mts-subscribe .icon-envelope, #searchform .icon-search, .currenttext, .pagination a:hover, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .commentlist .children li.bypostauthor:after, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus, .slidertitle, #tabber ul.tabs li a.selected, .carousel .flex-caption, .carousel .flex-direction-nav a:hover, .flex-control-paging li a.flex-active, .flex-control-paging li a:hover, .woocommerce .bypostauthor:after, #move-to-top { background-color:#2869a1; color: #fff; }
+		a:hover, .title a:hover, .sidebar.c-4-12 a:hover, .copyrights a:hover, .single_post .post-info a:hover, .post-info a:hover, .single_post a:hover, .fn a:hover, .menu ul li:hover > a, #navigation ul ul [class^='icon-']:hover, #navigation ul ul [class*=' icon-']:hover, h1, h2, h3, h4, h5, h6, .total-comments { color: #000000;}
+		.pagination .nav-previous a:hover, .pagination .nav-next a:hover, .tagcloud a:hover, #commentform input#submit:hover, .woocommerce a.button:hover, .woocommerce-page a.button:hover, .woocommerce button.button:hover, .woocommerce-page button.button:hover, .woocommerce input.button:hover, .woocommerce-page input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce-page #respond input#submit:hover, .woocommerce #content input.button:hover, .woocommerce-page #content input.button:hover, #contactForm #submit:hover, #move-to-top:hover { background-color:#000000; }
+		
+			.shareit { top: 241px; left: auto; z-index: 0; margin: 0 0 0 -108px; width: 90px; position: fixed; overflow: visible; padding: 5px; background: #fff; }
+			.share-item {margin: 2px;}
+		
+		
+			.left-section { width: 100%; max-width: 100%; }
+			.featured-section #featured-thumbnail, .latest-section #featured-thumbnail { width: 20.6%; }
+		
+			.single_post { width: 100%; } .related-posts { width: 100%; margin-top: 30px; } .related-posts li { width: 20.5%; margin-right: 6%; } .rpexcerpt2.last { margin-right: 6%; }
+		
+		
+			.commentlist .children li.bypostauthor:after { content: "Author"; position: absolute; right: -1px; top: -1px; padding: 0 14px; color: #fff; }
+		input, textarea, select {
+    font-size: 14px;
+    color: #000;
+}
+#header {
+padding-top: 0px;
+}
+
+ol, ul {
+    list-style: disc inside none;
+    padding-left:10px;
+padding-bottom:20px;
+}
+hr { 
+width:100%; 
+height:1px; 
+background: #fff ;
+}
+img {
+    background-color: white;
+}
+.must-log-in {
+    display: none;
+}
+#reply-title {
+    display: none;
+}
+#wp-submit {
+background: #006ba1;
+color: #ffffff;
+font-weight: bold;
+}
+.it-exchange-super-widget
+.it-exchange-sw-register
+label {
+	font-size: 12px;
+}
+
+sup {
+	vertical-align: sup;
+}
+.dropdown-toggle {
+margin-left: 40px !important;
+}
+.avatar.avatar-96.photo {
+display: none !important;
+}
+.avatar.avatar-64.photo {
+z-index: auto !important;
+}
+
+[name=paypal_standard_purchase] {
+display: none;
+}
+
+article.article{
+width:100%;
+}
+.single aside.sidebar.c-4-12{
+display: none;
+}
+			
+/*# sourceURL=stylesheet-inline-css */
+</style>
+<link rel='stylesheet' id='responsive-css' href='https://www.ropelab.com.au/wp-content/themes/frontpage/css/responsive.css?ver=3d6f2b359a4e0fc05341f511c360f33e' media='all' />
+<script id="jquery-core-js" src="https://www.ropelab.com.au/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.ropelab.com.au/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="modernizr-js" src="https://www.ropelab.com.au/wp-content/themes/frontpage/js/modernizr.min.js?ver=3d6f2b359a4e0fc05341f511c360f33e"></script>
+<script id="customscript-js" src="https://www.ropelab.com.au/wp-content/themes/frontpage/js/customscript.js?ver=3d6f2b359a4e0fc05341f511c360f33e"></script>
+<script id="mts-flexslider-js" src="https://www.ropelab.com.au/wp-content/themes/frontpage/js/jquery.flexslider-min.js?ver=3d6f2b359a4e0fc05341f511c360f33e"></script>
+<script id="prettyPhoto-js" src="https://www.ropelab.com.au/wp-content/themes/frontpage/js/jquery.prettyPhoto.js?ver=3d6f2b359a4e0fc05341f511c360f33e"></script>
+<link rel="https://api.w.org/" href="https://www.ropelab.com.au/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.ropelab.com.au/wp-json/wp/v2/posts/9018" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ropelab.com.au/xmlrpc.php?rsd" />
+<!--Theme by MyThemeShop.com-->
+<link rel="canonical" href="https://www.ropelab.com.au/pulley-system-analysis/" />
+<link rel='shortlink' href='https://www.ropelab.com.au/?p=9018' />
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#2d89ef">
+		<meta name="theme-color" content="#ffffff">
+
+		        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $('#respond').html('<div class="swpm-login-to-comment-msg">Please login to comment.</div>');
+            });
+        </script>
+        <script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.ropelab.com.au/?wordfence_lh=1&hid=506855717DD40B5C2EBE6A7952AE9945');
+</script><link href="//fonts.googleapis.com/css?family=Gudea:700|Droid+Sans:normal" rel="stylesheet" type="text/css">
+<style type="text/css">
+.menu li a, #navigation .menu{ font-family: "Gudea";font-weight: 700;font-size: 16px;color: #232323; }
+sub{ font-family: "Gudea";font-weight: 700;font-size: 10px;color: #222222; }
+sup, .sup{font-size:xx-small; vertical-align:super;}{ font-family: "Gudea";font-weight: 700;font-size: 10px;color: #222222; }
+h1{ font-family: "Gudea";font-weight: 700;font-size: 28px;color: ; }
+h2{ font-family: "Gudea";font-weight: 700;font-size: 24px;color: ; }
+h3{ font-family: "Gudea";font-weight: 700;font-size: 24px;color: ; }
+h4, .total-comments{ font-family: "Gudea";font-weight: 700;font-size: 16px;color: ; }
+h5{ font-family: "Gudea";font-weight: 700;font-size: 16px;color: ; }
+h6{ font-family: "Gudea";font-weight: 700;font-size: 10px;color: ; }
+body{ font-family: "Droid Sans";font-weight: normal;font-size: 15px;color: #222222; }
+</style>
+<link rel="icon" href="https://www.ropelab.com.au/wp-content/uploads/2019/05/icon-hires2-65x65.png" sizes="32x32" />
+<link rel="icon" href="https://www.ropelab.com.au/wp-content/uploads/2019/05/icon-hires2.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.ropelab.com.au/wp-content/uploads/2019/05/icon-hires2.png" />
+<meta name="msapplication-TileImage" content="https://www.ropelab.com.au/wp-content/uploads/2019/05/icon-hires2.png" />
+<style id="wp-custom-css">
+.contactform label {
+    margin-top: 40px;
+}
+</style>
+</head>
+<body id ="blog" class="wp-singular post-template-default single single-post postid-9018 single-format-standard wp-theme-frontpage main" itemscope itemtype="http://schema.org/WebPage">
+	<div class="main-container">
+		<header class="main-header">
+			<div id="header">
+															<h2 id="logo" class="image-logo"><a href="https://www.ropelab.com.au"><img src="https://www.ropelab.com.au/wp-content/uploads/2019/05/HeaderSmart2.gif" alt="RopeLab Online"></a></h2>
+													  
+									<div class="secondary-navigation">
+									<nav id="navigation" >
+													<ul id="menu-main_menu" class="menu"><li id="menu-item-423" class="icon-home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-423"><a href="http://www.ropelab.com.au/">Home</a></li>
+<li id="menu-item-37" class="icon-cogs menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-37"><a href="https://www.ropelab.com.au/about/">Our Story</a>
+<ul class="sub-menu">
+	<li id="menu-item-1188" class="icon-cogs menu-item menu-item-type-post_type menu-item-object-page menu-item-1188"><a href="https://www.ropelab.com.au/about/">Our Story</a></li>
+	<li id="menu-item-1187" class="icon-question menu-item menu-item-type-post_type menu-item-object-page menu-item-1187"><a href="https://www.ropelab.com.au/faq/">FAQ</a></li>
+	<li id="menu-item-2035" class="icon-search menu-item menu-item-type-post_type menu-item-object-page menu-item-2035"><a href="https://www.ropelab.com.au/terms-of-service/">Terms of Service</a></li>
+	<li id="menu-item-2036" class="icon-user menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-2036"><a rel="privacy-policy" href="https://www.ropelab.com.au/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-25" class="icon-wrench menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25"><a href="https://www.ropelab.com.au/workshops/">Workshops</a>
+<ul class="sub-menu">
+	<li id="menu-item-10934" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10934"><a href="https://www.ropelab.com.au/ropelab-light-weight-rope-rescue-workshop/">Light-weight rope rescue (31 July &#8211; 4 Aug, 2023, Petzl SLC, USA)</a></li>
+</ul>
+</li>
+<li id="menu-item-1070" class="icon-globe menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-1070"><a href="https://www.ropelab.com.au/category/free/">Free Content</a>
+<ul class="sub-menu">
+	<li id="menu-item-1074" class="icon-pencil menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1074"><a href="https://www.ropelab.com.au/category/free/articles/">Free Articles</a></li>
+	<li id="menu-item-4205" class="icon-pencil menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4205"><a href="https://www.ropelab.com.au/category/free/portuguese-translations/">Portuguese Translations</a></li>
+	<li id="menu-item-1072" class="icon-puzzle-piece menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1072"><a href="https://www.ropelab.com.au/category/free/quizzes/">Quick Quizzes</a></li>
+	<li id="menu-item-1073" class="icon-facetime-video menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1073"><a href="https://www.ropelab.com.au/category/free/videos/">Videos</a></li>
+	<li id="menu-item-1071" class="icon-book menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1071"><a href="https://www.ropelab.com.au/category/free/reference/">Reference Items</a></li>
+</ul>
+</li>
+<li id="menu-item-1069" class="icon-lock menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1069"><a href="https://www.ropelab.com.au/category/member-content/">Member Content</a>
+<ul class="sub-menu">
+	<li id="menu-item-9583" class="icon-comments menu-item menu-item-type-post_type menu-item-object-page menu-item-9583"><a href="https://www.ropelab.com.au/members-making-contact/">Members: Making Contact</a></li>
+	<li id="menu-item-336" class="icon-question menu-item menu-item-type-taxonomy menu-item-object-category menu-item-336"><a href="https://www.ropelab.com.au/category/member-content/test-results/">Test Reports</a></li>
+	<li id="menu-item-335" class="icon-lightbulb menu-item menu-item-type-taxonomy menu-item-object-category menu-item-335"><a href="https://www.ropelab.com.au/category/member-content/physics-theory/">Physics Articles</a></li>
+	<li id="menu-item-2453" class="icon-puzzle-piece menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2453"><a href="https://www.ropelab.com.au/category/member-content/quiz-analyses/">Quiz Analyses</a></li>
+</ul>
+</li>
+<li id="menu-item-9236" class="icon-key menu-item menu-item-type-post_type menu-item-object-page menu-item-9236"><a href="https://www.ropelab.com.au/membership-join/">Join Us!</a></li>
+<li id="menu-item-9259" class="icon-lock menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9259"><a href="https://www.ropelab.com.au/membership-login/">Login/Logout</a>
+<ul class="sub-menu">
+	<li id="menu-item-9261" class="icon-wrench menu-item menu-item-type-post_type menu-item-object-page menu-item-9261"><a href="https://www.ropelab.com.au/membership-login/membership-profile/">Profile</a></li>
+	<li id="menu-item-9260" class="icon-wrench menu-item menu-item-type-post_type menu-item-object-page menu-item-9260"><a href="https://www.ropelab.com.au/membership-login/password-reset/">Password Reset</a></li>
+	<li id="menu-item-9310" class="icon-wrench menu-item menu-item-type-post_type menu-item-object-page menu-item-9310"><a href="https://www.ropelab.com.au/membership-renewal/">Membership Renewal</a></li>
+</ul>
+</li>
+</ul>												<a href="#" id="pull">Menu</a>
+											</nav>
+				</div>
+			</div>
+		</header>
+									
+														<div class="carousel-container loading">
+						<div id="slider" class="carousel">
+							<ul class="slides">
+																<li> 
+									<a href="https://www.ropelab.com.au/members-31-progress-capture-efficiency/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2024/08/IMG_0033-1-116x104.jpeg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: 3:1 progress capture efficiency</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-delta-maillon-rapide-3-way-loading/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2024/01/IMG_4553-116x104.jpeg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: Delta Maillon Rapide 3-way loading</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-3-sigma-mbs-and-knots/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2023/11/IMG_3778-116x104.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: 3-sigma MBS and knots</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-multi-rope-edge-rollers/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2023/08/DMM-Patroller-tests-small-116x104.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: Multi-rope edge rollers</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-9-5mm-rope-systems/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2022/07/Thumb-116x104.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: 9.5mm rope systems</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-slings-and-wires/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2022/05/Girth-Sling-116x104.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: Slings and wires</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-sling-contaminants/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2022/02/Dyneema-chalk-1-116x104.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: Sling contaminants</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-maillon-rapide-torque/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2021/11/RapidLink-116x104.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: Maillon Rapide torque</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-gin-pole-setup-tips/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2021/07/Pulley-Attach-116x104.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: Gin pole setup tips</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-arizona-vortex-tripod-fine-tuning/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2021/07/7E31C617-C3F5-4D19-8985-42076C6B3BCE-116x104.jpeg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: Arizona Vortex Tripod fine tuning</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-arizona-vortex-tripod-setup-tips/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2021/07/IMG_4076-116x104.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: Arizona Vortex Tripod setup tips</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-carabiner-gates/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2021/01/Biner-Bits-Layers-116x104.gif" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: Carabiner gates</h2>
+										</div>
+									</a> 
+								</li>
+																<li> 
+									<a href="https://www.ropelab.com.au/members-mpd-clutch-maestro/">
+										 
+											<img width="116" height="104" src="https://www.ropelab.com.au/wp-content/uploads/2020/07/MPD-Clutch-Maestro-xray-116x104.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" decoding="async" />																				<div class="flex-caption">
+											<h2 class="carouseltitle">Members: MPD-Clutch-Maestro</h2>
+										</div>
+									</a> 
+								</li>
+															</ul>
+						</div>
+					</div>
+					<!-- carousel-container -->
+									<div id="page" class="single">
+	<div class="content">
+		<!-- Start Article -->
+		<article class="article">		
+							<div id="post-9018" class="post post-9018 type-post status-publish format-standard has-post-thumbnail hentry category-articles tag-forces tag-mechanical-advantage tag-physics tag-pulleys has_thumb">
+					<div class="single_post">
+													<div class="breadcrumb" itemprop="breadcrumb"><a href="https://www.ropelab.com.au" rel="nofollow"><i class="icon-home"></i>&nbsp;Home</a>&nbsp;/&nbsp;<a href="https://www.ropelab.com.au/category/free/articles/" rel="nofollow">Free Articles</a>&nbsp;/&nbsp;Pulley system analysis</div>
+												<header>
+							<!-- Start Title -->
+							<h1 class="title single-title">Pulley system analysis</h1>
+							<!-- End Title -->
+															<!-- Start Post Meta -->
+								<div class="post-info"><span class="theauthor"><i class="icon-user"></i> <a rel="nofollow" href="https://www.ropelab.com.au/author/beryl/" rel="author">Richard Delaney</a></span>  <span class="thetime"><i class="icon-calendar"></i> April 22, 2019</span>  <span class="thecategory"><i class="icon-tags"></i> <a href="https://www.ropelab.com.au/category/free/articles/" rel="nofollow">Free Articles</a></span>  <span class="thecomment"><i class="icon-comments"></i> <a href="https://www.ropelab.com.au/pulley-system-analysis/#respond">No Comments</a></span></div>
+								<!-- End Post Meta -->
+													</header>
+						<!-- Start Content -->
+						<div class="post-single-content box mark-links">
+																					
+<p class="wp-block-paragraph">Tuomas Pöysti, a good friend of RopeLab, has written this article presenting his thoughts on analysing pulley systems.</p>
+
+
+
+<h2 class="wp-block-heading">Foreword</h2>
+
+
+
+<p class="wp-block-paragraph">I am more interested in pulley systems than they deserve as practical tools. If you read this and don’t understand what this is good for, you should stop reading and do something that is more useful to you. If there is just a single person other than me on the planet who finds this text intellectually stimulating, my work was worthwhile.<br></p>
+
+
+
+<p class="wp-block-paragraph">An expert reader might notice that the literature study behind this work is inadequate. I cannot say I have carried out proper searches on scientific databases, and I have read just a couple of text books that have even a chapter about pulley systems. For a non-expert reader it is even more important to understand that this work is not based on solid, peer-reviewed body of earlier publications, as the case should be if we wanted this to be really scientific. Please do not let the fancy words mislead you. And talking about words, at least some of the terminology used here probably differs from the established one, which I simply am unaware of. I’m very thankful for all suggestions.<br></p>
+
+
+
+<p class="wp-block-paragraph">Hopefully my obviously non-native English won’t further complicate understanding this. The ideas presented here are actually not very difficult, and I tend to pursue unambiguous expression and avoid unjustified jargon. I admit, though, that I could have succeeded even better. Please ask me if you try to get it, want to get it but cannot get it. Finally, I salute to all of you who have the persistence to go through the whole thing. <br></p>
+
+
+
+<h2 class="wp-block-heading">Scope and definitions<br></h2>
+
+
+
+<p class="wp-block-paragraph">Pulleys are rope rigging devices that ideally have the capability of deviating a rope without affecting the tension of the rope, i.e. so that the rope inevitably has equal tension on each side of the device. Real life pulleys are not ideal, of course, but this can be to some degree managed by applying an efficiency value. Figure 1 shows a (schematic) pulley, which has efficiency P  (0 &lt; P &lt; 1). When the rope is tensioned on the right side by force F, friction inside the pulley and the rope (and possibly between them) lets only force P*F through the pulley to the left side. In real life, using nylon ropes and pulleys of reasonable size, efficiency (P) is typically around 0.8.</p>
+
+
+
+<figure class="wp-block-image"><img fetchpriority="high" decoding="async" width="419" height="501" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/Fig1.jpg" alt="" class="wp-image-9020" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig1.jpg 419w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig1-251x300.jpg 251w" sizes="(max-width: 419px) 100vw, 419px" /><figcaption>Fig 1. Pulley</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Note that the markings in figure 1 are not vectors, but the arrow indicates the direction of rope movement or location of tensioning. This is important, since it obviously dictates which side has greater tension. The forces are scalar and their directions have to be interpreted from the schematics. In this case, because the pulley is in rest, the downward force applied to it must equal F + P*F. This setup is also a simple pulley system, usually referred to as a “V” or “V-rig”.</p>
+
+
+
+<p class="wp-block-paragraph">Pulley systems in general are any combinations
+of pulleys and rope like elements. Another minimum requirement for pulley
+systems could be that they have a single degree of freedom, implying that
+positions of all of the elements are unambiguously related to each other,
+especially to the position of a certain element, which is here called the input
+element. (See later note on resetting.) The input element is the one through
+which the force/energy is applied to the system.</p>
+
+
+
+<p class="wp-block-paragraph">Another special element of a pulley system is the output element, to which the load is connected. The purpose of pulley systems is to have a larger force at the output element (Fo) than at the input element (Fi). The relationship Fo/Fi is called the mechanical advantage, MA.</p>
+
+
+
+<p class="wp-block-paragraph">Ideal MA is based on the assumption that all pulley efficiencies equal 1, such that each pulley effectively doubles a force. In this paper, the term “ideal” is often skipped for brevity. Any real life MA may be referred to as “effective MA”. It can be either measured by attaching load cells to the input and output elements, or calculated. The term “calculated MA” is particularly used in the latter case. Ideal MA of above shown V is 2:1, and calculated MA could be for example F+PF, as stated, or 1+P if represented as force multiplier coefficient. The ratio effective MA / ideal MA is the efficiency of the pulley system. The picture below illustrates a simple (ideally) 3:1, also known as Z-rig. The pulleys are labelled&nbsp; P1 and P2. On the right it is divided into elements. There are multiple useful ways of doing this, and in this case the criterion has been separating individually moving parts of the system.  </p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" width="400" height="352" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/Fig2.jpg" alt="" class="wp-image-9021" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig2.jpg 400w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig2-300x264.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Ideally all rope elements of a pulley system are collinear, though for practical reasons this is not the case in reality and even less in the schematic pictures. That is, when the input element is pulled, each element moves either upwards or downwards. In this paper, elements moving upwards are said to have positive direction and the ones moving downwards have negative direction. The stationary element G (ground) is neutral in this sense. If input and output elements have different directions, the pulley system is direction changing.</p>
+
+
+
+<p class="wp-block-paragraph">Also pulleys are in this paper labelled as positive or negative based on their orientation. P1 has negative direction and P2 positive direction. See figure 3.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" width="671" height="538" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/Fig3.jpg" alt="" class="wp-image-9022" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig3.jpg 671w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig3-300x241.jpg 300w" sizes="(max-width: 671px) 100vw, 671px" /><figcaption>Fig 3. Pulley directions</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">In this paper, only pulley systems that yield
+to force analysis, are of concern. Typically this means, in addition to the
+requirement about single degree of freedom, that the force path branches inside
+the pulley system in a certain way. To keep this paper at least relatively
+simple, formal definition is skipped.</p>
+
+
+
+<p class="wp-block-paragraph">As a final note on the scope: for most of this paper, the issue of resetting does not make any difference. We are not interested in stroke distance or collapse rate or any such real life things. Pulley P2 in figure 2 could as well be attached to element E1 by a rope clamp or a knot, since only a small imaginary pull is needed for the sake of the analysis.</p>
+
+
+
+<h2 class="wp-block-heading">Force analysis<br></h2>
+
+
+
+<p class="wp-block-paragraph">Figure 4 illustrates a pulley system which I have called “5:1 crevasse”, although I have lost the source for this name and now it really does not seem that common. Anyway, this three pulley, ideally 5:1 pulley system is analysed by assuming force F on the input element and then working towards the output element, calculating the resulting forces on each element. For simplicity, letter F is replaced by 1, and thus all resulting terms are multipliers of force F. Sometimes letter T (for tension) is used, and the whole method might be called T-method, but this is just a difference in notation.</p>
+
+
+
+<p class="wp-block-paragraph">Every time a rope runs through a pulley, the force before the pulley must be multiplied by the pulley’s efficiency. In this case, the elements that are segments of the grey rope, are thus tensioned by forces 1, P2 or P1P2 (*F). Every time two elements work to pull one element, the force on the latter is the sum of the forces of the two elements. For example, 1+P2. Another point of forces summing up is what David Fasulo calles “tractor” in his book, the point where P3 is attached to the element that comes down from P1. Here 1+P2, P3+P2P3 and P1P2 are summed as the calculated MA of the pulley system.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="909" height="575" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/Fig4.jpg" alt="" class="wp-image-9023" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig4.jpg 909w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig4-300x190.jpg 300w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig4-768x486.jpg 768w" sizes="auto, (max-width: 909px) 100vw, 909px" /><figcaption>Fig 4. 5:1 &#8220;crevasse&#8221; force analysis</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Let’s study the result. First of all, the
+output force consist of five terms. Considering that 0 &lt; Px &lt; 1 for each
+P1, P2 and P3, each term (with exception of “1”) has the same range 0&#8230;1. That
+is,</p>
+
+
+
+<ol class="wp-block-list"><li>the maximum value of the sum is 5 (P1=P2=P3=1) and</li><li>the maximum contribution of each term is 1.</li></ol>
+
+
+
+<p class="wp-block-paragraph">What do these terms stand for, then? Starting with the first term “1”, it will only manifest for pulley systems which do not change the pull direction, i.e. pulley systems in which the input and output element move in same direction. And it makes sense if one imagines all pulleys being extremely bad, so bad that the result is rigid connection between three strands of rope. This is what pulley efficiency 0 would be like. Even in this extreme case, pulley systems that have term “1” in their calculated MA equation, have MA of 1. As does a straight rope.</p>
+
+
+
+<p class="wp-block-paragraph">Continuing this mind experiment, let’s rigidify each pulley one by one. We find out that each term has a corresponding sub pulley system, a possible path of energy through the system.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="1024" height="540" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/Fig5-1024x540.jpg" alt="" class="wp-image-9024" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig5-1024x540.jpg 1024w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig5-300x158.jpg 300w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig5-768x405.jpg 768w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig5.jpg 1152w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption>Fig 5. 5:1 &#8220;crevasse&#8221; subsystems</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The red path related to term “1” was already explained. P2 resembles a V rig (2:1) and so does P3. P1P2 is for a Z-rig and P2P3 a 4:1 “V on V”.</p>
+
+
+
+<h2 class="wp-block-heading">About the terms</h2>
+
+
+
+<p class="wp-block-paragraph">What other terms could there be? P1 is an
+obvious candidate. Again going back to the mind experiment, if we lock pulleys
+P2 and P3, we gain no benefit by letting P1 roll, so it does not make any
+difference to the system. Further, term P1 should be related to a path which
+flows through pulley P1 solely. Otherwise efficiencies P2 or P3 would also be present
+in the term. And how could it even be possible for a negative direction pulley
+such as P1 to be the only pulley through which the energy flows on a path,
+while pulleys are the only means of changing direction of force? I’m not going
+to prove this any more formally right now:</p>
+
+
+
+<p class="wp-block-paragraph"><strong><em>Pulleys with negative direction never appear alone as a term in a calculated MA, if the pulley system is not direction changing. More generally, pulleys with different direction than the input element won’t.</em></strong></p>
+
+
+
+<p class="wp-block-paragraph">Let’s do the same for a couple of other pulley systems. Figure 6 illustrates a 9:1 “Z on Z” and a variation of it, a 11:1. Neither changes pull direction, so each should have “1” as a term. Further, they should have 9 and 11 terms, respectively, and terms P1 and P3 should be absent.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="707" height="680" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/Fig6.jpg" alt="" class="wp-image-9025" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig6.jpg 707w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig6-300x289.jpg 300w" sizes="auto, (max-width: 707px) 100vw, 707px" /><figcaption>Fig 6.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The analysis yields calculated MA’s: For 9:1</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1 + P2
++ P4 + P1P2 + P2P4 + P3P4 + P1P2P4 + P2P3P4 + P1P2P3P4</strong></p>
+
+
+
+<p class="wp-block-paragraph">And for 11:1</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1 + P2
++ P4 + P1P2 + P1P4 + P2P4 + P3P4 + P1P2P4 + P1P3P4 + P2P3P4 + P1P2P3P4</strong></p>
+
+
+
+<p class="wp-block-paragraph">Besides the fourth pulley, there is something
+new here. The term P1P2P3P4 means now there’s a path through all the pulleys,
+which was absent in the 5:1 case. There are terms of different degrees present
+from 0 (term “1”) to 4 (P1P2P3P4). </p>
+
+
+
+<p class="wp-block-paragraph">Could a term manifest multiple times? I claim
+that it is impossible, although I again am not able to give a solid and formal
+proof. But it would mean that two independent energy paths flow through exact
+same sequence of pulleys.</p>
+
+
+
+<p class="wp-block-paragraph">How about power terms like P1P1 or P2P2P2, or
+in general a pulley manifesting itself in a term several times? Again, not
+formal nor solid, but it would require a loop where an energy path passes same
+pulley twice. Only one rope runs through each pulley.</p>
+
+
+
+<p class="wp-block-paragraph">So, to be proven later and by more intelligent
+people, we take as a <strong>premise</strong>:</p>
+
+
+
+<p class="wp-block-paragraph"><strong><em>Each term, a product of combination of pulley
+efficiencies, appears at maximum once in a calculated MA (1). Further, each
+pulley’s efficiency may appear at maximum once in each term (2).</em></strong></p>
+
+
+
+<p class="wp-block-paragraph">It follows that using N pulleys, the maximum number of pulley efficiencies in a single term is N. A term is a product of maximum N efficiency values, thus the maximum degree of a term is N. The other degrees between (possible) zeroth degree term and the Nth degree term are combinations of pulleys, like “P1P3P4” etc. The possible terms up to fourth degree are:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="1024" height="538" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/FourthDegree-1024x538.jpg" alt="" class="wp-image-9027" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/FourthDegree-1024x538.jpg 1024w, https://www.ropelab.com.au/wp-content/uploads/2019/04/FourthDegree-300x158.jpg 300w, https://www.ropelab.com.au/wp-content/uploads/2019/04/FourthDegree-768x404.jpg 768w, https://www.ropelab.com.au/wp-content/uploads/2019/04/FourthDegree.jpg 1545w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Luckily this is familiar looking structure.
+Mathematicians have known this for centuries, although a white man called
+Pascal has later taken most of the credit, this is known as Pascal’s triangle.
+It resembles array of binomial coefficients for different degrees. No need to
+be intimidated, this just means (among other things) that we know the number of
+terms on each row, no matter how far we go downwards. The number of terms on
+row N is 2<sup>N</sup> (the top row being zeroth).</p>
+
+
+
+<p class="wp-block-paragraph">So if the premises above hold, the maximum number of terms in the calculated MA, and thus the <em>maximum ideal MA of a pulley built using N pulleys is 2<sup>N</sup></em>. Row one: What is a pulley system having zero pulleys? A rope, which obviously has MA 1. Row two: Using one pulley, there seems to be two possible pulley systems, V and V upside down. The ideal MA of the former one is 2 and the latter one 1, it being just a pull direction changer. Their calculated MA’s would be 1+P1 and P1, respectively. As stated earlier, in the case of upside down V, there could not be a first order term P1, since the pulley is in negative direction.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="664" height="546" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/Fig7.png" alt="" class="wp-image-9028" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig7.png 664w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig7-300x247.png 300w" sizes="auto, (max-width: 664px) 100vw, 664px" /><figcaption>Fig 7.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">How about the third row, pulley systems having two pulleys? At least we have the famous Z-rig or simple 3:1 (1+P1+P1P2, see figure 2) and ideally 4:1 “V on V” or “piggyback”, see figure 8. The latter can also be turned upside down to achieve an ideally 3:1 direction changing system. This system does not have term “1” because it is direction changing, but for the same reason it has both terms P1 and P2 even though the corresponding pulleys’ directions are negative.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="635" height="558" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/Fig8.png" alt="" class="wp-image-9029" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig8.png 635w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig8-300x264.png 300w" sizes="auto, (max-width: 635px) 100vw, 635px" /><figcaption>Fig 8.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">It seems that “V” and “V on V” do a good job
+getting all possible terms. Actually all the clues lead into this direction, if
+you think about it. The maximum ideal MA for N pulleys, 2<sup>N</sup>, means
+that each added pulley needs to double the MA. All pulleys should have the same
+direction as the input element (to get all first degree terms). Again, I’m not
+going to formally prove this, but there most probably are not other solutions
+to this than “V on V on V on …. On V”. At least there is a pulley system that
+has MA of 2<sup>N</sup>, no matter how many N pulleys is used to build it.</p>
+
+
+
+<p class="wp-block-paragraph">Let’s study some three pulley systems and how
+they fill in the boxes:</p>
+
+
+
+<ul class="wp-block-list"><li>Crevasse 5:1, see figure 4</li><li>Simple 4:1, see figure 9</li><li>7:1 (double) mariner, see figure 9</li><li>V on Z and vice versa, see figure 9</li><li>V on V on V and same upside down, see figure 9</li></ul>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="773" height="1024" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/Fig9-773x1024.jpg" alt="" class="wp-image-9030" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig9-773x1024.jpg 773w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig9-226x300.jpg 226w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig9-768x1018.jpg 768w, https://www.ropelab.com.au/wp-content/uploads/2019/04/Fig9.jpg 1021w" sizes="auto, (max-width: 773px) 100vw, 773px" /><figcaption>Fig 9.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">These pulley systems have the following terms in their calculated MA’s:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="228" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-18.png" alt="" class="wp-image-9060" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-18.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-18-300x114.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Some notes on this. The cases “V on Z” and “Z
+on V” quite nicely show that there may be several different pulley systems that
+have identical calculated MA expression. This also more or less shows the
+tendency of the pulleys closer to the input element to appear more frequently
+in the terms. The numbering of the pulleys is of course completely dependent on
+definition, but I like to label the most obvious one to act as progress capture
+device (PCD) as P1, and it is usually not close to the input element. As can be
+seen here, terms P2 and P3 tend to be more frequent ones.</p>
+
+
+
+<h2 class="wp-block-heading">Pulley system efficiency</h2>
+
+
+
+<p class="wp-block-paragraph">Where do we want the ticks to appear, then? If all three pulleys have a decent efficiency 0.8, the terms have the following contributions to the calculated MA (blue row). This table is for four pulley systems, but the same goes with three pulley systems, one just has to ignore the extra terms.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="97" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image.png" alt="" class="wp-image-9032" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-300x48.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /></figure>
+
+
+
+<p class="wp-block-paragraph">In this case of similar pulleys, only the degree of each term matters. And surely enough, each number equals to a power of 0.8. For example the 4th degree term is about half the first degree term. Remember, the calculated MA of a pulley system is the sum of a collection of these numbers. If we add a row (green) for their cumulative sum: </p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="120" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-1.png" alt="" class="wp-image-9033" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-1.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-1-300x60.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /><figcaption><br></figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">We find that (in the case of pulley efficiency
+0.8), the terms of degree 0 and 1 are responsible for 40% of the calculated MA.
+The higher degree terms represent energy paths that flow through several
+pulleys, and it is very clear here what that does to the energy.</p>
+
+
+
+<p class="wp-block-paragraph">What if there are different pulleys present? A case with real life significance would be having a poor “pulley” as PCD, such as a Petzl I&#8217;D. If we calculate the term values for P1 = 0.3 and P2=P3=P4=0.8, we get:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="95" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-2.png" alt="" class="wp-image-9034" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-2.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-2-300x47.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /></figure>
+
+
+
+<p class="wp-block-paragraph">We see that only the terms including P1 are
+affected, obviously. Third degree terms without P1 are stronger than the second
+degree terms that are affected by P1.</p>
+
+
+
+<p class="wp-block-paragraph">A practical example: Z-rig using 0.8 and 0.7 pulleys. P1P2 has value&nbsp; 0.8*0.7=0.56, and the calculated efficiency is sum 1+0.7+0.56 = 2.26:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="385" height="95" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-3.png" alt="" class="wp-image-9035" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-3.png 385w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-3-300x74.png 300w" sizes="auto, (max-width: 385px) 100vw, 385px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Let’s study four pulley systems:</p>
+
+
+
+<ul class="wp-block-list"><li>Simple 5:1, see figure 10</li><li>Z on Z 9:1, see figure 6</li><li>11:1, see figure 6</li><li>V on V on V on V, analogously to the 8:1 defined earlier, see figure 9. </li><li> V on V on V on V, analogously to the 8:1 defined earlier, see figure 9. </li></ul>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="226" height="258" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-4.png" alt="" class="wp-image-9036"/><figcaption>Fig 10.</figcaption></figure>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="151" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-5.png" alt="" class="wp-image-9037" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-5.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-5-300x75.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /></figure>
+
+
+
+<p class="wp-block-paragraph">The 5:1 continues what simple 4:1 started: the
+simple systems seem to occupy only one of the terms of each degree. Multiple
+same degree terms thus seem to arise from something that, I think, is sometimes
+referred to as “complexity” of a pulley system. According to that definition, a
+complex pulley system is such that there are pulleys attached to other elements
+than solely to the ground and to the output element, and thus there are
+non-stationary pulleys which move at different rate than the output element.
+This is an interesting starting point, which I’m going to leave for now.</p>
+
+
+
+<p class="wp-block-paragraph">We also see that the facts that PCD naturally has negative direction and that it is “far from hand”, i.e. input element, helps a lot here. Compared to 9:1, the 11:1 obviously has two extra terms: P1P4 and P1P3P4, both compromised by P1. That is, as can be read from the blue row, the 11:1 is supposed to have calculated MA 5.4 and 9:1 respectively 5. So to add 8% to the MA, one has to agree on pulling full 2/9 = 22% more rope out of the system.</p>
+
+
+
+<p class="wp-block-paragraph">In real life there would be an enormous
+collapse rate problem as well (need for frequent resetting), but that is out of
+the scope here. Talking about real life, though, the unhealthy nature of the
+added two terms here can be quickly recognized by the fact that the new pulley
+attachment point in 11:1 pulls rope through the bad efficiency P1. That is, all
+of its effort will in any case be compromised by P1, as seen in the table.</p>
+
+
+
+<p class="wp-block-paragraph">Which leads us to an important point: We have to keep clearly in mind that we have been categorizing pulley systems by number of pulleys (and thus theoretical maximum ideal MA), not their actual ideal MA. That is, filling in the table is just an academic goal. In real life, having the correct boxes checked should be a bigger concern. For instance, using three pulleys of efficiency 0.8, it would of course be ideal (when it comes to maximizing effective MA) to come up with a 4:1 system that has calculated MA expression 1+P1+P2+P3. We already know that all three pulleys should be in the positive direction, so the reader may go ahead and try this out. My guess is that such a pulley system does not exist, although once again I’m not even trying to prove it and would be delighted to be proven wrong by presenting one.</p>
+
+
+
+<p class="wp-block-paragraph">It will be really interesting to carry on
+figuring out what kind of combinations are possible. Even this optimal “zeroth
+and first degree only” has some limiting factors. Namely, the maximum
+calculated MA is limited to 1+PN, where P is the efficiency and N is the number
+of pulleys (all similar). For example, using three 0.8 pulleys this optimal system
+would give 3.4:1. The efficiency of this imaginary pulley system would be 3.4/4
+= 0.85.</p>
+
+
+
+<p class="wp-block-paragraph">If we found the rules and limits of optimizing
+for small order terms, this efficiency limit would probably be much lower. For
+example, if it was the case that a four pulley system must inevitably have at
+least one second degree term in its calculated MA, the maximum value for the MA
+(again 0.8 efficient pulleys)&nbsp; would be 1
++ 0.8 + 0.8 + 0.64 = 3.24:1, efficiency 0.81 &#8211; and I’m just guessing even this
+is optimistic. We’ll see.</p>
+
+
+
+<h2 class="wp-block-heading">Samples</h2>
+
+
+
+<p class="wp-block-paragraph"> Let’s study some variations to the “crevasse” 5:1 (fig 4) and “mariner” 7:1 (fig 9). They have something in common: both include a PCD-like negative pulley attached to the ground element (or anchor), a second pulley that is positive by direction and a tractor at the output element. We may define them and a lot more by replacing section “x” in a main system by various smaller systems, see figure 10.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="205" height="362" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-6.png" alt="" class="wp-image-9038" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-6.png 205w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-6-170x300.png 170w" sizes="auto, (max-width: 205px) 100vw, 205px" /><figcaption>Fig 11.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The known cases use both ground element and E2
+as (let’s call it) an <em>internal anchor</em>
+for system x. It seems there’s only one variation of x that does not need an
+internal anchor. Namely, using a 1:1, a fixed connection between P2 and the
+tractor would yield a Z-rig. The crevasse uses a 2:1 V-rig as x and G as
+internal anchor for it. The 7:1 mariner adds two terms to MA by replacing G by
+E2.</p>
+
+
+
+<p class="wp-block-paragraph">What kind of elements could be used as
+internal anchors? Again, not claiming formal proofs, I assume:</p>
+
+
+
+<ul class="wp-block-list"><li>A negative pulley inside x cannot
+be attached to a positive element of the main system</li><li>A positive pulley inside x cannot
+be attached to a negative element of the main system</li><li>A negative element inside x cannot
+be attached to a positive element of the main system</li><li>A positive element inside x cannot
+be attached to a negative element of the main system</li></ul>
+
+
+
+<p class="wp-block-paragraph">That is, any element or pulley inside x that tends to pull downwards can only be attached to a downwards moving element of the main system or to the ground etc. This suggestion is just a sketch, and it does not matter to the following if it holds or not.</p>
+
+
+
+<p class="wp-block-paragraph">Figure 12 shows a collection of four-pulley systems meeting these conditions. For x, these use all non direction changing two-pulley systems I could come up with and all internal anchoring combinations respectively.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="295" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-7.png" alt="" class="wp-image-9039" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-7.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-7-300x147.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /></figure>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="322" height="270" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-8.png" alt="" class="wp-image-9040" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-8.png 322w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-8-300x252.png 300w" sizes="auto, (max-width: 322px) 100vw, 322px" /><figcaption>Fig 12.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Here are their terms:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="259" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-9.png" alt="" class="wp-image-9041" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-9.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-9-300x129.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /></figure>
+
+
+
+<p class="wp-block-paragraph">If all the pulleys are similar, it is sufficient to count occurrences of each degree terms:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="259" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-10.png" alt="" class="wp-image-9042" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-10.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-10-300x129.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Let’s remember that the numbers are not directly comparable, as their sum per pulley system (ideal MA of the system) varies. If these numbers are normalized by dividing them by the sum, we get comparable values of how significant each degree is for each pulley system. Putting the systems in a convenient order, we obtain this graph:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="476" height="290" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-11.png" alt="" class="wp-image-9044" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-11.png 476w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-11-300x183.png 300w" sizes="auto, (max-width: 476px) 100vw, 476px" /><figcaption>Fig 15.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Especially degrees 1 and 3 are notably
+symmetrical. And in general, there’s a clear tendency of some pulley systems to
+have more weight on lower degree terms, whereas the others rely more on the
+higher degree terms. This order, B-F-E-D-A-C, actually is related to how the
+internal pulley system X is anchored. B and F use only element E2, E and D use
+both E2 and G, and A and C use G only. This is a nice, graphical representation
+of how adding MA by attaching to moving elements might result in mostly the
+number of higher degree terms increasing. There’s no doubt that the addition of
+2 to the MA when moving from <em>Crevasse</em>
+5:1 to <em>Double Mariner</em> 7:1 (fig 4, 9)
+or from 9:1 to 11:1 (fig 6) will have a similar outcome. This was already
+briefly discussed in the context of&nbsp; 9:1
+and 11:1. In plain english: if one uses an internal pulley system to pull rope
+through a pulley, there will be more high degree terms compared to pulling the load
+directly.</p>
+
+
+
+<p class="wp-block-paragraph">Another aspect to normalizing the numbers: it is expectable that the second degree bars are the highest, since it has the highest maximum allowed value (6). If the numbers are divided by the maximum value by degree (1-4-6-4-1), we see how fully occupied each degree is; zero meaning no terms, one meaning that all possible terms exist.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="372" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-12.png" alt="" class="wp-image-9045" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-12.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-12-300x185.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /><figcaption>Fig 16.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">It is especially interesting to me that in
+this set of pulley systems, the third degree divides the systems into two
+categories (B, F and E having three or four terms and the rest having one or
+two), and the same division applies to the fourth degree. B seems
+extraordinarily poor: it dips at lower degree terms and peaks again towards
+higher degree. “A” and “C” seem to perform the best: they show almost inverse
+linear correlation between their dependency of a term and the degree of the
+term.</p>
+
+
+
+<h2 class="wp-block-heading">A practical finding?</h2>
+
+
+
+<p class="wp-block-paragraph">Since “A” seemed so feasible in light of the numbers, let’s study it a bit further. It has ideal MA 7:1, as does the <em>Double Mariner</em>. The Double Mariner is actually suggested by Petzl for crevasse rescue, so at least someone finds it practically feasible.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="354" height="322" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-13.png" alt="" class="wp-image-9046" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-13.png 354w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-13-300x273.png 300w" sizes="auto, (max-width: 354px) 100vw, 354px" /><figcaption>Fig 17 &#8220;A&#8221; and Double Mariner</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Of course Double Mariner (DM) has one pulley less than “A”. It is still possible to show their terms in a single table &#8211; all the terms including P4 will just be absent for DM:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="68" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-14.png" alt="" class="wp-image-9047" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-14.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-14-300x34.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /></figure>
+
+
+
+<p class="wp-block-paragraph">First off, we see that both have the same
+number of terms of each degree (1-2-3-2-0). It means that if the pulleys are
+similar, they’ll have similar calculated MA. Which speaks for DM, because it
+needs one pulley less. Unless of course all the pulleys are karabiners, in
+which case the difference is not such a big issue.</p>
+
+
+
+<p class="wp-block-paragraph">But “A” is less dependent on P1 (one occurrence compared to DM’s three), which might make a difference if P1 is a low-efficiency PCD. Like an I’D, Grigri or ATC in guide mode. Let’s try applying efficiency 0.3 for P1 and 0.8 for the rest. The calculated MA of “A” is <strong>4.63:1</strong> and DM gets <strong>3.91:1</strong>. OK, fair enough: “A” still needs three 0.8 pulleys whereas DM does with two.</p>
+
+
+
+<p class="wp-block-paragraph">How about using a 0.3 efficient PCD and two
+0.8 pulleys, then, and using a karabiner for the fourth pulley in “A”? “A” is
+the least sensitive to P3 (one occurrence), so let’s try replacing that with a
+0.5 efficient karabiner: we get calculated MA <strong>4.2:1</strong> &#8211; still better than DM.</p>
+
+
+
+<p class="wp-block-paragraph">How about using only carabiners and a sticky
+PCD as pulleys? Let’s apply 0.3 for P1 ang 0.5 for the rest: DM <strong>2,65:1</strong>, “A” <strong>2,78:1</strong>. That we might call a tie.</p>
+
+
+
+<p class="wp-block-paragraph">So, “A” is at least no worse when it comes to calculated efficiency. But in practice, there are other important aspects to a pulley system, like resetting issues. First of all, DM has two rope grabs that need minding, whereas “A” has only one. Secondly, DM has to be reset ⅓ more often than “A”. I’m not going through the full analysis here, but it can be calculated that “A” is able to hoist the load one third of the full length of the pulley (see fig 18) whereas DM does one fourth.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="398" height="306" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-15.png" alt="" class="wp-image-9048" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-15.png 398w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-15-300x231.png 300w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-15-65x50.png 65w" sizes="auto, (max-width: 398px) 100vw, 398px" /><figcaption>Fig 18.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">This is an idealization, of course. But I’m
+quite sure the real world favours “A” even more. If you ever tried a pulley
+system with two grabs to mind while resetting, you’ll know.</p>
+
+
+
+<h2 class="wp-block-heading">Conclusions</h2>
+
+
+
+<p class="wp-block-paragraph">The force analysis aka T-method works, no doubt about it. The practice of handling pulley efficiencies as coefficients instead of counting them right away in as numbers also makes sense. It helps, for example, understand how to place your best pulley. In some cases it might be a sound educational tool, if the audience is ready for it.</p>
+
+
+
+<p class="wp-block-paragraph">The analysis method is actually a feasible means of quantifying pulley systems as well. Of course, as was also pointed in this text, this parameterization is not unambiquous i.e. there might be several pulley systems that have a certain combination of terms. But when it comes to pulley system efficiency, it is adequate. Fig 19 is a screenshot of a spreadsheet that can be used to calculate pulley system efficiencies. One just needs to analyze the system, fill in 1’s to indicate active terms, and fill in pulley efficiencies (green cells). This is a very simple sheet. </p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="602" height="163" src="http://www.ropelab.com.au/wp-content/uploads/2019/04/image-16.png" alt="" class="wp-image-9049" srcset="https://www.ropelab.com.au/wp-content/uploads/2019/04/image-16.png 602w, https://www.ropelab.com.au/wp-content/uploads/2019/04/image-16-300x81.png 300w" sizes="auto, (max-width: 602px) 100vw, 602px" /><figcaption>Fig 19.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The analysis might be a useful tool for
+comparing different pulley systems in different scenarios. For example, having
+a Micro Traxion as PCD changes a lot compared to having an ATC in guide mode.
+Using the table, one can quickly find the optimal solution for given equipment.
+Of course no-one is going to pull the spreadsheet out when there’s an emergency
+or minor practical need. But having played with it, one just might be able to
+pull the thing out of their head. Most of us will simply do as instructed, which
+is completely fine. This tool is more for the instructors.</p>
+
+
+
+<h2 class="wp-block-heading">In a nutshell</h2>
+
+
+
+<ol class="wp-block-list"><li>Define the pulley system you are interested in. Draw a schematic image of it, labeling pulleys as P1, P2 etc.</li><li>Analyse the pulley system as in the commonly known T-method. Just do not treat the tensions as “1”, but as calculated, efficient values such as 0.8 if tension 1 goes through a 0.8 efficient pulley or 0.64 if the result goes through another 0.8 pulley. Further, do not use any explicit numbers, but keep it in the world of algebra: use “P1” instead of 0.8 and P1P2 instead of 0.64, for instance. P1 is the efficiency of pulley 1 and P2 is the efficiency of pulley 2. See figure 4.</li><li>You should end up having an expression for the calculated MA such like 1+P2+P1P2 with as many terms as the ideal MA of the pulley system. There should be only combinations of P1, P2, P3 etc in the products; each pulley appearing once if at all in a term. So, for example, using three pulleys the possible terms are <strong>P1, P2, P3, P1P2, P1P3, P2P3 and P1P2P3</strong>.There can also be “1”, which appears if the pulley system does not change pull direction. In total, there are 2<sup>N</sup>      possible combinations, where N is the number of pulleys.</li><li>There is a pulley system that has all possible terms in its calculated MA expression, the “V on V on V” (etc, adding another V for each pulley). See figures 8 and 9.</li><li>For example, a <strong>Z-rig</strong> as defined in figure 2 will have calculated MA <strong>1+P2+P1P2</strong>. If you want to apply a tangible value to P1 and P2, for example P1=0.8 and P2=0.5, you get 1+0.5+0.8*0.5 = 1.9. So the calculated MA of the said Z-rig is <strong>1.9:1</strong>.</li><li>You can see  that no matter how poor the pulleys are, the calculated MA in the example will never become below 1. This is because in Z-rig and other pulley systems that do not change pulling direction, there’s always the input tension (1) applied to the load. Even if the pulleys were completely stuck, having efficiency 0.</li><li>You can also see that in real life the higher degree terms will inevitably be weaker than lower degree terms. In the case of Z-rig, “1” is zeroth degree, P2 is first degree and P1P2 is second degree term. Only in the ideal case where all P’s equal 1, their products also equal 1 to any degree. In real world, having 0.8 efficient pulleys, the terms will have values 1, 0.8, 0.64, 0.51 and so on.</li><li>Because in the case of Z-rig P1 appears in one term but P2 appears in two terms, <strong>Z-rig is more sensitive to P2</strong> (when it comes to efficiency). The well known rule “the best pulley closest to hand) has its roots exactly here. If you interchange the 0.5 and 0.8 pulleys introduced in point 5, you’ll get calculated efficiency 1+0.8+0.5*0.8 = <strong>2.2:1</strong>.</li></ol>
+
+
+
+<p class="wp-block-paragraph"><br>© Tuomas Pöysti, 2019</p>
+
+
+
+<p class="wp-block-paragraph"><a href="http://www.kiipeilytuomas.fi/category/articles-in-english/">http://www.kiipeilytuomas.fi/category/articles-in-english/</a></p>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$.post('https://www.ropelab.com.au/wp-admin/admin-ajax.php', {action: 'wpt_view_count', id: '9018'});
+});
+</script>														 
+															<!-- Start Share Buttons -->
+								<div class="shareit">
+																																					<!-- Facebook -->
+										<span class="share-item facebookbtn">
+											<div id="fb-root"></div>
+											<div class="fb-like" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false"></div>
+										</span>
+																																												</div>
+								<!-- end Share Buttons -->
+																				</div>
+						<!-- End Content -->
+					</div>
+						
+						<!-- Start Related Posts -->
+						<div class="related-posts"><h3>Related Posts</h3><div class="postauthor-top"><ul>							<li class=" rpexcerpt1 ">
+								<a rel="nofollow" class="relatedthumb" href="https://www.ropelab.com.au/rescue-knife/" rel="bookmark" title="Rescue Knife">
+									<span class="rthumb">
+																					<img width="150" height="100" src="https://www.ropelab.com.au/wp-content/uploads/2015/07/Knife-150x100.jpg" class="attachment-featured size-featured wp-post-image" alt="" title="" decoding="async" loading="lazy" />																			</span>
+									<span>
+										Rescue Knife									</span>
+								</a>
+								<div class="meta">
+									<i class="icon-comments"></i>
+									<a href="https://www.ropelab.com.au/rescue-knife/#respond" rel="nofollow">No Comments</a>
+								</div> <!--end .entry-meta-->
+							</li>
+																					<li class=" rpexcerpt2 last">
+								<a rel="nofollow" class="relatedthumb" href="https://www.ropelab.com.au/members-matching-tension-with-mirrored-systems/" rel="bookmark" title="Members: Matching Tension with Mirrored Systems">
+									<span class="rthumb">
+																					<img width="150" height="100" src="https://www.ropelab.com.au/wp-content/uploads/2016/08/MirroredID2-150x100.jpg" class="attachment-featured size-featured wp-post-image" alt="" title="" decoding="async" loading="lazy" />																			</span>
+									<span>
+										Members: Matching Tension with Mirrored Systems									</span>
+								</a>
+								<div class="meta">
+									<i class="icon-comments"></i>
+									<a href="https://www.ropelab.com.au/members-matching-tension-with-mirrored-systems/#comments" rel="nofollow">2 Comments</a>
+								</div> <!--end .entry-meta-->
+							</li>
+																					<li class=" rpexcerpt3 ">
+								<a rel="nofollow" class="relatedthumb" href="https://www.ropelab.com.au/the-fabulous-figure-of-8-knot/" rel="bookmark" title="The Fabulous Figure-of-8 Knot">
+									<span class="rthumb">
+																					<img width="150" height="100" src="https://www.ropelab.com.au/wp-content/uploads/2016/08/Five8sThumb-150x100.jpg" class="attachment-featured size-featured wp-post-image" alt="" title="" decoding="async" loading="lazy" />																			</span>
+									<span>
+										The Fabulous Figure-of-8 Knot									</span>
+								</a>
+								<div class="meta">
+									<i class="icon-comments"></i>
+									<a href="https://www.ropelab.com.au/the-fabulous-figure-of-8-knot/#respond" rel="nofollow">No Comments</a>
+								</div> <!--end .entry-meta-->
+							</li>
+																					<li class="last rpexcerpt4 last">
+								<a rel="nofollow" class="relatedthumb" href="https://www.ropelab.com.au/knots-level-1-rope-access/" rel="bookmark" title="Knots: Level 1 Rope Access">
+									<span class="rthumb">
+																					<img width="150" height="100" src="https://www.ropelab.com.au/wp-content/uploads/2017/07/Fig8s-150x100.jpg" class="attachment-featured size-featured wp-post-image" alt="" title="" decoding="async" loading="lazy" />																			</span>
+									<span>
+										Knots: Level 1 Rope Access									</span>
+								</a>
+								<div class="meta">
+									<i class="icon-comments"></i>
+									<a href="https://www.ropelab.com.au/knots-level-1-rope-access/#respond" rel="nofollow">No Comments</a>
+								</div> <!--end .entry-meta-->
+							</li>
+														</ul></div></div>						<!-- End Related Posts -->
+					  
+											<!-- Start Author Box -->
+						<div class="postauthor-container">
+							<h4>About The Author</h4>
+							<div class="postauthor">
+								<img alt='' src='https://secure.gravatar.com/avatar/7a3d40a1f6b2722f4361f7bfeb1dbb4a3a7fa0a18de032c745a824b5f5c422d8?s=100&#038;d=identicon&#038;r=g' srcset='https://secure.gravatar.com/avatar/7a3d40a1f6b2722f4361f7bfeb1dbb4a3a7fa0a18de032c745a824b5f5c422d8?s=200&#038;d=identicon&#038;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' loading='lazy' decoding='async'/>								<h5><a href="https://www.ropelab.com.au/author/beryl/" rel="nofollow">Richard Delaney</a></h5>
+								<p>Richard Delaney has worked professionally with ropes since 1992 as a multi-pitch rock-climbing instructor, technical rescue instructor and rope access technician. Understanding and teaching the Physics of Rigging is a core passion of Richard’s, one based on his experience, and his prior professional life as a qualified engineer.</p>
+							</div>
+						</div>
+						<!-- End Author Box -->
+					  
+				</div>
+				<!-- You can start editing here. -->
+			<!-- If comments are open, but there are no comments. -->
+		<div class="bordersperator2"></div>
+	<div id="commentsAdd">
+		<div id="respond" class="box m-t-6">
+				<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><h4><span>Add a Comment</span></h4> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/pulley-system-analysis/#respond" style="display:none;">Click here to cancel reply.</a></small></h3><p class="must-log-in">You must be <a href="https://www.ropelab.com.au/wp-login.php?redirect_to=https%3A%2F%2Fwww.ropelab.com.au%2Fpulley-system-analysis%2F">logged in</a> to post a comment.</p>	</div><!-- #respond -->
+			</div>
+	</div>
+					</article>
+		<!-- End Article -->
+		<!-- Start Sidebar -->
+		<aside class="sidebar c-4-12">
+	<div id="sidebars" class="sidebar">
+			<div class="sidebar_list">
+									<div id="sidebar-search" class="widget">
+						<h3>Search</h3>
+						<div class="widget-wrap">
+							<form method="get" id="searchform" class="search-form" action="https://www.ropelab.com.au" _lpchecked="1">
+	<fieldset>
+		<input type="text" name="s" id="s" value="Search the site" onblur="if (this.value == '') {this.value = 'Search the site';}" onfocus="if (this.value == 'Search the site') {this.value = '';}" >
+		<input id="search-image" class="sbutton" type="submit" style="border:0; vertical-align: top;" value="Search">
+		<i class="icon-search"></i>
+	</fieldset>
+</form>						</div>
+					</div>
+					<div id="sidebar-archives" class="widget">
+						<h3>Archives</h3>
+						<div class="widget-wrap">
+							<ul>
+									<li><a href='https://www.ropelab.com.au/2024/08/'>August 2024</a></li>
+	<li><a href='https://www.ropelab.com.au/2024/01/'>January 2024</a></li>
+	<li><a href='https://www.ropelab.com.au/2023/11/'>November 2023</a></li>
+	<li><a href='https://www.ropelab.com.au/2023/08/'>August 2023</a></li>
+	<li><a href='https://www.ropelab.com.au/2023/03/'>March 2023</a></li>
+	<li><a href='https://www.ropelab.com.au/2022/07/'>July 2022</a></li>
+	<li><a href='https://www.ropelab.com.au/2022/05/'>May 2022</a></li>
+	<li><a href='https://www.ropelab.com.au/2022/03/'>March 2022</a></li>
+	<li><a href='https://www.ropelab.com.au/2022/02/'>February 2022</a></li>
+	<li><a href='https://www.ropelab.com.au/2021/11/'>November 2021</a></li>
+	<li><a href='https://www.ropelab.com.au/2021/10/'>October 2021</a></li>
+	<li><a href='https://www.ropelab.com.au/2021/08/'>August 2021</a></li>
+	<li><a href='https://www.ropelab.com.au/2021/07/'>July 2021</a></li>
+	<li><a href='https://www.ropelab.com.au/2021/05/'>May 2021</a></li>
+	<li><a href='https://www.ropelab.com.au/2021/01/'>January 2021</a></li>
+	<li><a href='https://www.ropelab.com.au/2020/10/'>October 2020</a></li>
+	<li><a href='https://www.ropelab.com.au/2020/07/'>July 2020</a></li>
+	<li><a href='https://www.ropelab.com.au/2020/05/'>May 2020</a></li>
+	<li><a href='https://www.ropelab.com.au/2020/03/'>March 2020</a></li>
+	<li><a href='https://www.ropelab.com.au/2020/02/'>February 2020</a></li>
+	<li><a href='https://www.ropelab.com.au/2020/01/'>January 2020</a></li>
+	<li><a href='https://www.ropelab.com.au/2019/12/'>December 2019</a></li>
+	<li><a href='https://www.ropelab.com.au/2019/11/'>November 2019</a></li>
+	<li><a href='https://www.ropelab.com.au/2019/08/'>August 2019</a></li>
+	<li><a href='https://www.ropelab.com.au/2019/07/'>July 2019</a></li>
+	<li><a href='https://www.ropelab.com.au/2019/06/'>June 2019</a></li>
+	<li><a href='https://www.ropelab.com.au/2019/04/'>April 2019</a></li>
+	<li><a href='https://www.ropelab.com.au/2019/01/'>January 2019</a></li>
+	<li><a href='https://www.ropelab.com.au/2018/11/'>November 2018</a></li>
+	<li><a href='https://www.ropelab.com.au/2018/08/'>August 2018</a></li>
+	<li><a href='https://www.ropelab.com.au/2018/07/'>July 2018</a></li>
+	<li><a href='https://www.ropelab.com.au/2018/05/'>May 2018</a></li>
+	<li><a href='https://www.ropelab.com.au/2018/04/'>April 2018</a></li>
+	<li><a href='https://www.ropelab.com.au/2018/01/'>January 2018</a></li>
+	<li><a href='https://www.ropelab.com.au/2017/12/'>December 2017</a></li>
+	<li><a href='https://www.ropelab.com.au/2017/11/'>November 2017</a></li>
+	<li><a href='https://www.ropelab.com.au/2017/10/'>October 2017</a></li>
+	<li><a href='https://www.ropelab.com.au/2017/08/'>August 2017</a></li>
+	<li><a href='https://www.ropelab.com.au/2017/07/'>July 2017</a></li>
+	<li><a href='https://www.ropelab.com.au/2017/05/'>May 2017</a></li>
+	<li><a href='https://www.ropelab.com.au/2017/03/'>March 2017</a></li>
+	<li><a href='https://www.ropelab.com.au/2017/02/'>February 2017</a></li>
+	<li><a href='https://www.ropelab.com.au/2017/01/'>January 2017</a></li>
+	<li><a href='https://www.ropelab.com.au/2016/12/'>December 2016</a></li>
+	<li><a href='https://www.ropelab.com.au/2016/11/'>November 2016</a></li>
+	<li><a href='https://www.ropelab.com.au/2016/10/'>October 2016</a></li>
+	<li><a href='https://www.ropelab.com.au/2016/08/'>August 2016</a></li>
+	<li><a href='https://www.ropelab.com.au/2016/06/'>June 2016</a></li>
+	<li><a href='https://www.ropelab.com.au/2016/04/'>April 2016</a></li>
+	<li><a href='https://www.ropelab.com.au/2016/03/'>March 2016</a></li>
+	<li><a href='https://www.ropelab.com.au/2016/02/'>February 2016</a></li>
+	<li><a href='https://www.ropelab.com.au/2016/01/'>January 2016</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/12/'>December 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/11/'>November 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/10/'>October 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/09/'>September 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/08/'>August 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/07/'>July 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/06/'>June 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/05/'>May 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/04/'>April 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/02/'>February 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2015/01/'>January 2015</a></li>
+	<li><a href='https://www.ropelab.com.au/2014/12/'>December 2014</a></li>
+	<li><a href='https://www.ropelab.com.au/2014/11/'>November 2014</a></li>
+	<li><a href='https://www.ropelab.com.au/2014/10/'>October 2014</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="sidebar-meta" class="widget">
+						<h3>Meta</h3>
+						<div class="widget-wrap">
+							<ul>
+																<li><a href="https://www.ropelab.com.au/wp-login.php">Log in</a></li>
+															</ul>
+						</div>
+					</div>
+							</div>
+	</div><!--sidebars-->
+</aside>		<!-- End Sidebar -->
+		</div><!--.content-->
+	</div><!--#page-->
+</div><!--.main-container-->
+<footer>
+	<div class="footer-widgets">
+		<div class="footer-widget1 footer-widget"><div class="f-widget f-widget-1"><div id="text-2" class="widget widget_text"><h3 class="widget-title">RopeLab</h3>			<div class="textwidget"><p>RopeLab aims to provide rope technicians with sound research, education and collaboration.</p>
+<p>RopeLab explores roping equipment, systems, and techniques and seeks to provide a greater understanding of these for members.</p>
+<p>RopeLab is for practitioners and will remain independent and objective.</p>
+</div>
+		</div></div></div>
+		<div class="footer-widget2 footer-widget"><div class="f-widget f-widget-2"><div id="text-3" class="widget widget_text"><h3 class="widget-title">Contact us</h3>			<div class="textwidget"><p>richard@ropelab.com.au<br />
+0418 861 807 (Australia)<br />
++61 418 861 807 (International)<br />
+PO Box 193<br />
+Katoomba<br />
+NSW 2780<br />
+Australia</p>
+</div>
+		</div></div></div>
+		<div class="footer-widget3 footer-widget"><div class="f-widget f-widget-3 last"><div id="text-10" class="widget widget_text">			<div class="textwidget"><!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//ropelab.us9.list-manage.com/subscribe/post?u=51ed767aabd1a8159566032ad&amp;id=40af94ab5d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe to our mailing list</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+<p><a href="http://us9.campaign-archive2.com/home/?u=51ed767aabd1a8159566032ad&id=40af94ab5d" title="View previous campaigns">View previous campaigns.</a></p>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_51ed767aabd1a8159566032ad_40af94ab5d" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup--></div>
+		</div></div></div>
+	</div><!--.footer-widgets-->
+</footer><!--footer-->
+<div class="copyrights"><!--start copyrights-->
+<div class="row" id="copyright-note">
+	<span>
+		<a href="https://www.ropelab.com.au/" title="Explore, Question, Test, Understand, Share.">RopeLab Online</a>&copy; 2026.
+	</span>
+	<div class="top">© Copyright 2015 RopeLab | All Rights Reserved.</div>
+</div>
+<!--end copyrights-->
+</div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/frontpage/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="vscf-scripts-js" src="https://www.ropelab.com.au/wp-content/plugins/very-simple-contact-form/js/vscf-scripts.js?ver=3d6f2b359a4e0fc05341f511c360f33e"></script>
+<script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://www.ropelab.com.au/wp-includes/js/comment-reply.min.js?ver=3d6f2b359a4e0fc05341f511c360f33e"></script>
+<script id="katex-js" src="https://www.ropelab.com.au/wp-content/plugins/katex/assets/katex-0.16.22/katex.min.js?ver=2.2.5"></script>
+<script id="katex-render-js" src="https://www.ropelab.com.au/wp-content/plugins/katex/assets/render.js?ver=2.2.5"></script>
+</body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+
+Served from: www.ropelab.com.au @ 2026-09-21 16:08:04 by W3 Total Cache
+-->
