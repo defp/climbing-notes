@@ -2,7 +2,7 @@
 
 攀岩/救援技术文章的英文原文与中文译文归档。每篇文章一个目录，内含原始 HTML 快照、英文正文（`*.en.md`）、中文译文（`*.zh.md`）、本地图片（`images/`）及翻译校订记录（`translation-review.zh.md`）。
 
-按主题分为 5 个大类：
+按主题分为 6 个大类：
 
 ## anchors · 锚点与保护站
 
@@ -44,3 +44,7 @@
 
 - [GRIGRI 3 HUB 先锋绳索独攀系统](rope-solo/grigri-3-hub-system-for-lead-rope-solo/grigri-3-hub-system-for-lead-rope-solo.zh.md)（[英文](rope-solo/grigri-3-hub-system-for-lead-rope-solo/grigri-3-hub-system-for-lead-rope-solo.en.md)）
 - [红点先锋绳索独攀（2023 修订版）](rope-solo/redpoint-rope-soloing-revised-2023/redpoint-rope-soloing-revised-2023.zh.md)（[英文](rope-solo/redpoint-rope-soloing-revised-2023/redpoint-rope-soloing-revised-2023.en.md)）
+
+## training · 指力训练
+
+- [Eric Hörst「7-53」指力训练计划（案例研究）](training/horst-finger-strength-training-program/horst-finger-strength-training-program.zh.md)（[英文](training/horst-finger-strength-training-program/horst-finger-strength-training-program.en.md)）— StrengthClimbing

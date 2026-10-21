@@ -9,7 +9,7 @@ description: 翻译攀岩/技术文章并归档的工作流。当用户给出一
 
 ## 目录与命名约定（必须遵守）
 
-每篇文章一个目录，目录名是英文 slug（从 URL 或标题推导，小写连字符）。文章目录必须放入对应的大类目录（anchors 锚点与保护站 / rappel 下降与撤退 / ascending 沿绳上升 / hauling 提拉与机械增益 / rope-solo 绳索独攀），并在根目录 README.md 索引中添加条目：
+每篇文章一个目录，目录名是英文 slug（从 URL 或标题推导，小写连字符）。文章目录必须放入对应的大类目录（anchors 锚点与保护站 / rappel 下降与撤退 / ascending 沿绳上升 / hauling 提拉与机械增益 / rope-solo 绳索独攀 / training 指力训练），并在根目录 README.md 索引中添加条目：
 
 ```
 <category>/<slug>/
