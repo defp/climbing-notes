@@ -8,6 +8,7 @@
 
 - [主连接点、副连接点（Shelf）、组件：保护站结构实战](anchors/anchor-anatomy/anchor-anatomy.zh.md)（[英文](anchors/anchor-anatomy/anchor-anatomy.en.md)）— AAC
 - [Quad 保护站（四股自调节保护站）](anchors/quad-anchor/quad-anchor.zh.md)（[英文](anchors/quad-anchor/quad-anchor.en.md)）— AlpineSavvy
+- [深入了解“美式死亡三角”](anchors/a-closer-look-at-the-american-death-triangle/a-closer-look-at-the-american-death-triangle.zh.md)（[英文](anchors/a-closer-look-at-the-american-death-triangle/a-closer-look-at-the-american-death-triangle.en.md)）— AlpineSavvy（公开部分）
 
 ## rappel · 下降与撤退
 
